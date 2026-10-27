@@ -1,10 +1,10 @@
-# Основа лендинга
+# Евгений Григорьев — человек в движении
 
-Astro static + TypeScript + CSS/SVG + GSAP/ScrollTrigger. Этот коммит содержит подготовку окружения и проверочный стенд. Содержание будущего лендинга определяется отдельно.
+Русскоязычный персональный сайт на Astro, TypeScript strict и GSAP + ScrollTrigger. Семь полноэкранных сцен пути: прогулка, чертёж, мост, горный подъём, велосипед, бег и знакомство за кофе. Основа — коммит `0d9542995d07530f56ba6c7228d5f138dde89800`.
 
-## Запуск
+## Локальная работа
 
-```bash
+```sh
 npm ci
 npm run dev -- --host 0.0.0.0
 npm run check
@@ -12,35 +12,26 @@ npm run build
 npm run preview -- --host 0.0.0.0
 ```
 
-Node 22.23.4+; проектный Node также присутствует в devDependencies. Пакеты фиксирует package-lock.json.
+Если preview этого проекта уже работает, используйте другой порт с `--ignore-lock` или явно остановите прежний сервер. Не останавливайте серверы соседних проектов.
 
-## Структура и инструменты
+## Сцены
 
-- assets/ — неизменяемые оригиналы, src/assets/ — производные и генерации.
-- src/pages/, src/layouts/, src/styles/, src/scripts/ — страница, layout, CSS и GSAP.
-- .agents/skills/ — проектные Codex skills: Impeccable, Taste, пять GSAP skills.
-- .codex/config.toml — проектный Context7; MCP HTTP реально проверен. После перезапуска сессии сервер появляется в списке инструментов.
-- .codex/hooks.json — hook Impeccable, доверие проверяется в /hooks. Ручные команды context/detect работают.
-- Playwright MCP и официальный встроенный Imagegen уже доступны; дубли не устанавливаются.
-- docs/research/ — наблюдения iCapital, промпт, источники и ответы Context7.
-- docs/qa/ — проверки подготовленного стенда и скриншоты.
+Обычная прокрутка управляет закреплённой сценой и GSAP timeline. Переходы меняют глубину и положение иллюстраций, последовательно убирают и вводят текст. Главы доступны через меню, точки, «Дальше», PageUp/PageDown, Home/End. Колесо и touch не перехватываются. При reduced motion, без JavaScript и на очень низком экране главы остаются обычными читаемыми секциями.
 
-```bash
-npm run docs:check
-npm run design:check
+Исходный model sheet хранится отдельно в `assets/` и не изменён. Новые PNG с прозрачностью — `src/assets/journey-*-v1.png`. Astro создаёт адаптивные WebP. Точные промпты встроены в PNG и сохранены вместе с происхождением в `docs/research/journey/imagegen.json`.
+
+## Проверка GitHub Pages base
+
+```sh
+PAGES_SITE=https://example.github.io PAGES_BASE=/journey-preview/ npm run build
+PAGES_SITE=https://example.github.io PAGES_BASE=/journey-preview/ npm run preview -- --host 0.0.0.0 --port 4323 --ignore-lock
+QA_URL=http://localhost:4323/journey-preview/ node scripts/journey-qa.mjs
 ```
 
-Ключи в репозиторий не записывать. Context7 проверен без ключа; при необходимости скрипт принимает CONTEXT7_API_KEY через окружение.
+Браузерный QA использует установленный Chromium через CDP из Taste; ничего не устанавливает. Проверяет все главы в 390×844, 1366×768 и 1920×1080, клавиатуру, изображения, ошибки, пути ресурсов, reduced motion и отсутствие JS. Артефакты — `docs/qa/journey/`. Playwright MCP в текущей сессии вызван, но его профиль был занят; детали в отчёте.
 
-## GitHub Pages
+`npm run docs:check` выполняет реальный Context7 MCP handshake/list/call для Astro и GSAP и записывает `docs/research/context7.json`.
 
-CI при push/PR проверяет TypeScript и статическую сборку с вложенным base. pages.yml публикует автоматически после отдельного ручного workflow_dispatch. Обычный push не публикует сайт. Настройка GitHub: Settings → Pages → Source: GitHub Actions.
+## Публикация
 
-Origin и base_path поступают от actions/configure-pages через PAGES_SITE/PAGES_BASE. Ручная локальная проверка:
-
-```bash
-PAGES_SITE=https://example.github.io PAGES_BASE=/landing-check/ npm run build
-PAGES_SITE=https://example.github.io PAGES_BASE=/landing-check/ npm run preview -- --host 0.0.0.0
-```
-
-Открыть http://localhost:4321/landing-check/. После смены base перезапустить preview. Стенд содержит noindex. Публикация требует отдельного поручения.
+CI работает при push/PR. Публикация — только вручную через workflow_dispatch и после отдельного поручения. Вёрстка сохраняет noindex до подготовки публичного запуска. Push и deploy в этой сессии не выполнялись.

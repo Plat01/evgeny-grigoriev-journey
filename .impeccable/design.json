@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T23:41:13.534400+00:00",
+  "title": "Design System: Евгений Григорьев",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Тёмный хвойный",
+        "tonalRamp": [
+          "oklch(15% 0.0105 185)",
+          "oklch(27% 0.0210 185)",
+          "oklch(39% 0.0298 185)",
+          "oklch(51% 0.0350 185)",
+          "oklch(63% 0.0350 185)",
+          "oklch(75% 0.0298 185)",
+          "oklch(87% 0.0210 185)",
+          "oklch(95% 0.0105 185)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Глубокий бирюзовый",
+        "tonalRamp": [
+          "oklch(15% 0.0195 188)",
+          "oklch(27% 0.0390 188)",
+          "oklch(39% 0.0553 188)",
+          "oklch(51% 0.0650 188)",
+          "oklch(63% 0.0650 188)",
+          "oklch(75% 0.0553 188)",
+          "oklch(87% 0.0390 188)",
+          "oklch(95% 0.0195 188)"
+        ]
+      },
+      "sky-start": {
+        "role": "neutral",
+        "displayName": "Небо начала",
+        "tonalRamp": [
+          "oklch(15% 0.0066 220)",
+          "oklch(27% 0.0132 220)",
+          "oklch(39% 0.0187 220)",
+          "oklch(51% 0.0220 220)",
+          "oklch(63% 0.0220 220)",
+          "oklch(75% 0.0187 220)",
+          "oklch(87% 0.0132 220)",
+          "oklch(95% 0.0066 220)"
+        ]
+      },
+      "sage-curiosity": {
+        "role": "neutral",
+        "displayName": "Шалфей любопытства",
+        "tonalRamp": [
+          "oklch(15% 0.0036 150)",
+          "oklch(27% 0.0072 150)",
+          "oklch(39% 0.0102 150)",
+          "oklch(51% 0.0120 150)",
+          "oklch(63% 0.0120 150)",
+          "oklch(75% 0.0102 150)",
+          "oklch(87% 0.0072 150)",
+          "oklch(95% 0.0036 150)"
+        ]
+      },
+      "sage-creation": {
+        "role": "neutral",
+        "displayName": "Шалфей созидания",
+        "tonalRamp": [
+          "oklch(15% 0.0066 165)",
+          "oklch(27% 0.0132 165)",
+          "oklch(39% 0.0187 165)",
+          "oklch(51% 0.0220 165)",
+          "oklch(63% 0.0220 165)",
+          "oklch(75% 0.0187 165)",
+          "oklch(87% 0.0132 165)",
+          "oklch(95% 0.0066 165)"
+        ]
+      },
+      "slate-ascent": {
+        "role": "neutral",
+        "displayName": "Сланцевый воздух",
+        "tonalRamp": [
+          "oklch(15% 0.0054 250)",
+          "oklch(27% 0.0108 250)",
+          "oklch(39% 0.0153 250)",
+          "oklch(51% 0.0180 250)",
+          "oklch(63% 0.0180 250)",
+          "oklch(75% 0.0153 250)",
+          "oklch(87% 0.0108 250)",
+          "oklch(95% 0.0054 250)"
+        ]
+      },
+      "sky-momentum": {
+        "role": "neutral",
+        "displayName": "Открытое небо",
+        "tonalRamp": [
+          "oklch(15% 0.0081 220)",
+          "oklch(27% 0.0162 220)",
+          "oklch(39% 0.0229 220)",
+          "oklch(51% 0.0270 220)",
+          "oklch(63% 0.0270 220)",
+          "oklch(75% 0.0229 220)",
+          "oklch(87% 0.0162 220)",
+          "oklch(95% 0.0081 220)"
+        ]
+      },
+      "meadow-life": {
+        "role": "neutral",
+        "displayName": "Луговой свет",
+        "tonalRamp": [
+          "oklch(15% 0.0084 115)",
+          "oklch(27% 0.0168 115)",
+          "oklch(39% 0.0238 115)",
+          "oklch(51% 0.0280 115)",
+          "oklch(63% 0.0280 115)",
+          "oklch(75% 0.0238 115)",
+          "oklch(87% 0.0168 115)",
+          "oklch(95% 0.0084 115)"
+        ]
+      },
+      "stone-conversation": {
+        "role": "neutral",
+        "displayName": "Тёплый камень",
+        "tonalRamp": [
+          "oklch(15% 0.0054 85)",
+          "oklch(27% 0.0108 85)",
+          "oklch(39% 0.0153 85)",
+          "oklch(51% 0.0180 85)",
+          "oklch(63% 0.0180 85)",
+          "oklch(75% 0.0153 85)",
+          "oklch(87% 0.0108 85)",
+          "oklch(95% 0.0054 85)"
+        ]
+      },
+      "menu-surface": {
+        "role": "neutral",
+        "displayName": "Светлая поверхность меню",
+        "tonalRamp": [
+          "oklch(15% 0.0027 130)",
+          "oklch(27% 0.0054 130)",
+          "oklch(39% 0.0076 130)",
+          "oklch(51% 0.0090 130)",
+          "oklch(63% 0.0090 130)",
+          "oklch(75% 0.0076 130)",
+          "oklch(87% 0.0054 130)",
+          "oklch(95% 0.0027 130)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Белый",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0)",
+          "oklch(27% 0.0000 0)",
+          "oklch(39% 0.0000 0)",
+          "oklch(51% 0.0000 0)",
+          "oklch(63% 0.0000 0)",
+          "oklch(75% 0.0000 0)",
+          "oklch(87% 0.0000 0)",
+          "oklch(95% 0.0000 0)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Имя"
+      },
+      "headline": {
+        "displayName": "Заголовок главы"
+      },
+      "body": {
+        "displayName": "Основная мысль"
+      },
+      "note": {
+        "displayName": "Дополнительная фраза"
+      },
+      "wordmark": {
+        "displayName": "Имя в шапке"
+      },
+      "link": {
+        "displayName": "Действие"
+      },
+      "label": {
+        "displayName": "Управление"
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "scrub",
+        "value": ".65",
+        "purpose": "Связь нативной прокрутки с закреплённой сценой; без snapping."
+      },
+      {
+        "name": "navigation",
+        "value": ".9s power2.inOut",
+        "purpose": "Программный переход по главам; wheel/touch прерывают tween."
+      },
+      {
+        "name": "scene-image",
+        "value": ".65s power2.out",
+        "purpose": "Вход изображения: xPercent 10 → 0, scale 1.08 → 1, opacity 0 → 1."
+      },
+      {
+        "name": "copy-enter",
+        "value": ".3s power2.out, stagger .045s",
+        "purpose": "Вход текста: y 30 → 0, autoAlpha 0 → 1."
+      },
+      {
+        "name": "interaction",
+        "value": ".2s",
+        "purpose": "Цвет, фон и transform ссылок при разрешённом движении."
+      },
+      {
+        "name": "motion-gate",
+        "value": "(prefers-reduced-motion: no-preference) and (min-height: 560px)",
+        "purpose": "Только в этом режиме закрепляется путешествие; matchMedia cleanup возвращает статический поток."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-max",
+        "value": "760px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "1000px"
+      },
+      {
+        "name": "wide-min",
+        "value": "1800px"
+      },
+      {
+        "name": "compact-mobile-height-max",
+        "value": "720px"
+      },
+      {
+        "name": "pinned-height-min",
+        "value": "560px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Основная ссылка",
+      "kind": "button",
+      "refersTo": "link-primary",
+      "description": "Контактное действие в завершении пути.",
+      "html": "<a class=\"ds-primary\" href=\"#contact\">Познакомиться в Telegram</a>",
+      "css": ".ds-primary { font-family: 'Manrope Variable', sans-serif; display:inline-flex; align-items:center; min-height:50px; padding:16px 24px; background:var(--ink, #233d40); color:#fff; font-size:16px; font-weight:600; text-decoration:none; border-radius:0; } .ds-primary:hover { background:var(--accent, #215e62); } .ds-primary:focus-visible { outline: 3px solid var(--accent, #215e62); outline-offset: 6px; } @media(prefers-reduced-motion:no-preference) { .ds-primary { transition:color .2s,background-color .2s,transform .2s; } .ds-primary:active { transform:translateY(2px); } }"
+    },
+    {
+      "name": "Текстовая ссылка",
+      "kind": "button",
+      "refersTo": "link-text",
+      "description": "Подчёркнутая ссылка без декоративной стрелки.",
+      "html": "<a class=\"ds-link\" href=\"#path\">Пройти мой путь</a>",
+      "css": ".ds-link { font-family: 'Manrope Variable', sans-serif; display:inline-flex; align-items:center; min-height:50px; color:var(--ink, #233d40); font-size:16px; font-weight:600; text-underline-offset:.3em; text-decoration-thickness:.07em; } .ds-link:hover { color:var(--accent, #215e62); text-decoration-thickness:.14em; } .ds-link:focus-visible { outline: 3px solid var(--accent, #215e62); outline-offset: 6px; } @media(prefers-reduced-motion:no-preference) { .ds-link { transition:color .2s,transform .2s; } .ds-link:active { transform:translateY(2px); } }"
+    },
+    {
+      "name": "Меню глав",
+      "kind": "nav",
+      "refersTo": "menu-panel",
+      "description": "Нативный details со светлой прямоугольной панелью.",
+      "html": "<details class=\"ds-menu\"><summary>Главы</summary><nav aria-label=\"Главы пути\"><a href=\"#start\">Начало</a><a href=\"#curiosity\">Любопытство</a><a href=\"#creation\">Созидание</a></nav></details>",
+      "css": ".ds-menu { font-family: 'Manrope Variable', sans-serif; position:relative; display:inline-block; color:var(--ink, #233d40); font-size:16px; } .ds-menu summary { display:inline-flex; align-items:center; min-height:44px; cursor:pointer; list-style:none; } .ds-menu summary::-webkit-details-marker { display:none; } .ds-menu[open] summary { text-decoration:underline; } .ds-menu nav { padding:20px 28px; width:230px; background:#f7f9f5; } .ds-menu a { display:flex; align-items:center; min-height:44px; color:inherit; text-decoration:none; } .ds-menu a:hover,.ds-menu summary:hover { color:var(--accent, #215e62); text-decoration:underline; } .ds-menu a:focus-visible { outline: 3px solid var(--accent, #215e62); outline-offset: 6px; } .ds-menu summary:focus-visible { outline: 3px solid var(--accent, #215e62); outline-offset: 6px; }"
+    },
+    {
+      "name": "Точки глав",
+      "kind": "nav",
+      "refersTo": "chapter-dot",
+      "description": "Малый круг внутри доступной цели; активный круг крупнее.",
+      "html": "<nav class=\"ds-dots\" aria-label=\"Перейти к главе\"><a href=\"#start\" aria-label=\"Начало\" aria-current=\"step\"><span></span></a><a href=\"#curiosity\" aria-label=\"Любопытство\"><span></span></a><a href=\"#creation\" aria-label=\"Созидание\"><span></span></a></nav>",
+      "css": ".ds-dots { display:flex; gap:4px; } .ds-dots a { display:grid; place-items:center; width:44px; height:44px; } .ds-dots span { display:block; width:7px; height:7px; border-radius:50%; background:var(--ink, #233d40); opacity:.3; } .ds-dots [aria-current] span { width:11px; height:11px; opacity:1; } .ds-dots a:hover span { opacity:1; } .ds-dots a:focus-visible { outline: 3px solid var(--accent, #215e62); outline-offset: 6px; } @media(prefers-reduced-motion:no-preference) { .ds-dots span { transition:color .2s,background-color .2s,transform .2s; } }"
+    },
+    {
+      "name": "Следующая глава",
+      "kind": "button",
+      "description": "Текстовое управление без пиктограммы и заливки.",
+      "html": "<button type=\"button\" class=\"ds-next\">Дальше</button>",
+      "css": ".ds-next { font-family: 'Manrope Variable', sans-serif; width:150px; min-height:44px; padding:10px 0 10px 24px; background:transparent; border:0; color:var(--ink, #233d40); font-size:14px; text-align:right; cursor:pointer; } .ds-next:hover { text-decoration:underline; } .ds-next:focus-visible { outline: 3px solid var(--accent, #215e62); outline-offset: 6px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Человек в движении",
+    "overview": "Спокойное открытое пространство и природная 3D диорама представляют человека через действие. Один узнаваемый персонаж сохраняет узкое вытянутое лицо, длинный нос, высокий лоб, скульптурную причёску, лёгкую щетину, длинную шею и стройную фигуру. Каждая новая иллюстрация показывает самостоятельную сцену.\n\nТипографика и управление плоские; материальность сосредоточена внутри изображений. Единый кириллический шрифт, тёмный текст и светлые прохладные поверхности связывают сцены. Эта система заменяет предварительное описание технического стенда по утверждённому брифу.",
+    "keyCharacteristics": [
+      "Один герой в разных природных 3D сценах.",
+      "Самостоятельно размещённый Manrope с кириллицей.",
+      "Светлые однотонные фоны и тёмная зелёная типографика.",
+      "Нативная прокрутка и полноценный статический режим."
+    ],
+    "rules": [
+      {
+        "name": "The Единый текст Rule",
+        "body": "Смена фона не меняет цвет и семантику основного текста; акцент обозначает взаимодействие.",
+        "section": "colors"
+      },
+      {
+        "name": "The Один голос Rule",
+        "body": "Заголовки, текст и управление используют одно семейство; иерархия строится размером, насыщенностью и расстоянием.",
+        "section": "typography"
+      },
+      {
+        "name": "The Глубина в сцене Rule",
+        "body": "Объём принадлежит иллюстрации; элементы навигации и текст не получают искусственных теней ради сходства с 3D.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** сохранять характерные пропорции исходного персонажа и проверять новые сцены рядом с model sheet.",
+      "**Do** строить объём внутри самостоятельных прозрачных 3D диорам.",
+      "**Do** сохранять читаемый контент и нативную навигацию без JavaScript.",
+      "**Do** ограничивать движение transform/opacity и уважать reduced motion."
+    ],
+    "donts": [
+      "**Don't** добавлять шаблонные стрелки SVG, декоративную иконографию, карточки и счётчики в этот визуальный мир.",
+      "**Don't** заменять разные действия персонажа одной повторяемой позой на новых фонах.",
+      "**Don't** переносить тексты, логотипы или изображения визуального референса.",
+      "**Don't** превращать результаты отдельной проверки в утверждение о финальном одобрении дизайна."
+    ]
+  }
+}

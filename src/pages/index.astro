@@ -1,37 +1,62 @@
 ---
 import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import character from '../assets/character-standing-v1.png';
-import modelSheet from '../../assets/Seven-view stylized character model sheet.png';
+import departure from '../assets/journey-departure-v1.png';
+import learn from '../assets/journey-learn-v1.png';
+import build from '../assets/journey-build-v1.png';
+import ascent from '../assets/journey-ascent-v1.png';
+import cycling from '../assets/journey-cycling-v1.png';
+import running from '../assets/journey-running-v1.png';
+import meeting from '../assets/journey-meeting-v1.png';
+
+const chapters = [
+  { id: 'start', name: 'Начало', image: departure, alt: 'Евгений шагает по извилистой каменной тропе', title: ['Евгений', 'Григорьев'], text: 'Технологический предприниматель, инвестор и методолог.', note: 'Бизнес начинается с человека. А путь — с любопытства.', link: 'Пройти мой путь', href: '#curiosity', ground: '#deebef' },
+  { id: 'curiosity', name: 'Любопытство', image: learn, alt: 'Персонаж сидит на каменной ступени и изучает чертёж', title: ['Разобраться.', 'И пойти глубже.'], text: 'МАИ с отличием. Затем аспирантура. Позже — собственные курсы в МАИ, МГУ и РАНХиГС.', note: 'У каждого нового дела есть момент, когда вопросов больше, чем ответов.', ground: '#e7ece8' },
+  { id: 'creation', name: 'Созидание', image: build, alt: 'Евгений собирает модель моста на каменном рабочем столе', title: ['Идеям нужны', 'живые проекты.'], text: 'Основатель и управляющий партнёр стратегического ИТ-агентства DT-Team. Технологии, которые становятся частью бизнеса.', note: 'От первого замысла — к тому, что можно построить вместе.', link: 'Открыть DT-Team', href: 'https://dt-team.ru/', ground: '#dce7e3' },
+  { id: 'ascent', name: 'Подъём', image: ascent, alt: 'Персонаж с рюкзаком и треккинговой палкой поднимается по крутому горному склону', title: ['Большое —', 'шаг за шагом.'], text: 'Пять программ проектов для Росстата на сумму более 2 млрд рублей. Концепция и архитектура Цифровой аналитической платформы государственной статистики.', note: 'Масштаб складывается из конкретных решений.', ground: '#e2e7ed' },
+  { id: 'momentum', name: 'Движение', image: cycling, alt: 'Персонаж едет на бирюзовом велосипеде по холмистой дороге', title: ['Видеть дальше.', 'Делать вместе.'], text: 'Инвестирую в технологические команды. Среди проектов — Base Track, YallaMarket, XDAO и AL-Technologies.', note: 'Новый поворот открывает другой горизонт.', ground: '#dcebef' },
+  { id: 'life', name: 'Жизнь', image: running, alt: 'Евгений бежит по тропе среди камней, трав и полевых цветов', title: ['Жизнь шире', 'работы.'], text: 'Бег, походы, саморазвитие. Помогаю разобраться с миссией и личной стратегией.', note: 'Иногда, чтобы найти направление, нужно просто выйти на тропу.', ground: '#e8eddf' },
+  { id: 'conversation', name: 'Знакомство', image: meeting, alt: 'Персонаж с чашкой кофе на скамье у вершины; рядом свободное место для собеседника', title: ['Давайте', 'познакомимся.'], text: 'Расскажите, над чем вы сейчас работаете и куда хотите прийти.', note: 'Обсудим за разговором.', link: 'Познакомиться в Telegram', href: 'https://t.me/GrigorievEvgene', ground: '#ece9e2' },
+];
 ---
-<BaseLayout title="Лендинг — рабочая основа" description="Рабочая основа будущего одностраничного сайта. Проверка графики, адаптивности и движения.">
-  <header class="frame header">
-    <a href={import.meta.env.BASE_URL} aria-label="Рабочая основа — начало">Рабочая основа</a>
-    <a href="#source">Персонаж <span aria-hidden="true">↓</span></a>
+<BaseLayout title="Евгений Григорьев — человек в движении" description="Технологический предприниматель, инвестор и методолог. История пути Евгения Григорьева: от любопытства к проектам, людям и новым горизонтам.">
+  <header class="site-header">
+    <a class="wordmark" href="#start">Евгений Григорьев</a>
+    <div class="header-actions">
+      <details class="chapter-menu">
+        <summary>Главы</summary>
+        <nav aria-label="Главы пути">{chapters.map(chapter => <a href={`#${chapter.id}`}>{chapter.name}</a>)}</nav>
+      </details>
+      <a class="contact-link" href="https://t.me/GrigorievEvgene" target="_blank" rel="noopener noreferrer">Связаться</a>
+    </div>
   </header>
-  <main id="main">
-    <section class="frame intro" aria-labelledby="title">
-      <div class="intro-copy">
-        <h1 id="title">Место для<br />вашей истории.</h1>
-        <p>Среда разработки готова. Здесь появится одностраничный сайт с авторским персонажем и выразительными сценами.</p>
-        <a class="action" href="#source">Посмотреть исходник <span aria-hidden="true">↓</span></a>
-      </div>
-      <figure class="hero-media">
-        <Image src={character} alt="Стилизованный стройный персонаж с тёмной скульптурной причёской, в графитовой футболке и брюках" widths={[480, 768, 1024]} sizes="(max-width: 760px) 100vw, 50vw" loading="eager" fetchpriority="high" />
-      </figure>
-    </section>
-    <section id="source" class="source" aria-labelledby="source-title">
-      <div class="frame source-layout">
-        <div>
-          <h2 id="source-title">Один характер.<br />Разные ракурсы.</h2>
-          <p>Исходный лист задаёт внешность героя. Новые иллюстрации сохранят его пропорции, причёску и пластику.</p>
-          <p class="status">Это проверочный стенд. Содержание и сценарий лендинга будут определены после брифа.</p>
+  <main id="main" tabindex="-1">
+    <div class="journey scene is-rest" data-scene="journey" aria-label="Путь Евгения Григорьева">
+      <div class="journey-stage">
+        {chapters.map((chapter, index) => (
+          <section id={chapter.id} class={`chapter chapter--${chapter.id}`} style={`--chapter-ground: ${chapter.ground}`} aria-labelledby={`${chapter.id}-title`} data-chapter={index}>
+            <div class="chapter-copy">
+              {index === 0
+                ? <h1 id={`${chapter.id}-title`}>{chapter.title[0]}<br />{chapter.title[1]}</h1>
+                : <h2 id={`${chapter.id}-title`}>{chapter.title[0]}<br />{chapter.title[1]}</h2>}
+              <p class="chapter-text">{chapter.text}</p>
+              <p class="chapter-note">{chapter.note}</p>
+              {chapter.link && <a class={`text-link ${index === 6 ? 'text-link--primary' : ''}`} href={chapter.href} {...(chapter.href?.startsWith('https:') ? {target: '_blank', rel: 'noopener noreferrer'} : {})}>{chapter.link}</a>}
+            </div>
+            <figure class="chapter-art">
+              <Image src={chapter.image} alt={chapter.alt} widths={[640, 960, 1280, 1536]} sizes="(max-width: 760px) 110vw, 72vw" loading="eager" fetchpriority={index === 0 ? 'high' : 'auto'} format="webp" />
+            </figure>
+            {index === 6 && <footer class="chapter-footer"><a href="https://evgenygrigoriev.ru/" target="_blank" rel="noopener noreferrer">Больше обо мне</a><a href="https://evgenygrigoriev.ru/policy" target="_blank" rel="noopener noreferrer">Конфиденциальность</a></footer>}
+          </section>
+        ))}
+        <div class="journey-controls" hidden>
+          <span class="chapter-status" aria-live="polite" aria-atomic="true">Начало</span>
+          <nav class="chapter-dots" aria-label="Перейти к главе">{chapters.map((chapter, i) => <a href={`#${chapter.id}`} aria-label={chapter.name} aria-current={i === 0 ? 'step' : undefined}><span></span></a>)}</nav>
+          <button class="next-chapter" type="button">Дальше</button>
         </div>
-        <Image class="source-image" src={modelSheet} alt="Оригинальный лист персонажа для сравнения внешности между сценами" widths={[640, 960, 1536]} sizes="(max-width: 760px) 100vw, 55vw" loading="lazy" />
       </div>
-    </section>
+    </div>
   </main>
-  <footer class="frame footer"><p>Готово к разработке</p><a href="#title">К началу ↑</a></footer>
 </BaseLayout>
 <script>
   import { initMotion } from '../scripts/motion';

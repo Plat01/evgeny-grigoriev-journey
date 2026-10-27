@@ -1,0 +1,460 @@
+[
+  {
+    "width": 390,
+    "chapter": 0,
+    "current": "Начало",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 402,
+    "artTop": 485,
+    "active": [
+      "start"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 390,
+    "chapter": 1,
+    "current": "Любопытство",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 345,
+    "artTop": 501,
+    "active": [
+      "curiosity"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 390,
+    "chapter": 2,
+    "current": "Созидание",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 433,
+    "artTop": 503,
+    "active": [
+      "creation"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 390,
+    "chapter": 3,
+    "current": "Подъём",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 371,
+    "artTop": 493,
+    "active": [
+      "ascent"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 390,
+    "chapter": 4,
+    "current": "Движение",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 323,
+    "artTop": 485,
+    "active": [
+      "momentum"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 390,
+    "chapter": 5,
+    "current": "Жизнь",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 345,
+    "artTop": 485,
+    "active": [
+      "life"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 390,
+    "chapter": 6,
+    "current": "Знакомство",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 359,
+    "artTop": 467,
+    "active": [
+      "conversation"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 390,
+    "consoleErrors": [],
+    "networkFailures": [],
+    "keyboardHome": "Начало",
+    "keyboardNext": "Любопытство",
+    "escapedMenu": true,
+    "basePaths": []
+  },
+  {
+    "width": 1366,
+    "chapter": 0,
+    "current": "Начало",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 609,
+    "artTop": 132,
+    "active": [
+      "start"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1366,
+    "chapter": 1,
+    "current": "Любопытство",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 540,
+    "artTop": 132,
+    "active": [
+      "curiosity"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1366,
+    "chapter": 2,
+    "current": "Созидание",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 606,
+    "artTop": 132,
+    "active": [
+      "creation"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1366,
+    "chapter": 3,
+    "current": "Подъём",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 569,
+    "artTop": 68,
+    "active": [
+      "ascent"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1366,
+    "chapter": 4,
+    "current": "Движение",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 555,
+    "artTop": 50,
+    "active": [
+      "momentum"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1366,
+    "chapter": 5,
+    "current": "Жизнь",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 540,
+    "artTop": 132,
+    "active": [
+      "life"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1366,
+    "chapter": 6,
+    "current": "Знакомство",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 567,
+    "artTop": 132,
+    "active": [
+      "conversation"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1366,
+    "consoleErrors": [],
+    "networkFailures": [],
+    "keyboardHome": "Начало",
+    "keyboardNext": "Любопытство",
+    "escapedMenu": true,
+    "basePaths": []
+  },
+  {
+    "width": 1920,
+    "chapter": 0,
+    "current": "Начало",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 783,
+    "artTop": 207,
+    "active": [
+      "start"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1920,
+    "chapter": 1,
+    "current": "Любопытство",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 717,
+    "artTop": 207,
+    "active": [
+      "curiosity"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1920,
+    "chapter": 2,
+    "current": "Созидание",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 787,
+    "artTop": 207,
+    "active": [
+      "creation"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1920,
+    "chapter": 3,
+    "current": "Подъём",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 750,
+    "artTop": 117,
+    "active": [
+      "ascent"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1920,
+    "chapter": 4,
+    "current": "Движение",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 733,
+    "artTop": 92,
+    "active": [
+      "momentum"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1920,
+    "chapter": 5,
+    "current": "Жизнь",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 717,
+    "artTop": 207,
+    "active": [
+      "life"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1920,
+    "chapter": 6,
+    "current": "Знакомство",
+    "overflow": false,
+    "imageLoaded": true,
+    "headingLines": 2,
+    "textBottom": 744,
+    "artTop": 207,
+    "active": [
+      "conversation"
+    ],
+    "stageTop": 0,
+    "svgCount": 0
+  },
+  {
+    "width": 1920,
+    "consoleErrors": [],
+    "networkFailures": [],
+    "keyboardHome": "Начало",
+    "keyboardNext": "Любопытство",
+    "escapedMenu": true,
+    "basePaths": []
+  },
+  {
+    "mode": "reduced",
+    "live": false,
+    "overflow": false,
+    "chapters": [
+      {
+        "id": "start",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 145
+      },
+      {
+        "id": "curiosity",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 184
+      },
+      {
+        "id": "creation",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 220
+      },
+      {
+        "id": "ascent",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 220
+      },
+      {
+        "id": "momentum",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 176
+      },
+      {
+        "id": "life",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 160
+      },
+      {
+        "id": "conversation",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 168
+      }
+    ],
+    "images": true,
+    "consoleErrors": []
+  },
+  {
+    "mode": "no-js",
+    "live": false,
+    "overflow": false,
+    "chapters": [
+      {
+        "id": "start",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 145
+      },
+      {
+        "id": "curiosity",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 184
+      },
+      {
+        "id": "creation",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 220
+      },
+      {
+        "id": "ascent",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 220
+      },
+      {
+        "id": "momentum",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 176
+      },
+      {
+        "id": "life",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 160
+      },
+      {
+        "id": "conversation",
+        "height": 844,
+        "inert": false,
+        "visible": "visible",
+        "text": 168
+      }
+    ],
+    "images": true,
+    "consoleErrors": []
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "mode": "reduced",
+    "id": "start",
+    "state": {
+      "loaded": true,
+      "src": "http://localhost:4323/journey-preview/_astro/journey-departure-v1.D_loYjDg_2dpii3.webp",
+      "visibility": "visible",
+      "opacity": "1",
+      "bounds": {
+        "x": -35.09375,
+        "y": 484.96875,
+        "width": 460.1875,
+        "height": 307.03125
+      },
+      "scroll": 0
+    }
+  },
+  {
+    "mode": "reduced",
+    "id": "ascent",
+    "state": {
+      "loaded": true,
+      "src": "http://localhost:4323/journey-preview/_astro/journey-ascent-v1.CU4RbgNj_20wq0m.webp",
+      "visibility": "visible",
+      "opacity": "1",
+      "bounds": {
+        "x": -31.203125,
+        "y": 492.78125,
+        "width": 448.5,
+        "height": 299.21875
+      },
+      "scroll": 2532
+    }
+  },
+  {
+    "mode": "reduced",
+    "id": "conversation",
+    "state": {
+      "loaded": true,
+      "src": "http://localhost:4323/journey-preview/_astro/journey-meeting-v1.COHgjqK-_Z1SM34O.webp",
+      "visibility": "visible",
+      "opacity": "1",
+      "bounds": {
+        "x": -15.59375,
+        "y": 467,
+        "width": 421.1875,
+        "height": 281
+      },
+      "scroll": 5064
+    }
+  },
+  {
+    "mode": "no-js",
+    "id": "start",
+    "state": {
+      "loaded": true,
+      "src": "http://localhost:4323/journey-preview/_astro/journey-departure-v1.D_loYjDg_2dpii3.webp",
+      "visibility": "visible",
+      "opacity": "1",
+      "bounds": {
+        "x": -35.09375,
+        "y": 484.96875,
+        "width": 460.1875,
+        "height": 307.03125
+      },
+      "scroll": 0
+    }
+  },
+  {
+    "mode": "no-js",
+    "id": "ascent",
+    "state": {
+      "loaded": true,
+      "src": "http://localhost:4323/journey-preview/_astro/journey-ascent-v1.CU4RbgNj_20wq0m.webp",
+      "visibility": "visible",
+      "opacity": "1",
+      "bounds": {
+        "x": -31.203125,
+        "y": 492.78125,
+        "width": 448.5,
+        "height": 299.21875
+      },
+      "scroll": 2532
+    }
+  },
+  {
+    "mode": "no-js",
+    "id": "conversation",
+    "state": {
+      "loaded": true,
+      "src": "http://localhost:4323/journey-preview/_astro/journey-meeting-v1.COHgjqK-_Z1SM34O.webp",
+      "visibility": "visible",
+      "opacity": "1",
+      "bounds": {
+        "x": -15.59375,
+        "y": 467,
+        "width": 421.1875,
+        "height": 281
+      },
+      "scroll": 5064
+    }
+  },
+  {
+    "directHash": {
+      "chapter": "Движение",
+      "scroll": 3883
+    },
+    "reduced": {
+      "live": false,
+      "inert": 0,
+      "visible": true
+    },
+    "resumed": {
+      "live": true,
+      "chapter": "Движение"
+    },
+    "errors": []
+  }
+]
