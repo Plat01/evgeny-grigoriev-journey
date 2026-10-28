@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import egLogo from '../assets/eg-logo.svg';
 import departure from '../assets/journey-departure-v1.png';
 import learn from '../assets/journey-learn-v1.png';
 import build from '../assets/journey-build-v1.png';
@@ -21,7 +22,9 @@ const chapters = [
 ---
 <BaseLayout title="Евгений Григорьев — человек в движении" description="Технологический предприниматель, инвестор и методолог. История пути Евгения Григорьева: от любопытства к проектам, людям и новым горизонтам.">
   <header class="site-header">
-    <a class="wordmark" href="#start">Евгений Григорьев</a>
+    <a class="wordmark" href="#start" aria-label="Евгений Григорьев — к началу">
+      <img src={egLogo.src} width="64" height="54" alt="EG" />
+    </a>
     <div class="header-actions">
       <details class="chapter-menu">
         <summary>Главы</summary>

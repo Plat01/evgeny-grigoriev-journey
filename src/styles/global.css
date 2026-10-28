@@ -22,7 +22,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 ::selection { color: #fff; background: var(--accent); }
 .site-header { position: absolute; top: 0; left: 0; width: 100%; padding: 22px var(--gutter); display: flex; align-items: center; justify-content: space-between; gap: 20px; z-index: 20; }
 .site-header a, .chapter-menu summary { display: inline-flex; min-height: 44px; align-items: center; text-decoration: none; font-size: 16px; }
-.wordmark { font-weight: 650; letter-spacing: -.035em; }
+.wordmark { flex-shrink: 0; }
+.wordmark img { display: block; width: 64px; height: auto; }
 .header-actions { display: flex; align-items: center; gap: 40px; }
 .chapter-menu { position: relative; }
 .chapter-menu summary { cursor: pointer; list-style: none; }
@@ -90,6 +91,7 @@ html.journey-active .site-header { position: fixed; }
 @media (max-width: 760px) {
   :root { --gutter: 22px; }
   .site-header { padding-block: 14px; }
+  .wordmark img { width: 52px; }
   .site-header a, .chapter-menu summary { font-size: 13px; }
   .header-actions { gap: 20px; }
   .contact-link { display: none !important; }
