@@ -2,13 +2,13 @@
 import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import egLogo from '../assets/eg-logo.svg';
-import departure from '../assets/journey-departure-v1.png';
-import learn from '../assets/journey-learn-v1.png';
-import build from '../assets/journey-build-v1.png';
-import ascent from '../assets/journey-ascent-v1.png';
-import cycling from '../assets/journey-cycling-v1.png';
-import running from '../assets/journey-running-v1.png';
-import meeting from '../assets/journey-meeting-v1.png';
+import departure from '../assets/journey-departure-v2.png';
+import learn from '../assets/journey-learn-v2.png';
+import build from '../assets/journey-build-v2.png';
+import ascent from '../assets/journey-ascent-v2.png';
+import cycling from '../assets/journey-cycling-v2.png';
+import running from '../assets/journey-running-v2.png';
+import meeting from '../assets/journey-meeting-v2.png';
 
 const chapters = [
   { id: 'start', name: 'Начало', image: departure, alt: 'Евгений шагает по извилистой каменной тропе', title: ['Я Евгений', 'Григорьев'], text: 'Технологический предприниматель, инвестор и методолог.', note: 'Бизнес начинается с человека. А путь — с любопытства.', link: 'Пройти мой путь', href: '#curiosity', ground: '#deebef' },
@@ -47,7 +47,7 @@ const chapters = [
               {chapter.link && <a class={`text-link ${index === 6 ? 'text-link--primary' : ''}`} href={chapter.href} {...(chapter.href?.startsWith('https:') ? {target: '_blank', rel: 'noopener noreferrer'} : {})}>{chapter.link}</a>}
             </div>
             <figure class="chapter-art">
-              <Image src={chapter.image} alt={chapter.alt} widths={[640, 960, 1280, 1536]} sizes="(max-width: 760px) 110vw, 72vw" loading="eager" fetchpriority={index === 0 ? 'high' : 'auto'} format="webp" />
+              <Image src={chapter.image} alt={chapter.alt} widths={[640, 960, 1280, 1672, 1920]} sizes="100vw" loading="eager" fetchpriority={index === 0 ? 'high' : 'auto'} format="webp" />
             </figure>
             {index === 6 && <footer class="chapter-footer"><a href="https://evgenygrigoriev.ru/" target="_blank" rel="noopener noreferrer">Больше обо мне</a><a href="https://evgenygrigoriev.ru/policy" target="_blank" rel="noopener noreferrer">Конфиденциальность</a></footer>}
           </section>
