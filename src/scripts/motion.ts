@@ -133,7 +133,7 @@ export function initMotion(): () => void {
       const dx = touch.clientX - gesture.x;
       const dy = touch.clientY - gesture.y;
       if (Math.abs(dx) < 50 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
-      const target = current + (dx > 0 ? 1 : -1);
+      const target = current + (dx > 0 ? -1 : 1);
       if (target >= 0 && target < chapters.length) go(target);
     };
     const onMenuKey = (event: KeyboardEvent) => { if (event.key === 'Escape' && menu?.open) { menu.open = false; menu.querySelector('summary')?.focus(); } };
