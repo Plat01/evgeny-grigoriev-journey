@@ -98,12 +98,54 @@ export function initMotion(): () => void {
       if (event.key in destinations) { event.preventDefault(); go(destinations[event.key]); }
     };
     const stopNavigation = () => navigation?.kill();
+    let swipe: { id: number; x: number; y: number; started: number; horizontal: boolean } | undefined;
+    const cancelSwipe = () => { swipe = undefined; };
+    const onTouchStart = (event: TouchEvent) => {
+      cancelSwipe();
+      if (event.touches.length !== 1 || menu?.open) return;
+      if ((event.target as Element).closest('a, button, input, textarea, select, summary, [contenteditable]')) return;
+      const touch = event.touches[0];
+      // Leave screen-edge gestures to the browser's back/forward navigation.
+      if (touch.clientX < 24 || touch.clientX > window.innerWidth - 24) return;
+      swipe = { id: touch.identifier, x: touch.clientX, y: touch.clientY, started: event.timeStamp, horizontal: false };
+    };
+    const onTouchMove = (event: TouchEvent) => {
+      if (!swipe) return;
+      if (event.touches.length !== 1) { cancelSwipe(); return; }
+      const touch = event.touches[0];
+      const dx = Math.abs(touch.clientX - swipe.x);
+      const dy = Math.abs(touch.clientY - swipe.y);
+      if (!swipe.horizontal) {
+        if (Math.max(dx, dy) < 10) return;
+        // Lock the gesture once, so vertical scrolling never turns into navigation.
+        if (dx < dy * 1.5) { cancelSwipe(); return; }
+        swipe.horizontal = true;
+      }
+      if (event.cancelable) event.preventDefault();
+      else cancelSwipe();
+    };
+    const onTouchEnd = (event: TouchEvent) => {
+      const gesture = swipe;
+      cancelSwipe();
+      if (!gesture?.horizontal || event.touches.length || menu?.open) return;
+      const touch = Array.from(event.changedTouches).find(touch => touch.identifier === gesture.id);
+      if (!touch || event.timeStamp - gesture.started > 800) return;
+      const dx = touch.clientX - gesture.x;
+      const dy = touch.clientY - gesture.y;
+      if (Math.abs(dx) < 50 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+      const target = current + (dx > 0 ? 1 : -1);
+      if (target >= 0 && target < chapters.length) go(target);
+    };
     const onMenuKey = (event: KeyboardEvent) => { if (event.key === 'Escape' && menu?.open) { menu.open = false; menu.querySelector('summary')?.focus(); } };
     document.addEventListener('click', onAnchor);
     document.addEventListener('keydown', onKey);
     document.addEventListener('keydown', onMenuKey);
     window.addEventListener('wheel', stopNavigation, { passive: true });
     window.addEventListener('touchstart', stopNavigation, { passive: true });
+    stage.addEventListener('touchstart', onTouchStart, { passive: true });
+    stage.addEventListener('touchmove', onTouchMove, { passive: false });
+    stage.addEventListener('touchend', onTouchEnd, { passive: true });
+    stage.addEventListener('touchcancel', cancelSwipe, { passive: true });
     next?.addEventListener('click', onNext);
     const hashIndex = chapters.findIndex(chapter => `#${chapter.id}` === location.hash);
     if (hashIndex > 0) requestAnimationFrame(() => {
@@ -129,6 +171,10 @@ export function initMotion(): () => void {
       document.removeEventListener('keydown', onMenuKey);
       window.removeEventListener('wheel', stopNavigation);
       window.removeEventListener('touchstart', stopNavigation);
+      stage.removeEventListener('touchstart', onTouchStart);
+      stage.removeEventListener('touchmove', onTouchMove);
+      stage.removeEventListener('touchend', onTouchEnd);
+      stage.removeEventListener('touchcancel', cancelSwipe);
       next?.removeEventListener('click', onNext);
     };
   }, journey);
