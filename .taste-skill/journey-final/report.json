@@ -1,0 +1,922 @@
+{
+ "url": "http://localhost:4323/journey-preview/",
+ "at": "2026-10-27T23:42:51.281Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.16,
+    0.89,
+    0.89,
+    0.89,
+    0.89,
+    0.89,
+    0.89,
+    0.89
+   ],
+   "motion": {
+    "elements": 45,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 45,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7110,
+     "screens": 7.9,
+     "words": 27,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "journey-departure-v1.D_loYjDg_yJfBe.webp",
+      "journey-learn-v1.C8d-L8-x_Dy6Po.webp",
+      "journey-build-v1.BH7zBr9U_Z1hIpR8.webp",
+      "journey-ascent-v1.CU4RbgNj_Q92Eh.webp",
+      "journey-cycling-v1.CPExkwCx_Z1md44p.webp",
+      "journey-running-v1.CoVxi1Vf_1ltFhF.webp",
+      "journey-meeting-v1.COHgjqK-_Z1Jj4IT.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Евгений Григорьев",
+     "words": 2,
+     "chars": 17,
+     "lines": 2,
+     "size": 103.7,
+     "vw": 7.2,
+     "font": "Manrope Variable",
+     "weight": 450,
+     "tracking": -0.04,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.39,
+     "top": 228,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Евгений Григорьев",
+     "words": 2,
+     "lines": 2,
+     "size": 103.7,
+     "font": "Manrope Variable"
+    },
+    "headings": [
+     {
+      "text": "Евгений Григорьев",
+      "words": 2,
+      "chars": 17,
+      "lines": 2,
+      "size": 103.7,
+      "vw": 7.2,
+      "font": "Manrope Variable",
+      "weight": 450,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 228,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope Variable",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      16,
+      20,
+      104
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 103.7,
+      "vw": 7.2,
+      "font": "Manrope Variable",
+      "text": "ЕвгенийГригорьев"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#deebef",
+     "bodyBgHsl": {
+      "h": 194,
+      "s": 0.35,
+      "l": 0.9
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#deebef",
+       "top": 0,
+       "hsl": {
+        "h": 194,
+        "s": 0.35,
+        "l": 0.9
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#233d40",
+       "share": 0.95
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#233d40",
+      "hsl": {
+       "h": 186,
+       "s": 0.29,
+       "l": 0.19
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "К содержанию"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.38
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope variable"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 7110,
+    "margins": {
+     "left": null,
+     "right": null
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Евгений Григорьев",
+      "size": 104,
+      "top": 228,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.07,
+    "voidBox": {
+     "x": 120,
+     "y": 720,
+     "w": 480,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.17,
+    0.91,
+    0.91,
+    0.91,
+    0.91,
+    0.91,
+    0.91,
+    0.91
+   ],
+   "motion": {
+    "elements": 45,
+    "css": 0,
+    "transitions": 2,
+    "scripted": 43,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 8090,
+     "screens": 7.9,
+     "words": 27,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "journey-departure-v1.D_loYjDg_2dpii3.webp",
+      "journey-learn-v1.C8d-L8-x_9yPzN.webp",
+      "journey-build-v1.BH7zBr9U_Z2wlb59.webp",
+      "journey-ascent-v1.CU4RbgNj_20wq0m.webp",
+      "journey-cycling-v1.CPExkwCx_ZT0f7C.webp",
+      "journey-running-v1.CoVxi1Vf_ZDDMMA.webp",
+      "journey-meeting-v1.COHgjqK-_Z1SM34O.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Евгений Григорьев",
+     "words": 2,
+     "chars": 17,
+     "lines": 2,
+     "size": 57.6,
+     "vw": 7.5,
+     "font": "Manrope Variable",
+     "weight": 450,
+     "tracking": -0.04,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.78,
+     "top": 130,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Евгений Григорьев",
+     "words": 2,
+     "lines": 2,
+     "size": 57.6,
+     "font": "Manrope Variable"
+    },
+    "headings": [
+     {
+      "text": "Евгений Григорьев",
+      "words": 2,
+      "chars": 17,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Manrope Variable",
+      "weight": 450,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 130,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope Variable",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      16,
+      17,
+      58
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Manrope Variable",
+      "text": "ЕвгенийГригорьев"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#deebef",
+     "bodyBgHsl": {
+      "h": 194,
+      "s": 0.35,
+      "l": 0.9
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#deebef",
+       "top": 0,
+       "hsl": {
+        "h": 194,
+        "s": 0.35,
+        "l": 0.9
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#233d40",
+       "share": 0.95
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#233d40",
+      "hsl": {
+       "h": 186,
+       "s": 0.29,
+       "l": 0.19
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "К содержанию"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.29
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope variable"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 8090,
+    "margins": {
+     "left": null,
+     "right": null
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Евгений Григорьев",
+      "size": 58,
+      "top": 130,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.27,
+    0.93,
+    0.93,
+    0.92,
+    0.92,
+    0.92,
+    0.92,
+    0.93
+   ],
+   "motion": {
+    "elements": 45,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 45,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6668,
+     "screens": 7.9,
+     "words": 26,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "journey-departure-v1.D_loYjDg_2dpii3.webp",
+      "journey-learn-v1.C8d-L8-x_9yPzN.webp",
+      "journey-build-v1.BH7zBr9U_Z2wlb59.webp",
+      "journey-ascent-v1.CU4RbgNj_20wq0m.webp",
+      "journey-cycling-v1.CPExkwCx_ZT0f7C.webp",
+      "journey-running-v1.CoVxi1Vf_ZDDMMA.webp",
+      "journey-meeting-v1.COHgjqK-_Z1SM34O.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Евгений Григорьев",
+     "words": 2,
+     "chars": 17,
+     "lines": 2,
+     "size": 48.4,
+     "vw": 12.4,
+     "font": "Manrope Variable",
+     "weight": 450,
+     "tracking": -0.04,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.89,
+     "top": 104,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Евгений Григорьев",
+     "words": 2,
+     "lines": 2,
+     "size": 48.4,
+     "font": "Manrope Variable"
+    },
+    "headings": [
+     {
+      "text": "Евгений Григорьев",
+      "words": 2,
+      "chars": 17,
+      "lines": 2,
+      "size": 48.4,
+      "vw": 12.4,
+      "font": "Manrope Variable",
+      "weight": 450,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 104,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope Variable",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      15,
+      16,
+      17,
+      48
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 48.4,
+      "vw": 12.4,
+      "font": "Manrope Variable",
+      "text": "ЕвгенийГригорьев"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#deebef",
+     "bodyBgHsl": {
+      "h": 194,
+      "s": 0.35,
+      "l": 0.9
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#deebef",
+       "top": 0,
+       "hsl": {
+        "h": 194,
+        "s": 0.35,
+        "l": 0.9
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#233d40",
+       "share": 0.95
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#233d40",
+      "hsl": {
+       "h": 186,
+       "s": 0.29,
+       "l": 0.19
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "К содержанию"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.36
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope variable"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 6668,
+    "margins": {
+     "left": null,
+     "right": null
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Евгений Григорьев",
+      "size": 48,
+      "top": 104,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "scene-heavy",
+   "width": 1440,
+   "message": "Scenes hold 7 of the page's 8 screens.",
+   "fix": "Shorten the holds (one screen per beat) or cut a scene; the reading sections need room between them."
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Barlow Condensed and Barlow, but the page renders Manrope Variable.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1440,
+   "message": "The h1 is a bare name (\"Евгений Григорьев\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/dima/programming/alex_evgenygrigoriev/.taste-skill/journey-final/desktop-fold.jpg",
+   "pages": [
+    "/home/dima/programming/alex_evgenygrigoriev/.taste-skill/journey-final/desktop-page-01.jpg",
+    "/home/dima/programming/alex_evgenygrigoriev/.taste-skill/journey-final/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/dima/programming/alex_evgenygrigoriev/.taste-skill/journey-final/tablet-fold.jpg",
+   "pages": [
+    "/home/dima/programming/alex_evgenygrigoriev/.taste-skill/journey-final/tablet-page-01.jpg",
+    "/home/dima/programming/alex_evgenygrigoriev/.taste-skill/journey-final/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/dima/programming/alex_evgenygrigoriev/.taste-skill/journey-final/mobile-fold.jpg",
+   "pages": [
+    "/home/dima/programming/alex_evgenygrigoriev/.taste-skill/journey-final/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

@@ -1,9 +1,28 @@
+# Зависимости и результат сборки Astro
 node_modules/
 dist/
 .astro/
+
+# Переменные окружения (шаблон можно хранить в Git)
 .env
 .env.*
 !.env.example
+
+# Логи и кеши инструментов
+*.log
+.npm/
+.cache/
+*.tsbuildinfo
+coverage/
+
+# Локальные файлы ОС и редакторов
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Временные артефакты браузера и дизайн-инструментов
 .playwright-mcp/
 .taste-skill/before/
 .taste-skill/after/
