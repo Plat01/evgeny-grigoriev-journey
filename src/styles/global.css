@@ -49,7 +49,7 @@ h1 { font-size: clamp(52px, 4.8vw, 88px); }
 h2 { font-size: clamp(36px, 3.6vw, 64px); }
 .chapter--start h1 { max-width: 10ch; }
 .chapter--momentum h2 { font-size: clamp(32px, 2.8vw, 48px); }
-.chapter-title-continuation { display: block; margin-top: .5em; font-size: .6em; line-height: 1.25; letter-spacing: -.02em; }
+.chapter-title-continuation { display: block; margin-top: .1em; font-size: .6em; line-height: 1.05; letter-spacing: -.02em; }
 h1:focus, h2:focus { outline: none; }
 .chapter-text { margin-top: 24px; font-size: clamp(16px, 1.25vw, 20px); line-height: 1.45; max-width: 44ch; text-wrap: pretty; }
 .chapter-text + .chapter-text { margin-top: 12px; }
@@ -144,7 +144,7 @@ html.journey-active .site-header { position: fixed; }
   h1 { font-size: clamp(40px, 10.5vw, 64px); }
   h2 { font-size: clamp(28px, 7.7vw, 42px); }
   .chapter--momentum h2 { font-size: clamp(26px, 7vw, 36px); }
-  .chapter-title-continuation { font-size: .65em; line-height: 1.2; margin-top: .5em; }
+  .chapter-title-continuation { font-size: .65em; }
   .chapter-text { font-size: 16px; line-height: 1.4; margin-top: 20px; max-width: 44ch; }
   .chapter-text + .chapter-text { margin-top: 12px; }
   .chapter--curiosity .chapter-text, .chapter--creation .chapter-text, .chapter--momentum .chapter-text { font-size: 15px; line-height: 1.35; }
