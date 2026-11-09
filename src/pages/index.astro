@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import fullCopy from '../data/chapter-full-copy.json';
 import ChapterSignature from '../components/ChapterSignature.astro';
 import egLogo from '../assets/eg-logo.svg';
 import departure from '../assets/Sokolov-2_Nano Banana 2.1_2026-11-06_19-27-59.png';
@@ -21,17 +22,25 @@ const chapters = [
   },
   {
     id: 'curiosity', name: 'Любопытство', image: learn, alt: 'Персонаж сидит на каменной ступени и изучает чертёж',
-    title: 'Вижу систему.',
-    titleContinuation: ['Понимаю, что менять.', 'Знаю, как двигаться дальше.'],
+    title: 'Вижу систему. Запускаю изменения',
+    shortParagraphs: [
+      'Выстраиваю архитектуру компаний и определяю, как AI повышает производительность, сокращает затраты и создает новые возможности для компаний с оборотом от 2 млрд ₽.',
+      'Разработал <strong>подход к управлению состоянием компании</strong>: на основе данных в моменте принимать решения.',
+    ],
     paragraphs: [
-      'Я выстраиваю архитектуру компаний и определяю, как AI-технологии помогут повысить производительность, сократить затраты и создать новые возможности для компаний с оборотом от 1 млрд ₽.',
+      'Я выстраиваю архитектуру компаний и определяю, как AI-технологии помогут повысить производительность, сократить затраты и создать новые возможности для компаний с оборотом от 2 млрд ₽.',
       'На основе своего опыта разработал <strong>подход к управлению состоянием компании</strong>. Он позволяет в моменте анализировать состояние организации и принять решение, какие изменения ему необходимы для развития.',
     ],
     ground: '#d5dfe7',
   },
   {
     id: 'creation', name: 'Созидание', image: build, alt: 'Евгений собирает модель моста на каменном рабочем столе',
-    title: 'Идеям нужны живые проекты.',
+    title: 'Идеям нужны живые проекты',
+    shortParagraphs: [
+      '30+ кейсов трансформации компаний.',
+      'Цифровизация Росстата с бюджетом 2+ млрд.',
+      'Модератор и эксперт бизнес-школы Сколково. Собственные курсы в МАИ, МГУ и РАНХиГС.',
+    ],
     paragraphs: [
       '30+ кейсов трансформации бизнеса, среди которых: Тетра, Россети, Паритет, Solution Pro.',
       'Пять проектов для Росстата с общим бюджетом более 2 млрд ₽. Разработка концепции и архитектуры Цифровой аналитической платформы государственной статистики.',
@@ -51,8 +60,12 @@ const chapters = [
   },
   {
     id: 'momentum', name: 'Движение', image: cycling, alt: 'Персонаж едет на бирюзовом велосипеде по холмистой дороге',
-    title: 'Любопытно не только находить закономерности в бизнесе, но и помогать',
-    titleContinuation: ['расти новым идеям.'],
+    title: 'Любопытство помогает идеям расти',
+    shortParagraphs: [
+      'Партнер FriendlyFC',
+      'Инвестирую в технологические проекты, провожу M&A сделки.',
+      'Среди проектов: GPUAudio, Base-Track, XDAO и AL-Technologies.',
+    ],
     paragraphs: [
       'Партнер FriendlyFC',
       'Я инвестирую в технологические проекты и предпринимательские команды, слежу за тем, как меняются рынки, появляются новые бизнес-модели и технологии.',
@@ -62,13 +75,12 @@ const chapters = [
   },
   {
     id: 'conversation', name: 'Знакомство', image: meeting, alt: 'Персонаж с чашкой кофе на каменной скамье под оливковым деревом; рядом свободное место',
-    title: 'Мне интересно, как устроен мир.',
-    titleContinuation: ['И еще любопытнее, что нового в нем можно создать.'],
+    title: 'Мир полон идей',
     paragraphs: [
       'Обсудить трансформацию вашей компании: <a href="https://t.me/GrigorevEugene" target="_blank" rel="noopener noreferrer">написать в Telegram</a>.',
-      'Пригласить в качестве спикера на мероприятие: <a href="https://t.me/GrigorevEugene" target="_blank" rel="noopener noreferrer">заполнить бриф</a>.',
+      'Пригласить спикером на мероприятие: <a href="https://t.me/GrigorevEugene" target="_blank" rel="noopener noreferrer">заполнить бриф</a>.',
+      'Подписаться на <a href="https://t.me/neurostrategy" target="_blank" rel="noopener noreferrer">Telegram-канал</a>.',
     ],
-    link: 'Подписаться на Telegram-канал', href: 'https://t.me/neurostrategy',
     ground: '#d2dde5',
   },
 ];
@@ -82,20 +94,39 @@ const chapters = [
   <main id="main" tabindex="-1">
     <div class="journey scene is-rest" data-scene="journey" aria-label="Путь Евгения Григорьева">
       <div class="journey-stage">
-        {chapters.map((chapter, index) => (
+        {chapters.map((chapter, index) => {
+          const original = fullCopy[chapter.id as keyof typeof fullCopy];
+          return (
           <section id={chapter.id} class={`chapter chapter--${chapter.id}`} style={`--chapter-ground: ${chapter.ground}`} aria-labelledby={`${chapter.id}-title`} data-chapter={index}>
             <ChapterSignature />
             <div class="chapter-copy">
               {index === 0
                 ? <h1 id={`${chapter.id}-title`}>{chapter.title}</h1>
-                : <h2 id={`${chapter.id}-title`}>
-                    {chapter.title}
-                    {chapter.titleContinuation && <span class="chapter-title-continuation">{' '}{chapter.titleContinuation.map((line, lineIndex) => <>{lineIndex > 0 && <br />}{line}</>)}</span>}
-                  </h2>}
-              {chapter.paragraphs.map((paragraph, paragraphIndex) => (
+                : <h2 id={`${chapter.id}-title`}><span class="chapter-mobile-title">{chapter.title}</span><span class="chapter-desktop-title">{original.title}</span></h2>}
+              <div class="chapter-mobile-copy">
+              {chapter.shortParagraphs ? (
+                <>
+                <details class="chapter-disclosure">
+                  <summary aria-label={`Полный текст: ${chapter.title}`}>
+                    <span class="chapter-short-copy">
+                      {chapter.shortParagraphs.map(paragraph => <span class="chapter-text" set:html={paragraph} />)}
+                    </span>
+                    <span class="chapter-collapse-label">Свернуть полный текст</span>
+                  </summary>
+                  <div class="chapter-full-copy">
+                    {original.paragraphs.map(paragraph => <p class="chapter-text" set:html={paragraph} />)}
+                  </div>
+                </details>
+                </>
+              ) : chapter.paragraphs.map((paragraph, paragraphIndex) => (
                 <p class={index === 0 && paragraphIndex > 0 ? 'chapter-note' : 'chapter-text'} set:html={paragraph} />
               ))}
               {chapter.link && <a class:list={['text-link', { 'text-link--primary': chapter.id === 'conversation' }]} href={chapter.href} {...(chapter.href?.startsWith('https:') ? {target: '_blank', rel: 'noopener noreferrer'} : {})}>{chapter.link}</a>}
+              </div>
+              <div class="chapter-desktop-copy">
+                {original.paragraphs.map((paragraph, paragraphIndex) => <p class={index === 0 && paragraphIndex > 0 ? 'chapter-note' : 'chapter-text'} set:html={paragraph} />)}
+                {'link' in original && <a class:list={['text-link', { 'text-link--primary': chapter.id === 'conversation' }]} href={original.href} target="_blank" rel="noopener noreferrer">{original.link}</a>}
+              </div>
             </div>
             <figure class="chapter-art">
               <img src={chapter.image.src} width={chapter.image.width} height={chapter.image.height} alt={chapter.alt} loading="eager" fetchpriority={index === 0 ? 'high' : 'auto'} decoding="async" />
@@ -106,7 +137,7 @@ const chapters = [
               </footer>
             )}
           </section>
-        ))}
+        ); })}
         <div class="journey-controls">
           <span class="chapter-status">© 2021–2026.<span class="copyright-rights"> Все права защищены.</span></span>
           <nav class="chapter-dots" aria-label="Перейти к главе">{chapters.map((chapter, i) => <a href={`#${chapter.id}`} aria-label={chapter.name} aria-current={i === 0 ? 'step' : undefined}><span></span></a>)}</nav>

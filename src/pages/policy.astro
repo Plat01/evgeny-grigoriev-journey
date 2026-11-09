@@ -55,7 +55,7 @@ const linkedText = (text: string) => text
   .policy h1 { max-width: 22ch; font-size: clamp(40px, 5.5vw, 88px); overflow-wrap: anywhere; }
   .policy-intro { margin-top: 28px; font-size: 18px; line-height: 1.6; }
   .policy-layout { display: grid; grid-template-columns: minmax(220px, 1fr) minmax(0, 760px); gap: clamp(48px, 7vw, 120px); margin-top: 80px; }
-  .policy-contents { align-self: start; position: sticky; top: 32px; max-height: calc(100svh - 64px); overflow-y: auto; }
+  .policy-contents { align-self: start; position: sticky; top: 32px; max-height: calc(100svh - 64px); overflow-y: auto; overflow-x: hidden; overflow-wrap: anywhere; }
   .policy-contents summary { font-size: 18px; font-weight: 600; cursor: pointer; min-height: 44px; }
   .policy-contents ol { margin: 12px 0 0; padding-left: 24px; }
   .policy-contents li { padding-left: 4px; font-size: 14px; line-height: 1.5; }
