@@ -40,7 +40,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .organization-logo--skolkovo, .organization-logo--rosseti { width: 104px; }
 .organization-logo--tetra { width: 146px; }
 .organization-logo--school { width: 128px; }
-.design-credit { align-self: flex-end; flex-shrink: 0; font-size: 13px; line-height: 1.5; white-space: nowrap; }
+.design-credit { align-self: flex-start; flex-shrink: 0; margin-top: 5px; font-size: 13px; line-height: 1.5; white-space: nowrap; }
 .design-credit a { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); font-weight: 750; }
 .design-credit a:hover { color: var(--ink); text-decoration-thickness: .14em; }
 .chapter-copy { position: relative; width: 43%; z-index: 2; }
@@ -107,7 +107,6 @@ html.journey-active .site-header { position: fixed; }
   .wordmark img { width: 52px; }
   .site-header a, .chapter-menu summary { font-size: 13px; }
   .header-actions { gap: 20px; }
-  .contact-link { display: none !important; }
   .chapter-menu nav { right: 0; }
   .chapter-masthead { top: 14px; left: var(--gutter); height: auto; display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 14px 0; }
   .chapter-logos { grid-column: 1 / -1; grid-row: 2; width: 100%; height: 30px; padding: 0; gap: 16px; justify-content: space-between; }
@@ -115,7 +114,7 @@ html.journey-active .site-header { position: fixed; }
   .organization-logo--skolkovo, .organization-logo--rosseti { width: 64px; }
   .organization-logo--tetra { width: 82px; }
   .organization-logo--school { width: 74px; }
-  .design-credit { grid-column: 2; grid-row: 1; justify-self: end; align-self: center; }
+  .design-credit { grid-column: 2; grid-row: 1; justify-self: end; align-self: center; margin-top: 0; }
   .chapter { min-height: max(760px, 100svh); padding: 140px var(--gutter) 410px; align-items: flex-start; }
   .chapter-copy { width: 100%; }
   h1 { font-size: clamp(46px, 12.4vw, 72px); }
