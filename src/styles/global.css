@@ -177,33 +177,6 @@ html.journey-active .site-header { position: fixed; }
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
 }
 
-/* Native disclosure keeps the complete copy available without JavaScript. */
-.chapter-desktop-copy, .chapter-desktop-title { display: none; }
-@media (min-width: 950px) {
-  .chapter-mobile-copy, .chapter-mobile-title { display: none; }
-  .chapter-desktop-copy { display: block; }
-  .chapter-desktop-title { display: inline; }
-}
-.chapter-disclosure { margin-top: 24px; }
-.chapter-disclosure summary { cursor: pointer; list-style: none; }
-.chapter-disclosure summary::-webkit-details-marker { display: none; }
-.chapter-disclosure summary::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  margin-top: 12px;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 7px solid var(--accent);
-}
-.chapter-disclosure[open] summary::after { transform: rotate(180deg); }
-.chapter-short-copy .chapter-text { display: block; }
-.chapter-short-copy .chapter-text:first-child { margin-top: 0; }
-.chapter-collapse-label { display: none; text-decoration: underline; text-underline-offset: .3em; }
-.chapter-disclosure[open] .chapter-short-copy { display: none; }
-.chapter-disclosure[open] .chapter-collapse-label { display: inline; }
-.chapter-full-copy .chapter-text:first-child { margin-top: 12px; }
 .journey.is-live .chapter-copy {
   max-height: calc(100dvh - 230px);
   overflow-y: auto;
@@ -215,7 +188,6 @@ html.journey-active .site-header { position: fixed; }
 }
 .journey.is-live .chapter-copy::before { left: 0; right: 0; bottom: 0; }
 @media (max-width: 760px) {
-  .chapter-disclosure { margin-top: 20px; }
   .channel-subscribe { padding: 8px 20px; max-width: 100%; }
   .design-credit { display: block; white-space: normal; line-height: 1.25; }
   .design-credit > span { display: block; }
