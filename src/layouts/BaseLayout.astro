@@ -5,6 +5,7 @@ import favicon from '../assets/eg-logo.svg?url';
 interface Props { title: string; description: string; }
 const { title, description } = Astro.props;
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : undefined;
+const robots = import.meta.env.SITE_INDEXABLE === 'true' ? 'index, follow' : 'noindex, nofollow';
 ---
 <!doctype html>
 <html lang="ru">
@@ -13,7 +14,7 @@ const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : un
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <meta name="theme-color" content="#deebef" />
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content={robots} />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="ru_RU" />
     <meta property="og:title" content={title} />

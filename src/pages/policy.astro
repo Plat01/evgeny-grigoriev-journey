@@ -4,10 +4,12 @@ import egLogo from '../assets/eg-logo.svg';
 import sections from '../data/policy.json';
 
 const home = import.meta.env.BASE_URL;
-// Escape source text before adding links; policy wording stays unchanged.
+const siteOrigin = Astro.site?.origin || 'https://evgenygrigoriev.ru';
+// Adapt the website address to the build's domain, then escape before adding links.
 const linkedText = (text: string) => text
+  .replaceAll('https://evgenygrigoriev.ru', siteOrigin)
   .replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;')
-  .replace(/https:\/\/evgenygrigoriev\.ru(?:\/policy)?/g, (url) =>
+  .replace(new RegExp(`${siteOrigin.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?:/policy)?`, 'g'), (url) =>
     `<a href="${url.endsWith('/policy') ? `${home}policy/` : home}">${url}</a>`)
   .replaceAll('eg@firstyard.ru', '<a href="mailto:eg@firstyard.ru">eg@firstyard.ru</a>');
 ---
