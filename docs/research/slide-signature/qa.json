@@ -1,0 +1,3168 @@
+{
+  "url": "http://localhost:4324/alex_evgenygrigoriev/",
+  "errors": [],
+  "badResponses": [],
+  "viewports": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "live": true,
+      "states": [
+        {
+          "id": "start",
+          "inert": false,
+          "masthead": {
+            "x": 22,
+            "y": 14,
+            "width": 346,
+            "height": 88,
+            "top": 14,
+            "right": 368,
+            "bottom": 102,
+            "left": 22
+          },
+          "credit": {
+            "x": 290,
+            "y": 14,
+            "width": 78,
+            "height": 44,
+            "top": 14,
+            "right": 368,
+            "bottom": 58,
+            "left": 290
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 22,
+                "y": 73,
+                "width": 66.640625,
+                "height": 28,
+                "top": 73,
+                "right": 88.640625,
+                "bottom": 101,
+                "left": 22
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 104.640625,
+                "y": 73,
+                "width": 66.625,
+                "height": 28,
+                "top": 73,
+                "right": 171.265625,
+                "bottom": 101,
+                "left": 104.640625
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 187.265625,
+                "y": 73,
+                "width": 87,
+                "height": 28,
+                "top": 73,
+                "right": 274.265625,
+                "bottom": 101,
+                "left": 187.265625
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 290.265625,
+                "y": 73,
+                "width": 77.734375,
+                "height": 28,
+                "top": 73,
+                "right": 368,
+                "bottom": 101,
+                "left": 290.265625
+              }
+            }
+          ],
+          "copy": {
+            "x": 22,
+            "y": 140,
+            "width": 346,
+            "height": 280.53125,
+            "top": 140,
+            "right": 368,
+            "bottom": 420.53125,
+            "left": 22
+          }
+        },
+        {
+          "id": "curiosity",
+          "inert": false,
+          "masthead": {
+            "x": 22,
+            "y": 14,
+            "width": 346,
+            "height": 88,
+            "top": 14,
+            "right": 368,
+            "bottom": 102,
+            "left": 22
+          },
+          "credit": {
+            "x": 290,
+            "y": 14,
+            "width": 78,
+            "height": 44,
+            "top": 14,
+            "right": 368,
+            "bottom": 58,
+            "left": 290
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 22,
+                "y": 73,
+                "width": 66.640625,
+                "height": 28,
+                "top": 73,
+                "right": 88.640625,
+                "bottom": 101,
+                "left": 22
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 104.640625,
+                "y": 73,
+                "width": 66.625,
+                "height": 28,
+                "top": 73,
+                "right": 171.265625,
+                "bottom": 101,
+                "left": 104.640625
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 187.265625,
+                "y": 73,
+                "width": 87,
+                "height": 28,
+                "top": 73,
+                "right": 274.265625,
+                "bottom": 101,
+                "left": 187.265625
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 290.265625,
+                "y": 73,
+                "width": 77.734375,
+                "height": 28,
+                "top": 73,
+                "right": 368,
+                "bottom": 101,
+                "left": 290.265625
+              }
+            }
+          ],
+          "copy": {
+            "x": 22,
+            "y": 140,
+            "width": 346,
+            "height": 390.59375,
+            "top": 140,
+            "right": 368,
+            "bottom": 530.59375,
+            "left": 22
+          }
+        },
+        {
+          "id": "creation",
+          "inert": false,
+          "masthead": {
+            "x": 22,
+            "y": 14,
+            "width": 346,
+            "height": 88,
+            "top": 14,
+            "right": 368,
+            "bottom": 102,
+            "left": 22
+          },
+          "credit": {
+            "x": 290,
+            "y": 14,
+            "width": 78,
+            "height": 44,
+            "top": 14,
+            "right": 368,
+            "bottom": 58,
+            "left": 290
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 22,
+                "y": 73,
+                "width": 66.640625,
+                "height": 28,
+                "top": 73,
+                "right": 88.640625,
+                "bottom": 101,
+                "left": 22
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 104.640625,
+                "y": 73,
+                "width": 66.625,
+                "height": 28,
+                "top": 73,
+                "right": 171.265625,
+                "bottom": 101,
+                "left": 104.640625
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 187.265625,
+                "y": 73,
+                "width": 87,
+                "height": 28,
+                "top": 73,
+                "right": 274.265625,
+                "bottom": 101,
+                "left": 187.265625
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 290.265625,
+                "y": 73,
+                "width": 77.734375,
+                "height": 28,
+                "top": 73,
+                "right": 368,
+                "bottom": 101,
+                "left": 290.265625
+              }
+            }
+          ],
+          "copy": {
+            "x": 22,
+            "y": 140,
+            "width": 346,
+            "height": 401.875,
+            "top": 140,
+            "right": 368,
+            "bottom": 541.875,
+            "left": 22
+          }
+        },
+        {
+          "id": "ascent",
+          "inert": false,
+          "masthead": {
+            "x": 22,
+            "y": 14,
+            "width": 346,
+            "height": 88,
+            "top": 14,
+            "right": 368,
+            "bottom": 102,
+            "left": 22
+          },
+          "credit": {
+            "x": 290,
+            "y": 14,
+            "width": 78,
+            "height": 44,
+            "top": 14,
+            "right": 368,
+            "bottom": 58,
+            "left": 290
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 22,
+                "y": 73,
+                "width": 66.640625,
+                "height": 28,
+                "top": 73,
+                "right": 88.640625,
+                "bottom": 101,
+                "left": 22
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 104.640625,
+                "y": 73,
+                "width": 66.625,
+                "height": 28,
+                "top": 73,
+                "right": 171.265625,
+                "bottom": 101,
+                "left": 104.640625
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 187.265625,
+                "y": 73,
+                "width": 87,
+                "height": 28,
+                "top": 73,
+                "right": 274.265625,
+                "bottom": 101,
+                "left": 187.265625
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 290.265625,
+                "y": 73,
+                "width": 77.734375,
+                "height": 28,
+                "top": 73,
+                "right": 368,
+                "bottom": 101,
+                "left": 290.265625
+              }
+            }
+          ],
+          "copy": {
+            "x": 22,
+            "y": 140,
+            "width": 346,
+            "height": 271.875,
+            "top": 140,
+            "right": 368,
+            "bottom": 411.875,
+            "left": 22
+          }
+        },
+        {
+          "id": "momentum",
+          "inert": false,
+          "masthead": {
+            "x": 22,
+            "y": 14,
+            "width": 346,
+            "height": 88,
+            "top": 14,
+            "right": 368,
+            "bottom": 102,
+            "left": 22
+          },
+          "credit": {
+            "x": 290,
+            "y": 14,
+            "width": 78,
+            "height": 44,
+            "top": 14,
+            "right": 368,
+            "bottom": 58,
+            "left": 290
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 22,
+                "y": 73,
+                "width": 66.640625,
+                "height": 28,
+                "top": 73,
+                "right": 88.640625,
+                "bottom": 101,
+                "left": 22
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 104.640625,
+                "y": 73,
+                "width": 66.625,
+                "height": 28,
+                "top": 73,
+                "right": 171.265625,
+                "bottom": 101,
+                "left": 104.640625
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 187.265625,
+                "y": 73,
+                "width": 87,
+                "height": 28,
+                "top": 73,
+                "right": 274.265625,
+                "bottom": 101,
+                "left": 187.265625
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 290.265625,
+                "y": 73,
+                "width": 77.734375,
+                "height": 28,
+                "top": 73,
+                "right": 368,
+                "bottom": 101,
+                "left": 290.265625
+              }
+            }
+          ],
+          "copy": {
+            "x": 22,
+            "y": 140,
+            "width": 346,
+            "height": 393.65625,
+            "top": 140,
+            "right": 368,
+            "bottom": 533.65625,
+            "left": 22
+          }
+        },
+        {
+          "id": "conversation",
+          "inert": false,
+          "masthead": {
+            "x": 22,
+            "y": 14,
+            "width": 346,
+            "height": 88,
+            "top": 14,
+            "right": 368,
+            "bottom": 102,
+            "left": 22
+          },
+          "credit": {
+            "x": 290,
+            "y": 14,
+            "width": 78,
+            "height": 44,
+            "top": 14,
+            "right": 368,
+            "bottom": 58,
+            "left": 290
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 22,
+                "y": 73,
+                "width": 66.640625,
+                "height": 28,
+                "top": 73,
+                "right": 88.640625,
+                "bottom": 101,
+                "left": 22
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 104.640625,
+                "y": 73,
+                "width": 66.625,
+                "height": 28,
+                "top": 73,
+                "right": 171.265625,
+                "bottom": 101,
+                "left": 104.640625
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 187.265625,
+                "y": 73,
+                "width": 87,
+                "height": 28,
+                "top": 73,
+                "right": 274.265625,
+                "bottom": 101,
+                "left": 187.265625
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 290.265625,
+                "y": 73,
+                "width": 77.734375,
+                "height": 28,
+                "top": 73,
+                "right": 368,
+                "bottom": 101,
+                "left": 290.265625
+              }
+            }
+          ],
+          "copy": {
+            "x": 22,
+            "y": 140,
+            "width": 346,
+            "height": 316.125,
+            "top": 140,
+            "right": 368,
+            "bottom": 456.125,
+            "left": 22
+          }
+        }
+      ],
+      "metrics": {
+        "overflow": false,
+        "loaded": true
+      },
+      "tabStops": [
+        {
+          "text": "К содержанию",
+          "className": "skip-link",
+          "visibleFocus": true
+        },
+        {
+          "text": "",
+          "className": "wordmark",
+          "visibleFocus": true
+        },
+        {
+          "text": "noisybrands",
+          "className": "",
+          "visibleFocus": true
+        },
+        {
+          "text": "",
+          "className": "",
+          "visibleFocus": true
+        },
+        {
+          "text": "",
+          "className": "",
+          "visibleFocus": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "live": true,
+      "states": [
+        {
+          "id": "start",
+          "inert": false,
+          "masthead": {
+            "x": 169.359375,
+            "y": 22,
+            "width": 1139.28125,
+            "height": 98,
+            "top": 22,
+            "right": 1308.640625,
+            "bottom": 120,
+            "left": 169.359375
+          },
+          "credit": {
+            "x": 1230.640625,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 1308.640625,
+            "bottom": 120,
+            "left": 1230.640625
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 169.359375,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 289.359375,
+                "bottom": 65,
+                "left": 169.359375
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 319.40625,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 439.40625,
+                "bottom": 65,
+                "left": 319.40625
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 469.453125,
+                "y": 31,
+                "width": 168,
+                "height": 34,
+                "top": 31,
+                "right": 637.453125,
+                "bottom": 65,
+                "left": 469.453125
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 667.5,
+                "y": 31,
+                "width": 148,
+                "height": 34,
+                "top": 31,
+                "right": 815.5,
+                "bottom": 65,
+                "left": 667.5
+              }
+            }
+          ],
+          "copy": {
+            "x": 57.359375,
+            "y": 181.453125,
+            "width": 538.046875,
+            "height": 415.09375,
+            "top": 181.453125,
+            "right": 595.40625,
+            "bottom": 596.546875,
+            "left": 57.359375
+          }
+        },
+        {
+          "id": "curiosity",
+          "inert": false,
+          "masthead": {
+            "x": 169.359375,
+            "y": 22,
+            "width": 1139.28125,
+            "height": 98,
+            "top": 22,
+            "right": 1308.640625,
+            "bottom": 120,
+            "left": 169.359375
+          },
+          "credit": {
+            "x": 1230.640625,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 1308.640625,
+            "bottom": 120,
+            "left": 1230.640625
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 169.359375,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 289.359375,
+                "bottom": 65,
+                "left": 169.359375
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 319.40625,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 439.40625,
+                "bottom": 65,
+                "left": 319.40625
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 469.453125,
+                "y": 31,
+                "width": 168,
+                "height": 34,
+                "top": 31,
+                "right": 637.453125,
+                "bottom": 65,
+                "left": 469.453125
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 667.5,
+                "y": 31,
+                "width": 148,
+                "height": 34,
+                "top": 31,
+                "right": 815.5,
+                "bottom": 65,
+                "left": 667.5
+              }
+            }
+          ],
+          "copy": {
+            "x": 57.359375,
+            "y": 131.90625,
+            "width": 538.046875,
+            "height": 514.171875,
+            "top": 131.90625,
+            "right": 595.40625,
+            "bottom": 646.078125,
+            "left": 57.359375
+          }
+        },
+        {
+          "id": "creation",
+          "inert": false,
+          "masthead": {
+            "x": 169.359375,
+            "y": 22,
+            "width": 1139.28125,
+            "height": 98,
+            "top": 22,
+            "right": 1308.640625,
+            "bottom": 120,
+            "left": 169.359375
+          },
+          "credit": {
+            "x": 1230.640625,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 1308.640625,
+            "bottom": 120,
+            "left": 1230.640625
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 169.359375,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 289.359375,
+                "bottom": 65,
+                "left": 169.359375
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 319.40625,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 439.40625,
+                "bottom": 65,
+                "left": 319.40625
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 469.453125,
+                "y": 31,
+                "width": 168,
+                "height": 34,
+                "top": 31,
+                "right": 637.453125,
+                "bottom": 65,
+                "left": 469.453125
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 667.5,
+                "y": 31,
+                "width": 148,
+                "height": 34,
+                "top": 31,
+                "right": 815.5,
+                "bottom": 65,
+                "left": 667.5
+              }
+            }
+          ],
+          "copy": {
+            "x": 57.359375,
+            "y": 148.203125,
+            "width": 538.046875,
+            "height": 481.59375,
+            "top": 148.203125,
+            "right": 595.40625,
+            "bottom": 629.796875,
+            "left": 57.359375
+          }
+        },
+        {
+          "id": "ascent",
+          "inert": false,
+          "masthead": {
+            "x": 169.359375,
+            "y": 22,
+            "width": 1139.28125,
+            "height": 98,
+            "top": 22,
+            "right": 1308.640625,
+            "bottom": 120,
+            "left": 169.359375
+          },
+          "credit": {
+            "x": 1230.640625,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 1308.640625,
+            "bottom": 120,
+            "left": 1230.640625
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 169.359375,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 289.359375,
+                "bottom": 65,
+                "left": 169.359375
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 319.40625,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 439.40625,
+                "bottom": 65,
+                "left": 319.40625
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 469.453125,
+                "y": 31,
+                "width": 168,
+                "height": 34,
+                "top": 31,
+                "right": 637.453125,
+                "bottom": 65,
+                "left": 469.453125
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 667.5,
+                "y": 31,
+                "width": 148,
+                "height": 34,
+                "top": 31,
+                "right": 815.5,
+                "bottom": 65,
+                "left": 667.5
+              }
+            }
+          ],
+          "copy": {
+            "x": 57.359375,
+            "y": 198.921875,
+            "width": 538.046875,
+            "height": 380.15625,
+            "top": 198.921875,
+            "right": 595.40625,
+            "bottom": 579.078125,
+            "left": 57.359375
+          }
+        },
+        {
+          "id": "momentum",
+          "inert": false,
+          "masthead": {
+            "x": 169.359375,
+            "y": 22,
+            "width": 1139.28125,
+            "height": 98,
+            "top": 22,
+            "right": 1308.640625,
+            "bottom": 120,
+            "left": 169.359375
+          },
+          "credit": {
+            "x": 1230.640625,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 1308.640625,
+            "bottom": 120,
+            "left": 1230.640625
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 169.359375,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 289.359375,
+                "bottom": 65,
+                "left": 169.359375
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 319.40625,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 439.40625,
+                "bottom": 65,
+                "left": 319.40625
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 469.453125,
+                "y": 31,
+                "width": 168,
+                "height": 34,
+                "top": 31,
+                "right": 637.453125,
+                "bottom": 65,
+                "left": 469.453125
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 667.5,
+                "y": 31,
+                "width": 148,
+                "height": 34,
+                "top": 31,
+                "right": 815.5,
+                "bottom": 65,
+                "left": 667.5
+              }
+            }
+          ],
+          "copy": {
+            "x": 57.359375,
+            "y": 131.078125,
+            "width": 538.046875,
+            "height": 515.828125,
+            "top": 131.078125,
+            "right": 595.40625,
+            "bottom": 646.90625,
+            "left": 57.359375
+          }
+        },
+        {
+          "id": "conversation",
+          "inert": false,
+          "masthead": {
+            "x": 169.359375,
+            "y": 22,
+            "width": 1139.28125,
+            "height": 98,
+            "top": 22,
+            "right": 1308.640625,
+            "bottom": 120,
+            "left": 169.359375
+          },
+          "credit": {
+            "x": 1230.640625,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 1308.640625,
+            "bottom": 120,
+            "left": 1230.640625
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 169.359375,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 289.359375,
+                "bottom": 65,
+                "left": 169.359375
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 319.40625,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 439.40625,
+                "bottom": 65,
+                "left": 319.40625
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 469.453125,
+                "y": 31,
+                "width": 168,
+                "height": 34,
+                "top": 31,
+                "right": 637.453125,
+                "bottom": 65,
+                "left": 469.453125
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 667.5,
+                "y": 31,
+                "width": 148,
+                "height": 34,
+                "top": 31,
+                "right": 815.5,
+                "bottom": 65,
+                "left": 667.5
+              }
+            }
+          ],
+          "copy": {
+            "x": 57.359375,
+            "y": 168.21875,
+            "width": 538.046875,
+            "height": 441.5625,
+            "top": 168.21875,
+            "right": 595.40625,
+            "bottom": 609.78125,
+            "left": 57.359375
+          }
+        }
+      ],
+      "metrics": {
+        "overflow": false,
+        "loaded": true
+      },
+      "tabStops": [
+        {
+          "text": "К содержанию",
+          "className": "skip-link",
+          "visibleFocus": true
+        },
+        {
+          "text": "",
+          "className": "wordmark",
+          "visibleFocus": true
+        },
+        {
+          "text": "Связаться",
+          "className": "contact-link",
+          "visibleFocus": true
+        },
+        {
+          "text": "noisybrands",
+          "className": "",
+          "visibleFocus": true
+        },
+        {
+          "text": "",
+          "className": "",
+          "visibleFocus": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "live": true,
+      "states": [
+        {
+          "id": "start",
+          "inert": false,
+          "masthead": {
+            "x": 192,
+            "y": 22,
+            "width": 1648,
+            "height": 98,
+            "top": 22,
+            "right": 1840,
+            "bottom": 120,
+            "left": 192
+          },
+          "credit": {
+            "x": 1762,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 1840,
+            "bottom": 120,
+            "left": 1762
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 192,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 312,
+                "bottom": 65,
+                "left": 192
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 352,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 472,
+                "bottom": 65,
+                "left": 352
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 512,
+                "y": 31,
+                "width": 168,
+                "height": 34,
+                "top": 31,
+                "right": 680,
+                "bottom": 65,
+                "left": 512
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 720,
+                "y": 31,
+                "width": 148,
+                "height": 34,
+                "top": 31,
+                "right": 868,
+                "bottom": 65,
+                "left": 720
+              }
+            }
+          ],
+          "copy": {
+            "x": 80,
+            "y": 318.8125,
+            "width": 756.796875,
+            "height": 452.375,
+            "top": 318.8125,
+            "right": 836.796875,
+            "bottom": 771.1875,
+            "left": 80
+          }
+        },
+        {
+          "id": "curiosity",
+          "inert": false,
+          "masthead": {
+            "x": 192,
+            "y": 22,
+            "width": 1648,
+            "height": 98,
+            "top": 22,
+            "right": 1840,
+            "bottom": 120,
+            "left": 192
+          },
+          "credit": {
+            "x": 1762,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 1840,
+            "bottom": 120,
+            "left": 1762
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 192,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 312,
+                "bottom": 65,
+                "left": 192
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 352,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 472,
+                "bottom": 65,
+                "left": 352
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 512,
+                "y": 31,
+                "width": 168,
+                "height": 34,
+                "top": 31,
+                "right": 680,
+                "bottom": 65,
+                "left": 512
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 720,
+                "y": 31,
+                "width": 148,
+                "height": 34,
+                "top": 31,
+                "right": 868,
+                "bottom": 65,
+                "left": 720
+              }
+            }
+          ],
+          "copy": {
+            "x": 80,
+            "y": 245,
+            "width": 756.796875,
+            "height": 600,
+            "top": 245,
+            "right": 836.796875,
+            "bottom": 845,
+            "left": 80
+          }
+        },
+        {
+          "id": "creation",
+          "inert": false,
+          "masthead": {
+            "x": 192,
+            "y": 22,
+            "width": 1648,
+            "height": 98,
+            "top": 22,
+            "right": 1840,
+            "bottom": 120,
+            "left": 192
+          },
+          "credit": {
+            "x": 1762,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 1840,
+            "bottom": 120,
+            "left": 1762
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 192,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 312,
+                "bottom": 65,
+                "left": 192
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 352,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 472,
+                "bottom": 65,
+                "left": 352
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 512,
+                "y": 31,
+                "width": 168,
+                "height": 34,
+                "top": 31,
+                "right": 680,
+                "bottom": 65,
+                "left": 512
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 720,
+                "y": 31,
+                "width": 148,
+                "height": 34,
+                "top": 31,
+                "right": 868,
+                "bottom": 65,
+                "left": 720
+              }
+            }
+          ],
+          "copy": {
+            "x": 80,
+            "y": 235.3125,
+            "width": 756.796875,
+            "height": 619.375,
+            "top": 235.3125,
+            "right": 836.796875,
+            "bottom": 854.6875,
+            "left": 80
+          }
+        },
+        {
+          "id": "ascent",
+          "inert": false,
+          "masthead": {
+            "x": 192,
+            "y": 22,
+            "width": 1648,
+            "height": 98,
+            "top": 22,
+            "right": 1840,
+            "bottom": 120,
+            "left": 192
+          },
+          "credit": {
+            "x": 1762,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 1840,
+            "bottom": 120,
+            "left": 1762
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 192,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 312,
+                "bottom": 65,
+                "left": 192
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 352,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 472,
+                "bottom": 65,
+                "left": 352
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 512,
+                "y": 31,
+                "width": 168,
+                "height": 34,
+                "top": 31,
+                "right": 680,
+                "bottom": 65,
+                "left": 512
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 720,
+                "y": 31,
+                "width": 148,
+                "height": 34,
+                "top": 31,
+                "right": 868,
+                "bottom": 65,
+                "left": 720
+              }
+            }
+          ],
+          "copy": {
+            "x": 80,
+            "y": 329.8125,
+            "width": 756.796875,
+            "height": 430.375,
+            "top": 329.8125,
+            "right": 836.796875,
+            "bottom": 760.1875,
+            "left": 80
+          }
+        },
+        {
+          "id": "momentum",
+          "inert": false,
+          "masthead": {
+            "x": 192,
+            "y": 22,
+            "width": 1648,
+            "height": 98,
+            "top": 22,
+            "right": 1840,
+            "bottom": 120,
+            "left": 192
+          },
+          "credit": {
+            "x": 1762,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 1840,
+            "bottom": 120,
+            "left": 1762
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 192,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 312,
+                "bottom": 65,
+                "left": 192
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 352,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 472,
+                "bottom": 65,
+                "left": 352
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 512,
+                "y": 31,
+                "width": 168,
+                "height": 34,
+                "top": 31,
+                "right": 680,
+                "bottom": 65,
+                "left": 512
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 720,
+                "y": 31,
+                "width": 148,
+                "height": 34,
+                "top": 31,
+                "right": 868,
+                "bottom": 65,
+                "left": 720
+              }
+            }
+          ],
+          "copy": {
+            "x": 80,
+            "y": 255,
+            "width": 756.796875,
+            "height": 580,
+            "top": 255,
+            "right": 836.796875,
+            "bottom": 835,
+            "left": 80
+          }
+        },
+        {
+          "id": "conversation",
+          "inert": false,
+          "masthead": {
+            "x": 192,
+            "y": 22,
+            "width": 1648,
+            "height": 98,
+            "top": 22,
+            "right": 1840,
+            "bottom": 120,
+            "left": 192
+          },
+          "credit": {
+            "x": 1762,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 1840,
+            "bottom": 120,
+            "left": 1762
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 192,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 312,
+                "bottom": 65,
+                "left": 192
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 352,
+                "y": 31,
+                "width": 120,
+                "height": 34,
+                "top": 31,
+                "right": 472,
+                "bottom": 65,
+                "left": 352
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 512,
+                "y": 31,
+                "width": 168,
+                "height": 34,
+                "top": 31,
+                "right": 680,
+                "bottom": 65,
+                "left": 512
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 720,
+                "y": 31,
+                "width": 148,
+                "height": 34,
+                "top": 31,
+                "right": 868,
+                "bottom": 65,
+                "left": 720
+              }
+            }
+          ],
+          "copy": {
+            "x": 80,
+            "y": 290,
+            "width": 756.796875,
+            "height": 510,
+            "top": 290,
+            "right": 836.796875,
+            "bottom": 800,
+            "left": 80
+          }
+        }
+      ],
+      "metrics": {
+        "overflow": false,
+        "loaded": true
+      },
+      "tabStops": [
+        {
+          "text": "К содержанию",
+          "className": "skip-link",
+          "visibleFocus": true
+        },
+        {
+          "text": "",
+          "className": "wordmark",
+          "visibleFocus": true
+        },
+        {
+          "text": "Связаться",
+          "className": "contact-link",
+          "visibleFocus": true
+        },
+        {
+          "text": "noisybrands",
+          "className": "",
+          "visibleFocus": true
+        },
+        {
+          "text": "",
+          "className": "",
+          "visibleFocus": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "live": true,
+      "states": [
+        {
+          "id": "start",
+          "inert": false,
+          "masthead": {
+            "x": 128.25,
+            "y": 22,
+            "width": 607.5,
+            "height": 98,
+            "top": 22,
+            "right": 735.75,
+            "bottom": 120,
+            "left": 128.25
+          },
+          "credit": {
+            "x": 657.75,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 735.75,
+            "bottom": 120,
+            "left": 657.75
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 128.25,
+                "y": 31,
+                "width": 76.296875,
+                "height": 28,
+                "top": 31,
+                "right": 204.546875,
+                "bottom": 59,
+                "left": 128.25
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 224.546875,
+                "y": 31,
+                "width": 76.296875,
+                "height": 28,
+                "top": 31,
+                "right": 300.84375,
+                "bottom": 59,
+                "left": 224.546875
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 320.84375,
+                "y": 31,
+                "width": 106.8125,
+                "height": 28,
+                "top": 31,
+                "right": 427.65625,
+                "bottom": 59,
+                "left": 320.84375
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 447.65625,
+                "y": 31,
+                "width": 94.09375,
+                "height": 28,
+                "top": 31,
+                "right": 541.75,
+                "bottom": 59,
+                "left": 447.65625
+              }
+            }
+          ],
+          "copy": {
+            "x": 32.25,
+            "y": 130,
+            "width": 597.96875,
+            "height": 298.328125,
+            "top": 130,
+            "right": 630.21875,
+            "bottom": 428.328125,
+            "left": 32.25
+          }
+        },
+        {
+          "id": "curiosity",
+          "inert": false,
+          "masthead": {
+            "x": 128.25,
+            "y": 22,
+            "width": 607.5,
+            "height": 98,
+            "top": 22,
+            "right": 735.75,
+            "bottom": 120,
+            "left": 128.25
+          },
+          "credit": {
+            "x": 657.75,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 735.75,
+            "bottom": 120,
+            "left": 657.75
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 128.25,
+                "y": 31,
+                "width": 76.296875,
+                "height": 28,
+                "top": 31,
+                "right": 204.546875,
+                "bottom": 59,
+                "left": 128.25
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 224.546875,
+                "y": 31,
+                "width": 76.296875,
+                "height": 28,
+                "top": 31,
+                "right": 300.84375,
+                "bottom": 59,
+                "left": 224.546875
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 320.84375,
+                "y": 31,
+                "width": 106.8125,
+                "height": 28,
+                "top": 31,
+                "right": 427.65625,
+                "bottom": 59,
+                "left": 320.84375
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 447.65625,
+                "y": 31,
+                "width": 94.09375,
+                "height": 28,
+                "top": 31,
+                "right": 541.75,
+                "bottom": 59,
+                "left": 447.65625
+              }
+            }
+          ],
+          "copy": {
+            "x": 32.25,
+            "y": 130,
+            "width": 597.96875,
+            "height": 378.59375,
+            "top": 130,
+            "right": 630.21875,
+            "bottom": 508.59375,
+            "left": 32.25
+          }
+        },
+        {
+          "id": "creation",
+          "inert": false,
+          "masthead": {
+            "x": 128.25,
+            "y": 22,
+            "width": 607.5,
+            "height": 98,
+            "top": 22,
+            "right": 735.75,
+            "bottom": 120,
+            "left": 128.25
+          },
+          "credit": {
+            "x": 657.75,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 735.75,
+            "bottom": 120,
+            "left": 657.75
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 128.25,
+                "y": 31,
+                "width": 76.296875,
+                "height": 28,
+                "top": 31,
+                "right": 204.546875,
+                "bottom": 59,
+                "left": 128.25
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 224.546875,
+                "y": 31,
+                "width": 76.296875,
+                "height": 28,
+                "top": 31,
+                "right": 300.84375,
+                "bottom": 59,
+                "left": 224.546875
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 320.84375,
+                "y": 31,
+                "width": 106.8125,
+                "height": 28,
+                "top": 31,
+                "right": 427.65625,
+                "bottom": 59,
+                "left": 320.84375
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 447.65625,
+                "y": 31,
+                "width": 94.09375,
+                "height": 28,
+                "top": 31,
+                "right": 541.75,
+                "bottom": 59,
+                "left": 447.65625
+              }
+            }
+          ],
+          "copy": {
+            "x": 32.25,
+            "y": 130,
+            "width": 597.96875,
+            "height": 330.765625,
+            "top": 130,
+            "right": 630.21875,
+            "bottom": 460.765625,
+            "left": 32.25
+          }
+        },
+        {
+          "id": "ascent",
+          "inert": false,
+          "masthead": {
+            "x": 128.25,
+            "y": 22,
+            "width": 607.5,
+            "height": 98,
+            "top": 22,
+            "right": 735.75,
+            "bottom": 120,
+            "left": 128.25
+          },
+          "credit": {
+            "x": 657.75,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 735.75,
+            "bottom": 120,
+            "left": 657.75
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 128.25,
+                "y": 31,
+                "width": 76.296875,
+                "height": 28,
+                "top": 31,
+                "right": 204.546875,
+                "bottom": 59,
+                "left": 128.25
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 224.546875,
+                "y": 31,
+                "width": 76.296875,
+                "height": 28,
+                "top": 31,
+                "right": 300.84375,
+                "bottom": 59,
+                "left": 224.546875
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 320.84375,
+                "y": 31,
+                "width": 106.8125,
+                "height": 28,
+                "top": 31,
+                "right": 427.65625,
+                "bottom": 59,
+                "left": 320.84375
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 447.65625,
+                "y": 31,
+                "width": 94.09375,
+                "height": 28,
+                "top": 31,
+                "right": 541.75,
+                "bottom": 59,
+                "left": 447.65625
+              }
+            }
+          ],
+          "copy": {
+            "x": 32.25,
+            "y": 130,
+            "width": 597.96875,
+            "height": 270.765625,
+            "top": 130,
+            "right": 630.21875,
+            "bottom": 400.765625,
+            "left": 32.25
+          }
+        },
+        {
+          "id": "momentum",
+          "inert": false,
+          "masthead": {
+            "x": 128.25,
+            "y": 22,
+            "width": 607.5,
+            "height": 98,
+            "top": 22,
+            "right": 735.75,
+            "bottom": 120,
+            "left": 128.25
+          },
+          "credit": {
+            "x": 657.75,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 735.75,
+            "bottom": 120,
+            "left": 657.75
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 128.25,
+                "y": 31,
+                "width": 76.296875,
+                "height": 28,
+                "top": 31,
+                "right": 204.546875,
+                "bottom": 59,
+                "left": 128.25
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 224.546875,
+                "y": 31,
+                "width": 76.296875,
+                "height": 28,
+                "top": 31,
+                "right": 300.84375,
+                "bottom": 59,
+                "left": 224.546875
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 320.84375,
+                "y": 31,
+                "width": 106.8125,
+                "height": 28,
+                "top": 31,
+                "right": 427.65625,
+                "bottom": 59,
+                "left": 320.84375
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 447.65625,
+                "y": 31,
+                "width": 94.09375,
+                "height": 28,
+                "top": 31,
+                "right": 541.75,
+                "bottom": 59,
+                "left": 447.65625
+              }
+            }
+          ],
+          "copy": {
+            "x": 32.25,
+            "y": 130,
+            "width": 597.96875,
+            "height": 355.890625,
+            "top": 130,
+            "right": 630.21875,
+            "bottom": 485.890625,
+            "left": 32.25
+          }
+        },
+        {
+          "id": "conversation",
+          "inert": false,
+          "masthead": {
+            "x": 128.25,
+            "y": 22,
+            "width": 607.5,
+            "height": 98,
+            "top": 22,
+            "right": 735.75,
+            "bottom": 120,
+            "left": 128.25
+          },
+          "credit": {
+            "x": 657.75,
+            "y": 76,
+            "width": 78,
+            "height": 44,
+            "top": 76,
+            "right": 735.75,
+            "bottom": 120,
+            "left": 657.75
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 128.25,
+                "y": 31,
+                "width": 76.296875,
+                "height": 28,
+                "top": 31,
+                "right": 204.546875,
+                "bottom": 59,
+                "left": 128.25
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 224.546875,
+                "y": 31,
+                "width": 76.296875,
+                "height": 28,
+                "top": 31,
+                "right": 300.84375,
+                "bottom": 59,
+                "left": 224.546875
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 320.84375,
+                "y": 31,
+                "width": 106.8125,
+                "height": 28,
+                "top": 31,
+                "right": 427.65625,
+                "bottom": 59,
+                "left": 320.84375
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 447.65625,
+                "y": 31,
+                "width": 94.09375,
+                "height": 28,
+                "top": 31,
+                "right": 541.75,
+                "bottom": 59,
+                "left": 447.65625
+              }
+            }
+          ],
+          "copy": {
+            "x": 32.25,
+            "y": 130,
+            "width": 597.96875,
+            "height": 341.390625,
+            "top": 130,
+            "right": 630.21875,
+            "bottom": 471.390625,
+            "left": 32.25
+          }
+        }
+      ],
+      "metrics": {
+        "overflow": false,
+        "loaded": true
+      },
+      "tabStops": [
+        {
+          "text": "К содержанию",
+          "className": "skip-link",
+          "visibleFocus": true
+        },
+        {
+          "text": "",
+          "className": "wordmark",
+          "visibleFocus": true
+        },
+        {
+          "text": "Связаться",
+          "className": "contact-link",
+          "visibleFocus": true
+        },
+        {
+          "text": "noisybrands",
+          "className": "",
+          "visibleFocus": true
+        },
+        {
+          "text": "",
+          "className": "",
+          "visibleFocus": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 667
+      },
+      "live": true,
+      "states": [
+        {
+          "id": "start",
+          "inert": false,
+          "masthead": {
+            "x": 22,
+            "y": 14,
+            "width": 276,
+            "height": 80,
+            "top": 14,
+            "right": 298,
+            "bottom": 94,
+            "left": 22
+          },
+          "credit": {
+            "x": 220,
+            "y": 14,
+            "width": 78,
+            "height": 44,
+            "top": 14,
+            "right": 298,
+            "bottom": 58,
+            "left": 220
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 22,
+                "y": 65,
+                "width": 50.984375,
+                "height": 28,
+                "top": 65,
+                "right": 72.984375,
+                "bottom": 93,
+                "left": 22
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 88.984375,
+                "y": 65,
+                "width": 50.96875,
+                "height": 28,
+                "top": 65,
+                "right": 139.953125,
+                "bottom": 93,
+                "left": 88.984375
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 155.953125,
+                "y": 65,
+                "width": 66.5625,
+                "height": 28,
+                "top": 65,
+                "right": 222.515625,
+                "bottom": 93,
+                "left": 155.953125
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 238.515625,
+                "y": 65,
+                "width": 59.484375,
+                "height": 28,
+                "top": 65,
+                "right": 298,
+                "bottom": 93,
+                "left": 238.515625
+              }
+            }
+          ],
+          "copy": {
+            "x": 22,
+            "y": 120,
+            "width": 276,
+            "height": 269.875,
+            "top": 120,
+            "right": 298,
+            "bottom": 389.875,
+            "left": 22
+          }
+        },
+        {
+          "id": "curiosity",
+          "inert": false,
+          "masthead": {
+            "x": 22,
+            "y": 14,
+            "width": 276,
+            "height": 80,
+            "top": 14,
+            "right": 298,
+            "bottom": 94,
+            "left": 22
+          },
+          "credit": {
+            "x": 220,
+            "y": 14,
+            "width": 78,
+            "height": 44,
+            "top": 14,
+            "right": 298,
+            "bottom": 58,
+            "left": 220
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 22,
+                "y": 65,
+                "width": 50.984375,
+                "height": 28,
+                "top": 65,
+                "right": 72.984375,
+                "bottom": 93,
+                "left": 22
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 88.984375,
+                "y": 65,
+                "width": 50.96875,
+                "height": 28,
+                "top": 65,
+                "right": 139.953125,
+                "bottom": 93,
+                "left": 88.984375
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 155.953125,
+                "y": 65,
+                "width": 66.5625,
+                "height": 28,
+                "top": 65,
+                "right": 222.515625,
+                "bottom": 93,
+                "left": 155.953125
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 238.515625,
+                "y": 65,
+                "width": 59.484375,
+                "height": 28,
+                "top": 65,
+                "right": 298,
+                "bottom": 93,
+                "left": 238.515625
+              }
+            }
+          ],
+          "copy": {
+            "x": 22,
+            "y": 120,
+            "width": 276,
+            "height": 531.984375,
+            "top": 120,
+            "right": 298,
+            "bottom": 651.984375,
+            "left": 22
+          }
+        },
+        {
+          "id": "creation",
+          "inert": false,
+          "masthead": {
+            "x": 22,
+            "y": 14,
+            "width": 276,
+            "height": 80,
+            "top": 14,
+            "right": 298,
+            "bottom": 94,
+            "left": 22
+          },
+          "credit": {
+            "x": 220,
+            "y": 14,
+            "width": 78,
+            "height": 44,
+            "top": 14,
+            "right": 298,
+            "bottom": 58,
+            "left": 220
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 22,
+                "y": 65,
+                "width": 50.984375,
+                "height": 28,
+                "top": 65,
+                "right": 72.984375,
+                "bottom": 93,
+                "left": 22
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 88.984375,
+                "y": 65,
+                "width": 50.96875,
+                "height": 28,
+                "top": 65,
+                "right": 139.953125,
+                "bottom": 93,
+                "left": 88.984375
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 155.953125,
+                "y": 65,
+                "width": 66.5625,
+                "height": 28,
+                "top": 65,
+                "right": 222.515625,
+                "bottom": 93,
+                "left": 155.953125
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 238.515625,
+                "y": 65,
+                "width": 59.484375,
+                "height": 28,
+                "top": 65,
+                "right": 298,
+                "bottom": 93,
+                "left": 238.515625
+              }
+            }
+          ],
+          "copy": {
+            "x": 22,
+            "y": 120,
+            "width": 276,
+            "height": 397.59375,
+            "top": 120,
+            "right": 298,
+            "bottom": 517.59375,
+            "left": 22
+          }
+        },
+        {
+          "id": "ascent",
+          "inert": false,
+          "masthead": {
+            "x": 22,
+            "y": 14,
+            "width": 276,
+            "height": 80,
+            "top": 14,
+            "right": 298,
+            "bottom": 94,
+            "left": 22
+          },
+          "credit": {
+            "x": 220,
+            "y": 14,
+            "width": 78,
+            "height": 44,
+            "top": 14,
+            "right": 298,
+            "bottom": 58,
+            "left": 220
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 22,
+                "y": 65,
+                "width": 50.984375,
+                "height": 28,
+                "top": 65,
+                "right": 72.984375,
+                "bottom": 93,
+                "left": 22
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 88.984375,
+                "y": 65,
+                "width": 50.96875,
+                "height": 28,
+                "top": 65,
+                "right": 139.953125,
+                "bottom": 93,
+                "left": 88.984375
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 155.953125,
+                "y": 65,
+                "width": 66.5625,
+                "height": 28,
+                "top": 65,
+                "right": 222.515625,
+                "bottom": 93,
+                "left": 155.953125
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 238.515625,
+                "y": 65,
+                "width": 59.484375,
+                "height": 28,
+                "top": 65,
+                "right": 298,
+                "bottom": 93,
+                "left": 238.515625
+              }
+            }
+          ],
+          "copy": {
+            "x": 22,
+            "y": 120,
+            "width": 276,
+            "height": 278.09375,
+            "top": 120,
+            "right": 298,
+            "bottom": 398.09375,
+            "left": 22
+          }
+        },
+        {
+          "id": "momentum",
+          "inert": false,
+          "masthead": {
+            "x": 22,
+            "y": 14,
+            "width": 276,
+            "height": 80,
+            "top": 14,
+            "right": 298,
+            "bottom": 94,
+            "left": 22
+          },
+          "credit": {
+            "x": 220,
+            "y": 14,
+            "width": 78,
+            "height": 44,
+            "top": 14,
+            "right": 298,
+            "bottom": 58,
+            "left": 220
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 22,
+                "y": 65,
+                "width": 50.984375,
+                "height": 28,
+                "top": 65,
+                "right": 72.984375,
+                "bottom": 93,
+                "left": 22
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 88.984375,
+                "y": 65,
+                "width": 50.96875,
+                "height": 28,
+                "top": 65,
+                "right": 139.953125,
+                "bottom": 93,
+                "left": 88.984375
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 155.953125,
+                "y": 65,
+                "width": 66.5625,
+                "height": 28,
+                "top": 65,
+                "right": 222.515625,
+                "bottom": 93,
+                "left": 155.953125
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 238.515625,
+                "y": 65,
+                "width": 59.484375,
+                "height": 28,
+                "top": 65,
+                "right": 298,
+                "bottom": 93,
+                "left": 238.515625
+              }
+            }
+          ],
+          "copy": {
+            "x": 22,
+            "y": 120,
+            "width": 276,
+            "height": 469.28125,
+            "top": 120,
+            "right": 298,
+            "bottom": 589.28125,
+            "left": 22
+          }
+        },
+        {
+          "id": "conversation",
+          "inert": false,
+          "masthead": {
+            "x": 22,
+            "y": 14,
+            "width": 276,
+            "height": 80,
+            "top": 14,
+            "right": 298,
+            "bottom": 94,
+            "left": 22
+          },
+          "credit": {
+            "x": 220,
+            "y": 14,
+            "width": 78,
+            "height": 44,
+            "top": 14,
+            "right": 298,
+            "bottom": 58,
+            "left": 220
+          },
+          "creditText": "Идея и дизайн noisybrands",
+          "creditHref": "https://noisybrands.ru/",
+          "creditHit": true,
+          "logos": [
+            {
+              "alt": "Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 22,
+                "y": 65,
+                "width": 50.984375,
+                "height": 28,
+                "top": 65,
+                "right": 72.984375,
+                "bottom": 93,
+                "left": 22
+              }
+            },
+            {
+              "alt": "Россети",
+              "loaded": true,
+              "rect": {
+                "x": 88.984375,
+                "y": 65,
+                "width": 50.96875,
+                "height": 28,
+                "top": 65,
+                "right": 139.953125,
+                "bottom": 93,
+                "left": 88.984375
+              }
+            },
+            {
+              "alt": "Tetra Trans",
+              "loaded": true,
+              "rect": {
+                "x": 155.953125,
+                "y": 65,
+                "width": 66.5625,
+                "height": 28,
+                "top": 65,
+                "right": 222.515625,
+                "bottom": 93,
+                "left": 155.953125
+              }
+            },
+            {
+              "alt": "Московская школа управления Сколково",
+              "loaded": true,
+              "rect": {
+                "x": 238.515625,
+                "y": 65,
+                "width": 59.484375,
+                "height": 28,
+                "top": 65,
+                "right": 298,
+                "bottom": 93,
+                "left": 238.515625
+              }
+            }
+          ],
+          "copy": {
+            "x": 22,
+            "y": 120,
+            "width": 276,
+            "height": 426.78125,
+            "top": 120,
+            "right": 298,
+            "bottom": 546.78125,
+            "left": 22
+          }
+        }
+      ],
+      "metrics": {
+        "overflow": false,
+        "loaded": true
+      },
+      "tabStops": [
+        {
+          "text": "К содержанию",
+          "className": "skip-link",
+          "visibleFocus": true
+        },
+        {
+          "text": "",
+          "className": "wordmark",
+          "visibleFocus": true
+        },
+        {
+          "text": "noisybrands",
+          "className": "",
+          "visibleFocus": true
+        },
+        {
+          "text": "noisybrands",
+          "className": "",
+          "visibleFocus": true
+        },
+        {
+          "text": "noisybrands",
+          "className": "",
+          "visibleFocus": true
+        }
+      ],
+      "note": "Наложение текста на иллюстрации сохранено по прямому указанию пользователя."
+    }
+  ],
+  "keyboardEnd": "Знакомство",
+  "keyboardHome": "Начало",
+  "reduced": {
+    "scenes": [
+      {
+        "id": "start",
+        "inert": false,
+        "logos": 4,
+        "credit": "https://noisybrands.ru/",
+        "creditTop": 14,
+        "logosTop": 72
+      },
+      {
+        "id": "curiosity",
+        "inert": false,
+        "logos": 4,
+        "credit": "https://noisybrands.ru/",
+        "creditTop": 14,
+        "logosTop": 72
+      },
+      {
+        "id": "creation",
+        "inert": false,
+        "logos": 4,
+        "credit": "https://noisybrands.ru/",
+        "creditTop": 14,
+        "logosTop": 72
+      },
+      {
+        "id": "ascent",
+        "inert": false,
+        "logos": 4,
+        "credit": "https://noisybrands.ru/",
+        "creditTop": 14,
+        "logosTop": 72
+      },
+      {
+        "id": "momentum",
+        "inert": false,
+        "logos": 4,
+        "credit": "https://noisybrands.ru/",
+        "creditTop": 14,
+        "logosTop": 72
+      },
+      {
+        "id": "conversation",
+        "inert": false,
+        "logos": 4,
+        "credit": "https://noisybrands.ru/",
+        "creditTop": 14,
+        "logosTop": 72
+      }
+    ],
+    "live": "journey scene is-rest",
+    "overflow": false
+  },
+  "nojs": {
+    "scenes": [
+      {
+        "id": "start",
+        "inert": false,
+        "logos": 4,
+        "credit": "https://noisybrands.ru/",
+        "creditTop": 14,
+        "logosTop": 72
+      },
+      {
+        "id": "curiosity",
+        "inert": false,
+        "logos": 4,
+        "credit": "https://noisybrands.ru/",
+        "creditTop": 14,
+        "logosTop": 72
+      },
+      {
+        "id": "creation",
+        "inert": false,
+        "logos": 4,
+        "credit": "https://noisybrands.ru/",
+        "creditTop": 14,
+        "logosTop": 72
+      },
+      {
+        "id": "ascent",
+        "inert": false,
+        "logos": 4,
+        "credit": "https://noisybrands.ru/",
+        "creditTop": 14,
+        "logosTop": 72
+      },
+      {
+        "id": "momentum",
+        "inert": false,
+        "logos": 4,
+        "credit": "https://noisybrands.ru/",
+        "creditTop": 14,
+        "logosTop": 72
+      },
+      {
+        "id": "conversation",
+        "inert": false,
+        "logos": 4,
+        "credit": "https://noisybrands.ru/",
+        "creditTop": 14,
+        "logosTop": 72
+      }
+    ],
+    "live": "journey scene is-rest",
+    "overflow": false
+  }
+}

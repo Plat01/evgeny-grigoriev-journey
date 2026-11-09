@@ -20,7 +20,8 @@ button, summary { font: inherit; color: inherit; }
 a, button, summary { -webkit-tap-highlight-color: transparent; }
 a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 6px; }
 ::selection { color: #fff; background: var(--accent); }
-.site-header { position: absolute; top: 0; left: 0; width: 100%; padding: 22px var(--gutter); display: flex; align-items: center; justify-content: space-between; gap: 20px; z-index: 20; }
+.site-header { position: absolute; top: 0; left: 0; width: 100%; padding: 22px var(--gutter); display: flex; align-items: center; justify-content: space-between; gap: 20px; z-index: 20; pointer-events: none; }
+.site-header a, .chapter-menu { pointer-events: auto; }
 .site-header a, .chapter-menu summary { display: inline-flex; min-height: 44px; align-items: center; text-decoration: none; font-size: 16px; }
 .wordmark { flex-shrink: 0; }
 .wordmark img { display: block; width: 64px; height: auto; }
@@ -33,6 +34,15 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .chapter-menu nav a { display: flex; }
 .site-header a:hover, summary:hover, .chapter-footer a:hover { color: var(--accent); text-decoration: underline; }
 .chapter { position: relative; min-height: 100svh; background: var(--chapter-ground); overflow: clip; display: flex; align-items: center; padding: 110px var(--gutter) 100px; isolation: isolate; }
+.chapter-masthead { position: absolute; top: 22px; left: calc(var(--gutter) + 112px); right: var(--gutter); height: 98px; display: flex; align-items: flex-start; justify-content: space-between; gap: 40px; z-index: 4; }
+.chapter-logos { display: flex; align-items: center; gap: clamp(20px, 2.2vw, 40px); padding-top: 9px; min-width: 0; }
+.organization-logo { display: block; flex: 0 1 auto; min-width: 0; height: 34px; object-fit: contain; }
+.organization-logo--skolkovo, .organization-logo--rosseti { width: 120px; }
+.organization-logo--tetra { width: 168px; }
+.organization-logo--school { width: 148px; }
+.design-credit { align-self: flex-end; flex-shrink: 0; font-size: 13px; line-height: 1.5; white-space: nowrap; }
+.design-credit a { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); font-weight: 750; }
+.design-credit a:hover { color: var(--ink); text-decoration-thickness: .14em; }
 .chapter-copy { position: relative; width: 43%; z-index: 2; }
 h1, h2 { font-family: var(--font-display); font-weight: 450; line-height: 1.05; letter-spacing: -.04em; text-wrap: balance; }
 h1 { font-size: clamp(62px, 7.2vw, 112px); }
@@ -75,6 +85,9 @@ html.journey-active .site-header { position: fixed; }
   .chapter-art { bottom: 5%; }
 }
 @media (max-width: 1000px) and (min-width: 761px) {
+  .chapter-masthead { left: calc(var(--gutter) + 96px); gap: 24px; }
+  .chapter-logos { gap: 20px; }
+  .organization-logo { height: 28px; }
   h1 { font-size: 7.5vw; }
   h2 { font-size: 5.8vw; }
   .chapter-text { font-size: 17px; }
@@ -96,7 +109,14 @@ html.journey-active .site-header { position: fixed; }
   .header-actions { gap: 20px; }
   .contact-link { display: none !important; }
   .chapter-menu nav { right: 0; }
-  .chapter { min-height: max(760px, 100svh); padding: 100px var(--gutter) 410px; align-items: flex-start; }
+  .chapter-masthead { top: 14px; left: var(--gutter); height: auto; display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 14px 0; }
+  .chapter-logos { grid-column: 1 / -1; grid-row: 2; width: 100%; height: 30px; padding: 0; gap: 16px; justify-content: space-between; }
+  .organization-logo { height: 28px; }
+  .organization-logo--skolkovo, .organization-logo--rosseti { width: 72px; }
+  .organization-logo--tetra { width: 94px; }
+  .organization-logo--school { width: 84px; }
+  .design-credit { grid-column: 2; grid-row: 1; justify-self: end; align-self: center; }
+  .chapter { min-height: max(760px, 100svh); padding: 140px var(--gutter) 410px; align-items: flex-start; }
   .chapter-copy { width: 100%; }
   h1 { font-size: clamp(46px, 12.4vw, 72px); }
   h2 { font-size: clamp(38px, 10vw, 60px); }
@@ -110,7 +130,7 @@ html.journey-active .site-header { position: fixed; }
   .chapter--ascent .chapter-art { width: 100%; right: 0; }
   .chapter--momentum .chapter-art { width: 100%; right: 0; }
   .chapter--conversation .chapter-art { width: 100%; right: 0; bottom: 96px; }
-  .journey.is-live .chapter { padding-top: 104px; }
+  .journey.is-live .chapter { padding-top: 140px; }
   .journey.is-live .chapter-footer { bottom: 72px; }
   .chapter-footer { bottom: 18px; gap: 18px; font-size: 12px; }
   .journey-controls { bottom: 15px; }
@@ -122,7 +142,8 @@ html.journey-active .site-header { position: fixed; }
   .chapter-dots [aria-current] span { width: 9px; height: 9px; }
 }
 @media (max-height: 720px) and (max-width: 760px) {
-  .journey.is-live .chapter { padding-top: 82px; }
+  .chapter-masthead { row-gap: 6px; }
+  .journey.is-live .chapter { padding-top: 120px; }
   .journey.is-live h1 { font-size: 44px; }
   .journey.is-live h2 { font-size: 36px; }
   .journey.is-live .chapter-text { margin-top: 16px; font-size: 15px; }

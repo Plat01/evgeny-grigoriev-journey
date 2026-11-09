@@ -1,0 +1,21 @@
+---
+import skolkovo from '../assets/logotips/skolkovo.webp';
+import rosseti from '../assets/logotips/rosseti.webp';
+import tetra from '../assets/logotips/tetra-trans.webp';
+import school from '../assets/logotips/skolkovo-school.webp';
+
+const logos = [
+  { image: skolkovo, name: 'Сколково', className: 'skolkovo' },
+  { image: rosseti, name: 'Россети', className: 'rosseti' },
+  { image: tetra, name: 'Tetra Trans', className: 'tetra' },
+  { image: school, name: 'Московская школа управления Сколково', className: 'school' },
+];
+---
+<div class="chapter-masthead">
+  <aside class="chapter-logos" aria-label="Логотипы организаций">
+    {logos.map(({ image, name, className }) => (
+      <img class={`organization-logo organization-logo--${className}`} src={image.src} width={image.width} height={image.height} alt={name} decoding="async" />
+    ))}
+  </aside>
+  <p class="design-credit">Идея и дизайн <a href="https://noisybrands.ru/" target="_blank" rel="noopener noreferrer">noisybrands</a></p>
+</div>

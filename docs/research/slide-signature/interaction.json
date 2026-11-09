@@ -1,0 +1,38 @@
+{
+  "link": {
+    "url": "https://noisybrands.ru/",
+    "noOpener": true
+  },
+  "modes": [
+    {
+      "width": 390,
+      "height": 844,
+      "live": true,
+      "inert": 5,
+      "spacers": 1,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "height": 667,
+      "live": true,
+      "inert": 5,
+      "spacers": 1,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "live": true,
+      "inert": 5,
+      "spacers": 1,
+      "overflow": false
+    }
+  ],
+  "reduced": {
+    "live": false,
+    "inert": 0,
+    "pins": 0
+  },
+  "note": "После уточнения пользователя восстановлен исходный media query: no-preference и min-height:560px. На 320×667 закрепление сохранено."
+}
