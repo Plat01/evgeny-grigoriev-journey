@@ -34,5 +34,5 @@
 ## Постоянное назначение публикации
 - Основной сайт проекта: https://plat01.github.io/evgeny-grigoriev-journey/.
 - Репозиторий для push и GitHub Pages: `Plat01/evgeny-grigoriev-journey`, remote `journey`. Не использовать `origin` (`alex_evgenygrigoriev`) для публикации этого сайта.
-- Текущая объединённая ветка публикации: `publish-current-20261109`; после слияния с `journey-scenes` обе удалённые ветки синхронизированы.
+- Ветка для запуска Pages workflow: `journey-scenes` (разрешена защитой окружения `github-pages`). `publish-current-20261109` объединена с ней и синхронизирована; запуск deploy из неё запрещён правилами GitHub.
 - При последующих поручениях на push/публикацию использовать это назначение, если пользователь явно не указал другое. Само правило не разрешает push/deploy без запроса.
