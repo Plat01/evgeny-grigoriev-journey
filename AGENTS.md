@@ -30,3 +30,9 @@
 - Astro assets импортировать; public assets и внутренние пути строить через import.meta.env.BASE_URL. Site/base вычисляются из PAGES_SITE/PAGES_BASE; workflow передаёт данные configure-pages.
 - GitHub Actions: CI при push/PR; публикация только вручную workflow_dispatch после отдельного поручения. Не push/deploy без запроса.
 - В отчёте разделять: установлено, зарегистрировано, действительно вызвано, проверено визуально, заблокировано.
+
+## Постоянное назначение публикации
+- Основной сайт проекта: https://plat01.github.io/evgeny-grigoriev-journey/.
+- Репозиторий для push и GitHub Pages: `Plat01/evgeny-grigoriev-journey`, remote `journey`. Не использовать `origin` (`alex_evgenygrigoriev`) для публикации этого сайта.
+- Текущая объединённая ветка публикации: `publish-current-20261109`; после слияния с `journey-scenes` обе удалённые ветки синхронизированы.
+- При последующих поручениях на push/публикацию использовать это назначение, если пользователь явно не указал другое. Само правило не разрешает push/deploy без запроса.

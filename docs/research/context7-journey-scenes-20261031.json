@@ -1,0 +1,144 @@
+{
+  "checkedAt": "2026-10-31T18:45:02.562Z",
+  "initialization": {
+    "protocolVersion": "2025-03-26",
+    "capabilities": {
+      "tools": {
+        "listChanged": false
+      },
+      "prompts": {
+        "listChanged": false
+      },
+      "resources": {
+        "listChanged": false,
+        "subscribe": false
+      }
+    },
+    "serverInfo": {
+      "name": "Context7",
+      "title": "Context7",
+      "version": "4.4.3",
+      "websiteUrl": "https://context7.com",
+      "description": "Context7 provides up-to-date documentation and code examples for libraries and frameworks.",
+      "icons": [
+        {
+          "src": "https://context7.com/context7-icon-green.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        },
+        {
+          "src": "https://context7.com/context7-icon-green.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "512x512"
+          ]
+        }
+      ]
+    },
+    "instructions": "Use this server to fetch current documentation whenever the user asks about a library, framework, SDK, API, CLI tool, or cloud service — even well-known ones like React, Next.js, Prisma, Express, Tailwind, Django, or Spring Boot. This includes API syntax, configuration, version migration, library-specific debugging, setup instructions, and CLI tool usage. Use even when you think you know the answer — your training data may not reflect recent changes. Prefer this over web search for library docs.\n\nDo not use for: refactoring, writing scripts from scratch, debugging business logic, code review, or general programming concepts."
+  },
+  "tools": {
+    "tools": [
+      {
+        "name": "resolve-library-id",
+        "title": "Resolve Context7 Library ID",
+        "description": "Resolves a package/product name to a Context7-compatible library ID and returns matching libraries.\n\nYou MUST call this function before 'Query Documentation' tool to obtain a valid Context7-compatible library ID UNLESS the user explicitly provides a library ID in the format '/org/project' or '/org/project/version' in their query.\n\nEach result includes:\n- Library ID: Context7-compatible identifier (format: /org/project)\n- Name: Library or package name\n- Description: Short summary\n- Code Snippets: Number of available code examples\n- Source Reputation: Authority indicator (High, Medium, Low, or Unknown)\n- Benchmark Score: Quality indicator (100 is the highest score)\n- Versions: List of versions if available. Use one of those versions if the user provides a version in their query. The format of the version is /org/project/version.\n\nFor best results, select libraries based on name match, source reputation, snippet coverage, benchmark score, and relevance to your use case.\n\nSelection Process:\n1. Analyze the query to understand what library/package the user is looking for\n2. Return the most relevant match based on:\n- Name similarity to the query (exact matches prioritized)\n- Description relevance to the query's intent\n- Documentation coverage (prioritize libraries with higher Code Snippet counts)\n- Source reputation (consider libraries with High or Medium reputation more authoritative)\n- Benchmark Score: Quality indicator (100 is the highest score)\n\nResponse Format:\n- Return the selected library ID in a clearly marked section\n- Provide a brief explanation for why this library was chosen\n- If multiple good matches exist, acknowledge this but proceed with the most relevant one\n- If no good matches exist, clearly state this and suggest query refinements\n\nFor ambiguous queries, request clarification before proceeding with a best-guess match.\n\nIMPORTANT: Do not call this tool more than 3 times per question. If you cannot find what you need after 3 calls, use the best result you have.",
+        "inputSchema": {
+          "type": "object",
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "What to look up in the library's documentation. This is used to rank library results by relevance to what the user is trying to accomplish. The query is sent to the Context7 API for processing. Do not include any sensitive or confidential information such as API keys, passwords, credentials, personal data, or proprietary code in your query."
+            },
+            "libraryName": {
+              "type": "string",
+              "description": "Library name to search for and retrieve a Context7-compatible library ID. Use the official library name with proper punctuation — e.g., 'Next.js' instead of 'nextjs', 'Customer.io' instead of 'customerio', 'Three.js' instead of 'threejs'."
+            }
+          },
+          "required": [
+            "query",
+            "libraryName"
+          ]
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "openWorldHint": true,
+          "idempotentHint": true
+        }
+      },
+      {
+        "name": "query-docs",
+        "title": "Query Documentation",
+        "description": "Retrieves and queries up-to-date documentation and code examples from Context7 for any programming library or framework.\n\nYou must call 'Resolve Context7 Library ID' tool first to obtain the exact Context7-compatible library ID required to use this tool, UNLESS the user explicitly provides a library ID in the format '/org/project' or '/org/project/version' in their query.\n\nDo not call this tool more than 3 times per question.\n\nIf you know the programming language the user is working in, pass it as `language` so the results match their setup.",
+        "inputSchema": {
+          "type": "object",
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "properties": {
+            "libraryId": {
+              "type": "string",
+              "description": "Exact Context7-compatible library ID (e.g., '/mongodb/docs', '/vercel/next.js', '/supabase/supabase', '/vercel/next.js/v16.2.9') retrieved from 'resolve-library-id' or directly from user query in the format '/org/project' or '/org/project/version'."
+            },
+            "query": {
+              "type": "string",
+              "description": "What to look up in the library's documentation, scoped to a single concept. Be specific and include relevant details, but keep each query to one topic — if the user's question spans multiple distinct concepts, make a separate call per concept instead of combining them, unless the question is about how the concepts interact. Good: 'How to set up authentication with JWT in Express.js' or 'React useEffect cleanup function examples'. Bad (too vague): 'auth' or 'hooks'. Bad (too broad): 'routing and auth and caching in Next.js'. The query is sent to the Context7 API for processing. Do not include any sensitive or confidential information such as API keys, passwords, credentials, personal data, or proprietary code in your query."
+            },
+            "language": {
+              "description": "Programming language the user is writing code in, such as 'Python', 'TypeScript', 'Go', or 'C#'. Ranks code examples in that language first. Leave it out when the language is unknown or does not apply.",
+              "type": "string"
+            }
+          },
+          "required": [
+            "libraryId",
+            "query"
+          ]
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "openWorldHint": true,
+          "idempotentHint": true
+        }
+      }
+    ]
+  },
+  "results": {
+    "astro": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Available Libraries:\n\n- Title: Astro\n- Context7-compatible library ID: /withastro/docs\n- Description: Astro is an all-in-one web framework for building fast, content-focused websites, designed to help everyone succeed in building sites.\n- Code Snippets: 6435\n- Source Reputation: High\n- Benchmark Score: 73.37\n----------\n- Title: Astro\n- Context7-compatible library ID: /withastro/astro\n- Description: Astro is a website build tool for the modern web, offering a powerful developer experience and lightweight output.\n- Code Snippets: 2457\n- Source Reputation: High\n- Benchmark Score: 57.84\n- Versions: astro_6.3.1\n----------\n- Title: Astro\n- Context7-compatible library ID: /websites/astro_build_en\n- Description: Astro is a modern web framework for building fast, content-focused websites with islands architecture, supporting multiple UI frameworks and server rendering.\n- Code Snippets: 7728\n- Source Reputation: High\n- Benchmark Score: 72.57\n----------\n- Title: Astro\n- Context7-compatible library ID: /llmstxt/astro_build_llms-full_txt\n- Description: Astro is a web framework for building fast, content-driven websites with a server-first architecture, offering UI-agnostic support and zero JavaScript by default.\n- Code Snippets: 3140\n- Source Reputation: High\n- Benchmark Score: 77.78\n----------\n- Title: Astro\n- Context7-compatible library ID: /websites/astro_build\n- Description: Astro is a modern web framework for building fast, content-driven websites. It minimizes client-side JavaScript, supports various UI frameworks, and features a server-first API design for optimal performance.\n- Code Snippets: 4\n- Source Reputation: High\n- Benchmark Score: 66.48"
+        }
+      ]
+    },
+    "gsap": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Available Libraries:\n\n- Title: GSAP\n- Context7-compatible library ID: /websites/gsap\n- Description: GSAP is a robust JavaScript animation library that enables developers to create high-performance, responsive animations for CSS properties, SVG, canvas, and any numeric values with powerful sequencing and control features.\n- Code Snippets: 3803\n- Source Reputation: High\n- Benchmark Score: 73.85\n- Versions: v3\n----------\n- Title: GSAP\n- Context7-compatible library ID: /greensock/gsap\n- Description: GSAP is a framework-agnostic JavaScript animation library for building high-performance animations across all major browsers, animating anything from CSS and SVG to WebGL and React components.\n- Code Snippets: 1022\n- Source Reputation: Medium\n- Benchmark Score: 64.43\n- Versions: 3_13_0, 3.15.0\n----------\n- Title: GSAP\n- Context7-compatible library ID: /llmstxt/gsap_llms_txt\n- Description: GSAP (GreenSock Animation Platform) is a professional-grade JavaScript animation library that helps developers create high-performance, complex, and interactive animations for the web.\n- Code Snippets: 2159\n- Source Reputation: High\n- Benchmark Score: 73.68\n----------\n- Title: GSAP AI Skills\n- Context7-compatible library ID: /greensock/gsap-skills\n- Description: GSAP AI Skills are official AI agent skills that teach correct usage of GSAP (GreenSock Animation Platform) for web animations, timelines, scroll-triggered animations, and framework integration with React, Vue, and Svelte.\n- Code Snippets: 183\n- Source Reputation: High\n- Benchmark Score: 79.69\n----------\n- Title: GSAP React\n- Context7-compatible library ID: /greensock/react\n- Description: GSAP React provides a hook for using GSAP animations in React applications, simplifying animation management and cleanup with automatic context handling.\n- Code Snippets: 106\n- Source Reputation: High\n- Benchmark Score: 74.94"
+        }
+      ]
+    }
+  },
+  "docs": {
+    "astro": {
+      "content": [
+        {
+          "type": "text",
+          "text": "### Configure site and base in astro.config.mjs\n\nSource: https://github.com/withastro/docs/blob/main/src/content/docs/en/guides/deploy/github.mdx\n\nSets the site URL and base path in Astro configuration for projects deployed to GitHub Pages repository URLs. You can skip the base configuration if your repository name matches the username.github.io pattern.\n\n```javascript\nimport { defineConfig } from 'astro/config'\n\nexport default defineConfig({\n  site: 'https://astronaut.github.io',\n  base: '/my-repo',\n})\n```\n\n--------------------------------\n\n### base config: all URLs must add base prefix via BASE_URL\n\nSource: https://github.com/withastro/docs/blob/main/src/content/docs/en/reference/configuration-reference.mdx\n\nSpecifies that when deploying under a subdirectory, all static asset imports and URLs should add the base as a prefix, accessible via import.meta.env.BASE_URL. This means a runtime FontFace URL must be constructed using BASE_URL (e.g., `${import.meta.env.BASE_URL}/fonts/myfont.woff2`) rather than being relative to the HTML document's path, because public assets are served at the base root regardless of page depth.\n\n```mdx\nWhen using this option, all of your static asset imports and URLs should add the base as a prefix. You can access this value via `import.meta.env.BASE_URL`.\n```\n\n--------------------------------\n\n### Configuration Reference > Top-Level Options > base\n\nSource: https://github.com/withastro/docs/blob/main/src/content/docs/en/reference/configuration-reference.mdx\n\n**Type:** `string`\n\nThe base path to deploy to. Astro will use this path as the root for your pages and assets both in development and in production build.\n\nIn the example below, `astro dev` will start your server at `/docs`.\n\nWhen using this option, all of your static asset imports and URLs should add the base as a prefix. You can access this value via `import.meta.env.BASE_URL`.\n\nThe value of `import.meta.env.BASE_URL` will be determined by your `trailingSlash` config, no matter what value you have set for `base`.\n\nA trailing slash is always included if `trailingSlash: \"always\"` is set. If `trailingSlash: \"never\"` is set, `BASE_URL` will not include a trailing slash, even if `base` includes one.\n\nAdditionally, Astro will internally manipulate the configured value of `config.base` before making it available to integrations. The value of `config.base` as read by integrations will also be determined by your `trailingSlash` configuration in the same way.\n\nIn the example below, the values of `import.meta.env.BASE_URL` and `config.base` when processed will both be `/docs`:\n\nIn the example below, the values of `import.meta.env.BASE_URL` and `config.base` when processed will both be `/docs/`:\n\n--------------------------------\n\n### Deploy your Astro Site to GitHub Pages > How to deploy\n\nSource: https://github.com/withastro/docs/blob/main/src/content/docs/en/guides/deploy/github.mdx\n\n2. In your Astro config file, set [`site`](/en/reference/configuration-reference/#site) to the GitHub URL of your deployed site.\n\n    The value for `site` must be one of the following:\n\n    - The following URL based on your username: `https://<username>.github.io`\n    - The random URL autogenerated for a [GitHub Organization's private page](https://docs.github.com/en/enterprise-cloud@latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site): `https://<random-string>.pages.github.io/`\n\n3. In `astro.config.mjs`, configure a value for [`base`](/en/reference/configuration-reference/#base) (usually required).\n\n--------------------------------\n\n### Deploy your Astro Site to GitHub Pages\n\nSource: https://github.com/withastro/docs/blob/main/src/content/docs/en/guides/deploy/github.mdx\n\nGitHub Pages will publish your website at an address that depends on both your username and your repository name (e.g. `https://<username>.github.io/<my-repo>/`). Set a value for `base` that specifies the repository for your website. This is so that Astro understands your website's root is `/my-repo`, rather than the default `/`. You can skip this if your repository name matches the special `<username>.github.io` pattern (e.g. `https://github.com/username/username.github.io/`)\n\nConfigure `base` as the repository’s name starting with a forward slash ( e.g. `/my-repo`):\n\n:::caution[Internal links with `base` configured]\nWhen this value is configured, all of your internal page links must be prefixed with your `base` value:\n\nSee more about [configuring a `base` value](/en/reference/configuration-reference/#base).\n:::\n\n4. On GitHub, go to your repository’s **Settings** tab and find the **Pages** section of the settings.\n\n5. Choose **GitHub Actions** as the **Source** of your site.\n\nWhen you push changes to your Astro project’s repository, the GitHub Action will automatically deploy them for you at your GitHub URL."
+        }
+      ]
+    },
+    "gsap": {
+      "content": [
+        {
+          "type": "text",
+          "text": "### JavaScript for gsap.matchMedia() with ScrollTrigger\n\nSource: https://gsap.com/docs/v3/GSAP/gsap.matchMedia%28%29\n\nJavaScript code that uses gsap.matchMedia() to define conditions for desktop and mobile based on viewport width and prefers-reduced-motion. It sets up a ScrollTrigger timeline and a non-ScrollTrigger animation, with an optional cleanup function.\n\n```javascript\ngsap.registerPlugin(ScrollTrigger);\n\nlet mm = gsap.matchMedia(),\n    breakPoint = 800;\n\nmm.add({\n  // set up any number of arbitrarily-named conditions. The function below will be called when ANY of them match.\n  isDesktop: `(min-width: ${breakPoint}px) and (prefers-reduced-motion: no-preference)`,\n  isMobile: `(max-width: ${breakPoint - 1}px) and (prefers-reduced-motion: no-preference)`\n}, (context) => {\n  // context.conditions has a boolean property for each condition defined above indicating if it's matched or not.\n  let { isDesktop, isMobile } = context.conditions,\n      target = isDesktop ? \".desktop\" : \".mobile\",\n      tl = gsap.timeline({\n        scrollTrigger: {\n          trigger: \".gray\",\n          scrub: 1,\n          end: \"200%\",\n          pin: true\n        }\n      });\n  tl.to(target, {scale: 2, rotation: 360})\n    .to(target, {scale: 1});\n\n  // works for non-ScrollTrigger animations too: \n  gsap.to(target, {backgroundColor: \"#2c7ad2\", duration: 0.8, ease: \"none\", repeat: -1, yoyo: true});\n\n  return () => { \n    // optionally return a cleanup function that will be called when the media query no longer matches\n  }\n});\n```\n\n--------------------------------\n\n### Demo using conditional syntax\n\nSource: https://gsap.com/docs/v3/GSAP/gsap.matchMedia%28%29\n\n```\ngsap.registerPlugin(ScrollTrigger);\n\nlet mm = gsap.matchMedia(),\n    breakPoint = 800;\n\nmm.add({\n  // set up any number of arbitrarily-named conditions. The function below will be called when ANY of them match.\n  isDesktop: `(min-width: ${breakPoint}px) and (prefers-reduced-motion: no-preference)`,\n  isMobile: `(max-width: ${breakPoint - 1}px) and (prefers-reduced-motion: no-preference)`\n}, (context) => {\n  // context.conditions has a boolean property for each condition defined above indicating if it's matched or not.\n  let { isDesktop, isMobile } = context.conditions,\n      target = isDesktop ? \".desktop\" : \".mobile\",\n      tl = gsap.timeline({\n        scrollTrigger: {\n          trigger: \".gray\",\n          scrub: 1,\n          end: \"200%\",\n          pin: true\n        }\n      });\n  tl.to(target, {scale: 2, rotation: 360})\n    .to(target, {scale: 1});\n\n  // works for non-ScrollTrigger animations too: \n  gsap.to(target, {backgroundColor: \"#2c7ad2\", duration: 0.8, ease: \"none\", repeat: -1, yoyo: true});\n\n  return () => { \n    // optionally return a cleanup function that will be called when the media query no longer matches\n  }\n});\n```\n\n--------------------------------\n\n### Using conditions syntax with gsap.matchMedia()\n\nSource: https://gsap.com/docs/v3/GSAP/gsap.matchMedia%28%29\n\nComplete example of using the conditions syntax. The handler receives a context object with a conditions property containing booleans for each condition. It uses conditional logic to set rotation and duration based on isDesktop and reduceMotion. The handler can optionally return a cleanup function that will be called when none of the conditions match anymore; it will automatically call context.revert() - do not do that in the cleanup.\n\n```javascript\nlet mm = gsap.matchMedia(),\n  breakPoint = 800;\n\nmm.add(\n  {\n    // set up any number of arbitrarily-named conditions. The function below will be called when ANY of them match.\n    isDesktop: `(min-width: ${breakPoint}px)`,\n    isMobile: `(max-width: ${breakPoint - 1}px)`,\n    reduceMotion: \"(prefers-reduced-motion: reduce)\",\n  },\n  (context) => {\n    // context.conditions has a boolean property for each condition defined above indicating if it's matched or not.\n    let { isDesktop, isMobile, reduceMotion } = context.conditions;\n\n    gsap.to(\".box\", {\n      rotation: isDesktop ? 360 : 180, // spin further if desktop\n      duration: reduceMotion ? 0 : 2, // skip to the end if prefers-reduced-motion\n    });\n\n    return () => {\n      // optionally return a cleanup function that will be called when none of the conditions match anymore (after having matched)\n      // it'll automatically call context.revert() - do NOT do that here . Only put custom cleanup code here.\n    };\n  }\n);\n```\n\n--------------------------------\n\n### Conditions syntax\n\nSource: https://gsap.com/docs/v3/GSAP/gsap.matchMedia%28%29\n\nBelow we'll set the breakpoint at 800px wide and honor the user's `prefers-reduced-motion` preference, leveraging the same setup code and using conditional logic where necessary:\n\n```\nlet mm = gsap.matchMedia(),\n  breakPoint = 800;\n\nmm.add(\n  {\n    // set up any number of arbitrarily-named conditions. The function below will be called when ANY of them match.\n    isDesktop: `(min-width: ${breakPoint}px)`,\n    isMobile: `(max-width: ${breakPoint - 1}px)`,\n    reduceMotion: \"(prefers-reduced-motion: reduce)\",\n  },\n  (context) => {\n    // context.conditions has a boolean property for each condition defined above indicating if it's matched or not.\n    let { isDesktop, isMobile, reduceMotion } = context.conditions;\n\n    gsap.to(\".box\", {\n      rotation: isDesktop ? 360 : 180, // spin further if desktop\n      duration: reduceMotion ? 0 : 2, // skip to the end if prefers-reduced-motion\n    });\n\n    return () => {\n      // optionally return a cleanup function that will be called when none of the conditions match anymore (after having matched)\n      // it'll automatically call context.revert() - do NOT do that here . Only put custom cleanup code here.\n    };\n  }\n);\n```\n\nNice and concise! 🎉\n\n--------------------------------\n\n### gsap.matchMedia().add() with conditions object\n\nSource: https://gsap.com/docs/v3/GSAP/gsap.matchMedia%28%29\n\nShows how to use the conditions syntax to set up multiple media queries with a single handler, including checking conditions and returning a cleanup function.\n\n```APIDOC\n## gsap.matchMedia().add(conditions, handler)\n\n### Description\nAdds a handler function that runs when any of the specified media query conditions match. The handler receives a context object with a `conditions` property containing boolean flags for each condition. The handler can optionally return a cleanup function that is called when none of the conditions match anymore.\n\n### Method\n`add`\n\n### Parameters\n- **conditions** (Object) - Required - An object with arbitrarily-named properties, each mapping to a media query string. The handler is called when any of these conditions match.\n- **handler** (Function) - Required - A callback function that receives a `context` object. The `context.conditions` object has boolean properties for each condition defined in the conditions object. The handler can optionally return a cleanup function.\n\n### Return Value\n- **MatchMedia** - The MatchMedia instance for chaining.\n\n### Example\n```javascript\nlet mm = gsap.matchMedia(),\n  breakPoint = 800;\n\nmm.add(\n  {\n    isDesktop: `(min-width: ${breakPoint}px)`,\n    isMobile: `(max-width: ${breakPoint - 1}px)`,\n    reduceMotion: \"(prefers-reduced-motion: reduce)\",\n  },\n  (context) => {\n    let { isDesktop, isMobile, reduceMotion } = context.conditions;\n\n    gsap.to(\".box\", {\n      rotation: isDesktop ? 360 : 180,\n      duration: reduceMotion ? 0 : 2,\n    });\n\n    return () => {\n      // cleanup code\n    };\n  }\n);\n```\n\n### Notes\n- The handler is reverted and re-run when any of the conditions toggle (i.e., a matching condition stops matching or a non-matching condition starts matching).\n- A `Context` is created and passed as the only parameter to the handler. This context can be used to create animations or ScrollTriggers that should be reverted when `revert()` is called on the MatchMedia.\n- The cleanup function should not call `context.revert()`; it is called automatically.\n```"
+        }
+      ]
+    }
+  }
+}

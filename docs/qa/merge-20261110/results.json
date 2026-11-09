@@ -1,0 +1,300 @@
+{
+  "url": "http://localhost:4322/evgeny-grigoriev-journey/",
+  "results": [
+    {
+      "width": 390,
+      "name": "start",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "start"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 390,
+      "name": "middle",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "ascent"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 390,
+      "name": "end",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "conversation"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 390,
+      "key": "Home",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "start"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 390,
+      "key": "PageDown",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "curiosity"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 390,
+      "touchSwipe": true,
+      "overflow": false,
+      "images": true,
+      "active": [
+        "creation"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 390,
+      "consoleErrors": [],
+      "failures": []
+    },
+    {
+      "width": 1366,
+      "name": "start",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "start"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 1366,
+      "name": "middle",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "ascent"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 1366,
+      "name": "end",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "conversation"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 1366,
+      "key": "Home",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "start"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 1366,
+      "key": "PageDown",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "curiosity"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 1366,
+      "consoleErrors": [],
+      "failures": []
+    },
+    {
+      "width": 1920,
+      "name": "start",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "start"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 1920,
+      "name": "middle",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "ascent"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 1920,
+      "name": "end",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "conversation"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 1920,
+      "key": "Home",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "start"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 1920,
+      "key": "PageDown",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "curiosity"
+      ],
+      "live": true,
+      "badPaths": []
+    },
+    {
+      "width": 1920,
+      "consoleErrors": [],
+      "failures": []
+    },
+    {
+      "mode": "reduced",
+      "name": "start",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "start",
+        "curiosity",
+        "creation",
+        "ascent",
+        "momentum",
+        "conversation"
+      ],
+      "live": false,
+      "badPaths": []
+    },
+    {
+      "mode": "reduced",
+      "name": "middle",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "start",
+        "curiosity",
+        "creation",
+        "ascent",
+        "momentum",
+        "conversation"
+      ],
+      "live": false,
+      "badPaths": []
+    },
+    {
+      "mode": "reduced",
+      "name": "end",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "start",
+        "curiosity",
+        "creation",
+        "ascent",
+        "momentum",
+        "conversation"
+      ],
+      "live": false,
+      "badPaths": []
+    },
+    {
+      "mode": "reduced",
+      "consoleErrors": []
+    },
+    {
+      "mode": "no-js",
+      "name": "start",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "start",
+        "curiosity",
+        "creation",
+        "ascent",
+        "momentum",
+        "conversation"
+      ],
+      "live": false,
+      "badPaths": []
+    },
+    {
+      "mode": "no-js",
+      "name": "middle",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "start",
+        "curiosity",
+        "creation",
+        "ascent",
+        "momentum",
+        "conversation"
+      ],
+      "live": false,
+      "badPaths": []
+    },
+    {
+      "mode": "no-js",
+      "name": "end",
+      "overflow": false,
+      "images": true,
+      "active": [
+        "start",
+        "curiosity",
+        "creation",
+        "ascent",
+        "momentum",
+        "conversation"
+      ],
+      "live": false,
+      "badPaths": []
+    },
+    {
+      "mode": "no-js",
+      "consoleErrors": []
+    }
+  ]
+}
