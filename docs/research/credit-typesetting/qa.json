@@ -1,0 +1,108 @@
+{
+  "errors": [],
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "phrase": {
+        "size": "13px",
+        "rect": {
+          "x": 198,
+          "y": 26.25,
+          "width": 89,
+          "height": 18,
+          "top": 26.25,
+          "right": 287,
+          "bottom": 44.25,
+          "left": 198
+        }
+      },
+      "link": {
+        "size": "13px",
+        "rect": {
+          "x": 290,
+          "y": 26.25,
+          "width": 78,
+          "height": 18,
+          "top": 26.25,
+          "right": 368,
+          "bottom": 44.25,
+          "left": 290
+        },
+        "href": "https://noisybrands.ru/"
+      }
+    },
+    {
+      "width": 1366,
+      "overflow": false,
+      "phrase": {
+        "size": "18px",
+        "rect": {
+          "x": 1187.640625,
+          "y": 21,
+          "width": 121,
+          "height": 24,
+          "top": 21,
+          "right": 1308.640625,
+          "bottom": 45,
+          "left": 1187.640625
+        }
+      },
+      "link": {
+        "size": "20px",
+        "rect": {
+          "x": 1187.640625,
+          "y": 53,
+          "width": 121,
+          "height": 27,
+          "top": 53,
+          "right": 1308.640625,
+          "bottom": 80,
+          "left": 1187.640625
+        },
+        "href": "https://noisybrands.ru/"
+      }
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "phrase": {
+        "size": "18px",
+        "rect": {
+          "x": 1719,
+          "y": 21,
+          "width": 121,
+          "height": 24,
+          "top": 21,
+          "right": 1840,
+          "bottom": 45,
+          "left": 1719
+        }
+      },
+      "link": {
+        "size": "20px",
+        "rect": {
+          "x": 1719,
+          "y": 53,
+          "width": 121,
+          "height": 27,
+          "top": 53,
+          "right": 1840,
+          "bottom": 80,
+          "left": 1719
+        },
+        "href": "https://noisybrands.ru/"
+      }
+    }
+  ],
+  "reduced": {
+    "phrase": "18px",
+    "link": "20px",
+    "visible": "visible"
+  },
+  "nojs": {
+    "phrase": "18px",
+    "link": "20px",
+    "visible": "visible"
+  }
+}
