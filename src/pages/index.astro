@@ -43,7 +43,7 @@ const chapters = [
             <figure class="chapter-art">
               <img src={chapter.image.src} width={chapter.image.width} height={chapter.image.height} alt={chapter.alt} loading="eager" fetchpriority={index === 0 ? 'high' : 'auto'} decoding="async" />
             </figure>
-            {index === 6 && <footer class="chapter-footer"><a href={`${import.meta.env.BASE_URL}policy/`}>Конфиденциальность</a></footer>}
+            {index === 6 && <footer class="chapter-footer"><p>© 2021–2026. Все права защищены.</p><a href={`${import.meta.env.BASE_URL}policy/`}>Конфиденциальность</a></footer>}
           </section>
         ))}
         <div class="journey-controls" hidden>

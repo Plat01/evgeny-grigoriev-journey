@@ -61,7 +61,7 @@ h1:focus, h2:focus { outline: none; }
 .chapter--ascent .chapter-art { width: 58%; right: 0; }
 .chapter--momentum .chapter-art { width: 58%; right: 0; }
 .chapter--conversation .chapter-art { width: 58%; right: 0; }
-.chapter-footer { position: absolute; bottom: 32px; left: var(--gutter); right: var(--gutter); display: flex; gap: 28px; font-size: 14px; z-index: 3; }
+.chapter-footer { position: absolute; bottom: 32px; left: var(--gutter); right: var(--gutter); display: flex; align-items: center; flex-wrap: wrap; gap: 0 28px; font-size: 14px; line-height: 1.5; z-index: 3; }
 .chapter-footer a { min-height: 44px; display: flex; align-items: center; }
 .journey-controls { position: absolute; z-index: 10; bottom: 20px; left: var(--gutter); right: var(--gutter); display: flex; align-items: center; justify-content: space-between; min-height: 44px; }
 .journey-controls[hidden] { display: none; }
@@ -136,7 +136,7 @@ html.journey-active .site-header { position: fixed; }
   .chapter--conversation .chapter-art { width: 100%; right: 0; bottom: 96px; }
   .journey.is-live .chapter { padding-top: 140px; }
   .journey.is-live .chapter-footer { bottom: 72px; }
-  .chapter-footer { bottom: 18px; gap: 18px; font-size: 12px; }
+  .chapter-footer { bottom: 18px; flex-direction: column; align-items: flex-start; column-gap: 18px; font-size: 12px; }
   .journey-controls { bottom: 15px; }
   .chapter-status { width: auto; font-size: 12px; }
   .next-chapter { width: auto; padding-left: 12px; font-size: 12px; }

@@ -1,0 +1,107 @@
+{
+  "errors": [],
+  "viewports": [
+    {
+      "width": 390,
+      "count": 1,
+      "text": "© 2021–2026. Все права защищены.",
+      "footer": {
+        "x": 0,
+        "y": 718,
+        "width": 390,
+        "height": 62,
+        "top": 718,
+        "right": 390,
+        "bottom": 780,
+        "left": 0
+      },
+      "controls": {
+        "x": 22,
+        "y": 785,
+        "width": 346,
+        "height": 44,
+        "top": 785,
+        "right": 368,
+        "bottom": 829,
+        "left": 22
+      },
+      "policy": {
+        "x": 22,
+        "y": 736,
+        "width": 125,
+        "height": 44,
+        "top": 736,
+        "right": 147,
+        "bottom": 780,
+        "left": 22
+      },
+      "overflow": false,
+      "copyright": {
+        "x": 22,
+        "y": 718,
+        "width": 199,
+        "height": 18,
+        "top": 718,
+        "right": 221,
+        "bottom": 736,
+        "left": 22
+      }
+    },
+    {
+      "width": 1366,
+      "count": 1,
+      "text": "© 2021–2026. Все права защищены.",
+      "footer": {
+        "x": 57.359375,
+        "y": 646,
+        "width": 1251.28125,
+        "height": 44,
+        "top": 646,
+        "right": 1308.640625,
+        "bottom": 690,
+        "left": 57.359375
+      },
+      "controls": {
+        "x": 57.359375,
+        "y": 704,
+        "width": 1251.28125,
+        "height": 44,
+        "top": 704,
+        "right": 1308.640625,
+        "bottom": 748,
+        "left": 57.359375
+      },
+      "policy": "http://localhost:4324/alex_evgenygrigoriev/policy/",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "count": 1,
+      "text": "© 2021–2026. Все права защищены.",
+      "footer": {
+        "x": 80,
+        "y": 958,
+        "width": 1760,
+        "height": 44,
+        "top": 958,
+        "right": 1840,
+        "bottom": 1002,
+        "left": 80
+      },
+      "controls": {
+        "x": 80,
+        "y": 1016,
+        "width": 1760,
+        "height": 44,
+        "top": 1016,
+        "right": 1840,
+        "bottom": 1060,
+        "left": 80
+      },
+      "policy": "http://localhost:4324/alex_evgenygrigoriev/policy/",
+      "overflow": false
+    }
+  ],
+  "reduced": "© 2021–2026. Все права защищены.\n\nКонфиденциальность",
+  "nojs": "© 2021–2026. Все права защищены.\n\nКонфиденциальность"
+}
