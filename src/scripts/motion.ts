@@ -10,9 +10,6 @@ export function initMotion(): () => void {
   const stage = document.querySelector<HTMLElement>('.journey-stage');
   if (!journey || !stage) return () => {};
   const chapters = Array.from(stage.querySelectorAll<HTMLElement>('.chapter'));
-  const controls = stage.querySelector<HTMLElement>('.journey-controls');
-  const next = stage.querySelector<HTMLButtonElement>('.next-chapter');
-  const status = stage.querySelector<HTMLElement>('.chapter-status');
   const dots = Array.from(stage.querySelectorAll<HTMLAnchorElement>('.chapter-dots a'));
   const menu = document.querySelector<HTMLDetailsElement>('.chapter-menu');
   const media = gsap.matchMedia();
@@ -22,7 +19,6 @@ export function initMotion(): () => void {
     journey.classList.add('is-live');
     journey.classList.remove('is-rest');
     document.documentElement.classList.add('journey-active');
-    if (controls) controls.hidden = false;
     let current = -1;
     let navigation: gsap.core.Tween | undefined;
     const setCurrent = (index: number) => {
@@ -30,8 +26,6 @@ export function initMotion(): () => void {
       current = index;
       chapters.forEach((chapter, i) => { chapter.inert = i !== index; });
       dots.forEach((dot, i) => i === index ? dot.setAttribute('aria-current', 'step') : dot.removeAttribute('aria-current'));
-      if (status) status.textContent = dots[index]?.getAttribute('aria-label') ?? '';
-      if (next) next.textContent = index === chapters.length - 1 ? 'К началу' : 'Дальше';
     };
     gsap.set(chapters.slice(1), { autoAlpha: 0 });
     gsap.set(chapters.slice(1).flatMap(chapter => Array.from(chapter.querySelectorAll('.chapter-copy > *'))), { autoAlpha: 0 });
@@ -92,7 +86,6 @@ export function initMotion(): () => void {
       if (menu) menu.open = false;
       go(index, event.detail === 0);
     };
-    const onNext = () => go(current === chapters.length - 1 ? 0 : current + 1);
     const onKey = (event: KeyboardEvent) => {
       if (event.defaultPrevented || event.metaKey || event.ctrlKey || event.altKey || menu?.open) return;
       if ((event.target as Element).closest('a, button, input, textarea, select, summary')) return;
@@ -148,7 +141,6 @@ export function initMotion(): () => void {
     stage.addEventListener('touchmove', onTouchMove, { passive: false });
     stage.addEventListener('touchend', onTouchEnd, { passive: true });
     stage.addEventListener('touchcancel', cancelSwipe, { passive: true });
-    next?.addEventListener('click', onNext);
     const hashIndex = chapters.findIndex(chapter => `#${chapter.id}` === location.hash);
     if (hashIndex > 0) requestAnimationFrame(() => {
       const trigger = timeline.scrollTrigger;
@@ -167,7 +159,6 @@ export function initMotion(): () => void {
       journey.classList.add('is-rest');
       document.documentElement.classList.remove('journey-active');
       chapters.forEach(chapter => { chapter.inert = false; });
-      if (controls) controls.hidden = true;
       document.removeEventListener('click', onAnchor);
       document.removeEventListener('keydown', onKey);
       document.removeEventListener('keydown', onMenuKey);
@@ -177,7 +168,6 @@ export function initMotion(): () => void {
       stage.removeEventListener('touchmove', onTouchMove);
       stage.removeEventListener('touchend', onTouchEnd);
       stage.removeEventListener('touchcancel', cancelSwipe);
-      next?.removeEventListener('click', onNext);
     };
   }, journey);
   const refresh = () => { if (!disposed) ScrollTrigger.refresh(); };

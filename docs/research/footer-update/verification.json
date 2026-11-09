@@ -1,0 +1,574 @@
+[
+  {
+    "width": 390,
+    "label": "start",
+    "overflow": false,
+    "chapter": "start",
+    "brokenImages": 0,
+    "boxes": {
+      ".chapter-status": {
+        "x": 22,
+        "y": 803.75,
+        "width": 167,
+        "height": 16.5,
+        "top": 803.75,
+        "right": 189,
+        "bottom": 820.25,
+        "left": 22
+      },
+      ".design-credit": {
+        "x": 228.140625,
+        "y": 790,
+        "width": 139.859375,
+        "height": 44,
+        "top": 790,
+        "right": 368,
+        "bottom": 834,
+        "left": 228.140625
+      },
+      ".chapter-dots": {
+        "x": 111,
+        "y": 746,
+        "width": 168,
+        "height": 44,
+        "top": 746,
+        "right": 279,
+        "bottom": 790,
+        "left": 111
+      },
+      ".chapter:not([inert]) .channel-subscribe": {
+        "x": 138.8125,
+        "y": 14,
+        "width": 229.1875,
+        "height": 45,
+        "top": 14,
+        "right": 368,
+        "bottom": 59,
+        "left": 138.8125
+      }
+    },
+    "copy": "© 2021–2026. Все права защищены."
+  },
+  {
+    "width": 390,
+    "label": "middle",
+    "overflow": false,
+    "chapter": "ascent",
+    "brokenImages": 0,
+    "boxes": {
+      ".chapter-status": {
+        "x": 22,
+        "y": 803.75,
+        "width": 167,
+        "height": 16.5,
+        "top": 803.75,
+        "right": 189,
+        "bottom": 820.25,
+        "left": 22
+      },
+      ".design-credit": {
+        "x": 228.140625,
+        "y": 790,
+        "width": 139.859375,
+        "height": 44,
+        "top": 790,
+        "right": 368,
+        "bottom": 834,
+        "left": 228.140625
+      },
+      ".chapter-dots": {
+        "x": 111,
+        "y": 746,
+        "width": 168,
+        "height": 44,
+        "top": 746,
+        "right": 279,
+        "bottom": 790,
+        "left": 111
+      },
+      ".chapter:not([inert]) .channel-subscribe": {
+        "x": 138.8125,
+        "y": 14,
+        "width": 229.1875,
+        "height": 45,
+        "top": 14,
+        "right": 368,
+        "bottom": 59,
+        "left": 138.8125
+      }
+    },
+    "copy": "© 2021–2026. Все права защищены."
+  },
+  {
+    "width": 390,
+    "label": "end",
+    "overflow": false,
+    "chapter": "conversation",
+    "brokenImages": 0,
+    "boxes": {
+      ".chapter-status": {
+        "x": 22,
+        "y": 803.75,
+        "width": 167,
+        "height": 16.5,
+        "top": 803.75,
+        "right": 189,
+        "bottom": 820.25,
+        "left": 22
+      },
+      ".design-credit": {
+        "x": 228.140625,
+        "y": 790,
+        "width": 139.859375,
+        "height": 44,
+        "top": 790,
+        "right": 368,
+        "bottom": 834,
+        "left": 228.140625
+      },
+      ".chapter-dots": {
+        "x": 111,
+        "y": 746,
+        "width": 168,
+        "height": 44,
+        "top": 746,
+        "right": 279,
+        "bottom": 790,
+        "left": 111
+      },
+      ".chapter:not([inert]) .channel-subscribe": {
+        "x": 138.8125,
+        "y": 14,
+        "width": 229.1875,
+        "height": 45,
+        "top": 14,
+        "right": 368,
+        "bottom": 59,
+        "left": 138.8125
+      },
+      ".chapter:not([inert]) .chapter-footer": {
+        "x": 0,
+        "y": 702,
+        "width": 390,
+        "height": 44,
+        "top": 702,
+        "right": 390,
+        "bottom": 746,
+        "left": 0
+      }
+    },
+    "copy": "© 2021–2026. Все права защищены."
+  },
+  {
+    "width": 390,
+    "keyboard": {
+      "focus": "Подписаться на Telegram-канал",
+      "outline": "solid"
+    },
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "label": "start",
+    "overflow": false,
+    "chapter": "start",
+    "brokenImages": 0,
+    "boxes": {
+      ".chapter-status": {
+        "x": 57.359375,
+        "y": 716.5,
+        "width": 471.640625,
+        "height": 19,
+        "top": 716.5,
+        "right": 529,
+        "bottom": 735.5,
+        "left": 57.359375
+      },
+      ".design-credit": {
+        "x": 1130.65625,
+        "y": 704,
+        "width": 177.984375,
+        "height": 44,
+        "top": 704,
+        "right": 1308.640625,
+        "bottom": 748,
+        "left": 1130.65625
+      },
+      ".chapter-dots": {
+        "x": 541,
+        "y": 704,
+        "width": 284,
+        "height": 44,
+        "top": 704,
+        "right": 825,
+        "bottom": 748,
+        "left": 541
+      },
+      ".chapter:not([inert]) .channel-subscribe": {
+        "x": 1039.921875,
+        "y": 22,
+        "width": 268.71875,
+        "height": 51,
+        "top": 22,
+        "right": 1308.640625,
+        "bottom": 73,
+        "left": 1039.921875
+      }
+    },
+    "copy": "© 2021–2026. Все права защищены."
+  },
+  {
+    "width": 1366,
+    "label": "middle",
+    "overflow": false,
+    "chapter": "ascent",
+    "brokenImages": 0,
+    "boxes": {
+      ".chapter-status": {
+        "x": 57.359375,
+        "y": 716.5,
+        "width": 471.640625,
+        "height": 19,
+        "top": 716.5,
+        "right": 529,
+        "bottom": 735.5,
+        "left": 57.359375
+      },
+      ".design-credit": {
+        "x": 1130.65625,
+        "y": 704,
+        "width": 177.984375,
+        "height": 44,
+        "top": 704,
+        "right": 1308.640625,
+        "bottom": 748,
+        "left": 1130.65625
+      },
+      ".chapter-dots": {
+        "x": 541,
+        "y": 704,
+        "width": 284,
+        "height": 44,
+        "top": 704,
+        "right": 825,
+        "bottom": 748,
+        "left": 541
+      },
+      ".chapter:not([inert]) .channel-subscribe": {
+        "x": 1039.921875,
+        "y": 22,
+        "width": 268.71875,
+        "height": 51,
+        "top": 22,
+        "right": 1308.640625,
+        "bottom": 73,
+        "left": 1039.921875
+      }
+    },
+    "copy": "© 2021–2026. Все права защищены."
+  },
+  {
+    "width": 1366,
+    "label": "end",
+    "overflow": false,
+    "chapter": "conversation",
+    "brokenImages": 0,
+    "boxes": {
+      ".chapter-status": {
+        "x": 57.359375,
+        "y": 716.5,
+        "width": 471.640625,
+        "height": 19,
+        "top": 716.5,
+        "right": 529,
+        "bottom": 735.5,
+        "left": 57.359375
+      },
+      ".design-credit": {
+        "x": 1130.65625,
+        "y": 704,
+        "width": 177.984375,
+        "height": 44,
+        "top": 704,
+        "right": 1308.640625,
+        "bottom": 748,
+        "left": 1130.65625
+      },
+      ".chapter-dots": {
+        "x": 541,
+        "y": 704,
+        "width": 284,
+        "height": 44,
+        "top": 704,
+        "right": 825,
+        "bottom": 748,
+        "left": 541
+      },
+      ".chapter:not([inert]) .channel-subscribe": {
+        "x": 1039.921875,
+        "y": 22,
+        "width": 268.71875,
+        "height": 51,
+        "top": 22,
+        "right": 1308.640625,
+        "bottom": 73,
+        "left": 1039.921875
+      },
+      ".chapter:not([inert]) .chapter-footer": {
+        "x": 57.359375,
+        "y": 646,
+        "width": 1251.28125,
+        "height": 44,
+        "top": 646,
+        "right": 1308.640625,
+        "bottom": 690,
+        "left": 57.359375
+      }
+    },
+    "copy": "© 2021–2026. Все права защищены."
+  },
+  {
+    "width": 1366,
+    "keyboard": {
+      "focus": "Подписаться на Telegram-канал",
+      "outline": "solid"
+    },
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "label": "start",
+    "overflow": false,
+    "chapter": "start",
+    "brokenImages": 0,
+    "boxes": {
+      ".chapter-status": {
+        "x": 80,
+        "y": 1028.5,
+        "width": 726,
+        "height": 19,
+        "top": 1028.5,
+        "right": 806,
+        "bottom": 1047.5,
+        "left": 80
+      },
+      ".design-credit": {
+        "x": 1662.015625,
+        "y": 1016,
+        "width": 177.984375,
+        "height": 44,
+        "top": 1016,
+        "right": 1840,
+        "bottom": 1060,
+        "left": 1662.015625
+      },
+      ".chapter-dots": {
+        "x": 818,
+        "y": 1016,
+        "width": 284,
+        "height": 44,
+        "top": 1016,
+        "right": 1102,
+        "bottom": 1060,
+        "left": 818
+      },
+      ".chapter:not([inert]) .channel-subscribe": {
+        "x": 1571.28125,
+        "y": 22,
+        "width": 268.71875,
+        "height": 51,
+        "top": 22,
+        "right": 1840,
+        "bottom": 73,
+        "left": 1571.28125
+      }
+    },
+    "copy": "© 2021–2026. Все права защищены."
+  },
+  {
+    "width": 1920,
+    "label": "middle",
+    "overflow": false,
+    "chapter": "ascent",
+    "brokenImages": 0,
+    "boxes": {
+      ".chapter-status": {
+        "x": 80,
+        "y": 1028.5,
+        "width": 726,
+        "height": 19,
+        "top": 1028.5,
+        "right": 806,
+        "bottom": 1047.5,
+        "left": 80
+      },
+      ".design-credit": {
+        "x": 1662.015625,
+        "y": 1016,
+        "width": 177.984375,
+        "height": 44,
+        "top": 1016,
+        "right": 1840,
+        "bottom": 1060,
+        "left": 1662.015625
+      },
+      ".chapter-dots": {
+        "x": 818,
+        "y": 1016,
+        "width": 284,
+        "height": 44,
+        "top": 1016,
+        "right": 1102,
+        "bottom": 1060,
+        "left": 818
+      },
+      ".chapter:not([inert]) .channel-subscribe": {
+        "x": 1571.28125,
+        "y": 22,
+        "width": 268.71875,
+        "height": 51,
+        "top": 22,
+        "right": 1840,
+        "bottom": 73,
+        "left": 1571.28125
+      }
+    },
+    "copy": "© 2021–2026. Все права защищены."
+  },
+  {
+    "width": 1920,
+    "label": "end",
+    "overflow": false,
+    "chapter": "conversation",
+    "brokenImages": 0,
+    "boxes": {
+      ".chapter-status": {
+        "x": 80,
+        "y": 1028.5,
+        "width": 726,
+        "height": 19,
+        "top": 1028.5,
+        "right": 806,
+        "bottom": 1047.5,
+        "left": 80
+      },
+      ".design-credit": {
+        "x": 1662.015625,
+        "y": 1016,
+        "width": 177.984375,
+        "height": 44,
+        "top": 1016,
+        "right": 1840,
+        "bottom": 1060,
+        "left": 1662.015625
+      },
+      ".chapter-dots": {
+        "x": 818,
+        "y": 1016,
+        "width": 284,
+        "height": 44,
+        "top": 1016,
+        "right": 1102,
+        "bottom": 1060,
+        "left": 818
+      },
+      ".chapter:not([inert]) .channel-subscribe": {
+        "x": 1571.28125,
+        "y": 22,
+        "width": 268.71875,
+        "height": 51,
+        "top": 22,
+        "right": 1840,
+        "bottom": 73,
+        "left": 1571.28125
+      },
+      ".chapter:not([inert]) .chapter-footer": {
+        "x": 80,
+        "y": 958,
+        "width": 1760,
+        "height": 44,
+        "top": 958,
+        "right": 1840,
+        "bottom": 1002,
+        "left": 80
+      }
+    },
+    "copy": "© 2021–2026. Все права защищены."
+  },
+  {
+    "width": 1920,
+    "keyboard": {
+      "focus": "Подписаться на Telegram-канал",
+      "outline": "solid"
+    },
+    "errors": []
+  },
+  {
+    "mode": "reduced",
+    "live": false,
+    "overflow": false,
+    "chapters": 6,
+    "credit": {
+      "x": 228.140625,
+      "y": 785.015625,
+      "width": 139.859375,
+      "height": 44,
+      "top": 785.015625,
+      "right": 368,
+      "bottom": 829.015625,
+      "left": 228.140625
+    },
+    "privacy": {
+      "x": 22,
+      "y": 736.015625,
+      "width": 346,
+      "height": 44,
+      "top": 736.015625,
+      "right": 368,
+      "bottom": 780.015625,
+      "left": 22
+    },
+    "buttons": [
+      "https://t.me/neurostrategy",
+      "https://t.me/neurostrategy",
+      "https://t.me/neurostrategy",
+      "https://t.me/neurostrategy",
+      "https://t.me/neurostrategy",
+      "https://t.me/neurostrategy"
+    ]
+  },
+  {
+    "mode": "no-js",
+    "live": false,
+    "overflow": false,
+    "chapters": 6,
+    "credit": {
+      "x": 228.140625,
+      "y": 785.015625,
+      "width": 139.859375,
+      "height": 44,
+      "top": 785.015625,
+      "right": 368,
+      "bottom": 829.015625,
+      "left": 228.140625
+    },
+    "privacy": {
+      "x": 22,
+      "y": 736.015625,
+      "width": 346,
+      "height": 44,
+      "top": 736.015625,
+      "right": 368,
+      "bottom": 780.015625,
+      "left": 22
+    },
+    "buttons": [
+      "https://t.me/neurostrategy",
+      "https://t.me/neurostrategy",
+      "https://t.me/neurostrategy",
+      "https://t.me/neurostrategy",
+      "https://t.me/neurostrategy",
+      "https://t.me/neurostrategy"
+    ]
+  }
+]

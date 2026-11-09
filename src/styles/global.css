@@ -40,9 +40,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .organization-logo--skolkovo, .organization-logo--rosseti { width: 104px; }
 .organization-logo--tetra { width: 146px; }
 .organization-logo--school { width: 128px; }
-.design-credit { align-self: flex-start; flex-shrink: 0; margin-top: 5px; font-size: 13px; line-height: 1.5; white-space: nowrap; }
-.design-credit a { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); font-weight: 750; }
-.design-credit a:hover { color: var(--ink); text-decoration-thickness: .14em; }
+.channel-subscribe { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; min-height: 44px; font-size: 14px; font-weight: 600; white-space: nowrap; }
+.design-credit { display: inline-flex; align-items: center; justify-content: flex-end; gap: .3em; min-height: 44px; font-size: 14px; line-height: 1.5; text-align: right; white-space: nowrap; }
+.design-credit a { display: inline-flex; align-items: center; min-height: 44px; }
+.design-credit a:hover { color: var(--accent); text-decoration-thickness: .14em; }
 .chapter-copy { position: relative; width: 40%; z-index: 2; }
 h1, h2 { font-family: var(--font-display); font-weight: 450; line-height: 1.05; letter-spacing: -.04em; text-wrap: balance; }
 h1 { font-size: clamp(52px, 4.8vw, 88px); }
@@ -61,18 +62,18 @@ h1:focus, h2:focus { outline: none; }
 .text-link--primary:hover { background: var(--accent); color: #fff; }
 .chapter-art { position: absolute; width: 87%; right: -29%; bottom: 5%; z-index: 1; pointer-events: none; }
 .chapter-art img { display: block; width: 100%; height: auto; }
-.chapter-footer { position: absolute; bottom: 32px; left: var(--gutter); right: var(--gutter); display: flex; align-items: center; flex-wrap: wrap; gap: 0 28px; font-size: 14px; line-height: 1.5; z-index: 3; }
+.chapter-footer { position: absolute; bottom: 78px; left: var(--gutter); right: var(--gutter); display: flex; align-items: center; flex-wrap: wrap; gap: 0 28px; font-size: 14px; line-height: 1.5; z-index: 3; }
 .chapter-footer a { min-height: 44px; display: flex; align-items: center; }
-.journey-controls { position: absolute; z-index: 10; bottom: 20px; left: var(--gutter); right: var(--gutter); display: flex; align-items: center; justify-content: space-between; min-height: 44px; }
-.journey-controls[hidden] { display: none; }
-.chapter-status { width: 150px; font-size: 14px; }
-.chapter-dots { display: flex; gap: 4px; }
+.journey-stage { position: relative; }
+.journey-controls { position: absolute; z-index: 10; bottom: 20px; left: var(--gutter); right: var(--gutter); display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; min-height: 44px; }
+.chapter-status { font-size: 14px; }
+.design-credit { grid-column: 3; justify-self: end; }
+.chapter-dots { display: none; gap: 4px; }
+.journey.is-live .chapter-dots { display: flex; }
 .chapter-dots a { width: 44px; height: 44px; display: grid; place-items: center; }
 .chapter-dots span { display: block; width: 7px; height: 7px; background: var(--ink); opacity: .3; border-radius: 50%; }
 .chapter-dots [aria-current] span { opacity: 1; width: 11px; height: 11px; }
 .chapter-dots a:hover span { opacity: 1; }
-.next-chapter { width: 150px; text-align: right; background: transparent; border: 0; padding: 10px 0 10px 24px; min-height: 44px; cursor: pointer; font-size: 14px; }
-.next-chapter:hover { text-decoration: underline; }
 .journey.is-live .journey-stage { position: relative; height: 100dvh; overflow: clip; }
 .journey.is-live .chapter { position: absolute; inset: 0; min-height: 0; height: 100%; }
 .journey.is-live .chapter-art { will-change: transform, opacity; }
@@ -80,11 +81,6 @@ html.journey-active .site-header { position: fixed; }
 .journey.is-live .chapter-footer { bottom: 78px; }
 .skip-link { position: fixed; z-index: 100; top: 16px; left: 16px; padding: 16px; background: var(--ink); color: #fff; transform: translateY(-160%); }
 .skip-link:focus { transform: none; }
-@media (min-width: 761px) {
-  .design-credit { display: flex; flex-direction: column; align-items: flex-end; margin-top: 0; font-size: 16px; line-height: 1.25; }
-  .design-credit span { font-size: 18px; letter-spacing: -.154px; }
-  .design-credit a { align-items: flex-start; padding-top: 4px; font-size: 20px; }
-}
 @media (max-width: 1000px) and (min-width: 761px) {
   .chapter-masthead { left: calc(var(--gutter) + 128px); gap: 24px; }
   .chapter-logos { gap: 20px; }
@@ -115,7 +111,7 @@ html.journey-active .site-header { position: fixed; }
   .organization-logo--skolkovo, .organization-logo--rosseti { width: 64px; }
   .organization-logo--tetra { width: 82px; }
   .organization-logo--school { width: 74px; }
-  .design-credit { grid-column: 2; grid-row: 1; justify-self: end; align-self: center; margin-top: 0; }
+  .channel-subscribe { grid-column: 2; grid-row: 1; justify-self: end; align-self: center; padding: 12px 14px; font-size: 12px; }
   .chapter { min-height: max(760px, 100svh); padding: 128px var(--gutter) calc(54svh + 72px); align-items: flex-start; }
   /* Soften the illustration before the lower edge, beneath the sharp copy and controls. */
   .chapter::after {
@@ -156,12 +152,13 @@ html.journey-active .site-header { position: fixed; }
   .chapter--conversation .chapter-art { bottom: 96px; }
   .journey.is-live .chapter { padding-top: 116px; padding-bottom: 72px; }
   .journey.is-live .chapter-art { top: 50%; bottom: auto; }
-  .journey.is-live .chapter-footer { bottom: 64px; left: 0; right: 0; padding-inline: var(--gutter); background: transparent; }
-  .chapter-footer { bottom: 18px; flex-direction: column; align-items: flex-start; column-gap: 18px; font-size: 12px; }
-  .journey-controls { bottom: 0; left: 0; right: 0; min-height: 64px; padding-inline: var(--gutter); background: transparent; }
-  .chapter-status { width: auto; font-size: 12px; }
-  .next-chapter { width: auto; padding-left: 12px; font-size: 12px; }
-  .chapter-dots { gap: 0; }
+  .journey.is-live .chapter-footer { bottom: 98px; left: 0; right: 0; padding-inline: var(--gutter); background: transparent; }
+  .chapter-footer { bottom: 64px; flex-direction: column; align-items: flex-start; column-gap: 18px; font-size: 12px; }
+  .journey-controls { bottom: 0; left: 0; right: 0; min-height: 64px; padding: 0 var(--gutter) 10px; grid-template-columns: 1fr 1fr; gap: 0 12px; background: transparent; }
+  .chapter-status { font-size: 11px; line-height: 1.5; }
+  .copyright-rights { display: none; }
+  .design-credit { grid-column: 2; font-size: 11px; }
+  .chapter-dots { grid-column: 1 / -1; grid-row: 1; justify-self: center; gap: 0; }
   .chapter-dots a { width: 28px; }
   .chapter-dots span { width: 6px; height: 6px; }
   .chapter-dots [aria-current] span { width: 9px; height: 9px; }

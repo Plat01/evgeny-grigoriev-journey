@@ -102,16 +102,15 @@ const chapters = [
             </figure>
             {index === chapters.length - 1 && (
               <footer class="chapter-footer">
-                <p>© 2021–2026. Все права защищены.</p>
                 <a href={`${import.meta.env.BASE_URL}policy/`}>Конфиденциальность</a>
               </footer>
             )}
           </section>
         ))}
-        <div class="journey-controls" hidden>
-          <span class="chapter-status" aria-live="polite" aria-atomic="true">Начало</span>
+        <div class="journey-controls">
+          <span class="chapter-status">© 2021–2026.<span class="copyright-rights"> Все права защищены.</span></span>
           <nav class="chapter-dots" aria-label="Перейти к главе">{chapters.map((chapter, i) => <a href={`#${chapter.id}`} aria-label={chapter.name} aria-current={i === 0 ? 'step' : undefined}><span></span></a>)}</nav>
-          <button class="next-chapter" type="button">Дальше</button>
+          <p class="design-credit"><span>Идея и дизайн</span>{' '}<a href="https://noisybrands.ru/" target="_blank" rel="noopener noreferrer">noisybrands</a></p>
         </div>
       </div>
     </div>
