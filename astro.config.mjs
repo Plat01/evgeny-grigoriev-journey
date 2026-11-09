@@ -7,6 +7,7 @@ const base = `/${rawBase.replace(/^\/+|\/+$/g, '')}${rawBase === '/' ? '' : '/'}
 
 export default defineConfig({
   output: 'static',
+  devToolbar: { enabled: false },
   ...(site ? { site } : {}),
   base,
   trailingSlash: 'always',

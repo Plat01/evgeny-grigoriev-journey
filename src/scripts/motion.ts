@@ -2,6 +2,8 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
+// Browser chrome changes the visible height on phones; pinned scenes must resize too.
+ScrollTrigger.config({ ignoreMobileResize: false });
 
 export function initMotion(): () => void {
   const journey = document.querySelector<HTMLElement>('.journey');

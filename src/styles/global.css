@@ -63,7 +63,7 @@ h1:focus, h2:focus { outline: none; }
 .chapter-dots a:hover span { opacity: 1; }
 .next-chapter { width: 150px; text-align: right; background: transparent; border: 0; padding: 10px 0 10px 24px; min-height: 44px; cursor: pointer; font-size: 14px; }
 .next-chapter:hover { text-decoration: underline; }
-.journey.is-live .journey-stage { position: relative; height: 100svh; overflow: clip; }
+.journey.is-live .journey-stage { position: relative; height: 100dvh; overflow: clip; }
 .journey.is-live .chapter { position: absolute; inset: 0; min-height: 0; height: 100%; }
 .journey.is-live .chapter-art { will-change: transform, opacity; }
 html.journey-active .site-header { position: fixed; }

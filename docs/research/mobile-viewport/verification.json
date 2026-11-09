@@ -1,0 +1,374 @@
+{
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "name": "start",
+      "stage": 844,
+      "overflow": false,
+      "loaded": true,
+      "toolbar": false,
+      "active": "start",
+      "headingOpacity": "1",
+      "controls": {
+        "x": 22,
+        "y": 785,
+        "width": 346,
+        "height": 44,
+        "top": 785,
+        "right": 368,
+        "bottom": 829,
+        "left": 22
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "middle",
+      "stage": 844,
+      "overflow": false,
+      "loaded": true,
+      "toolbar": false,
+      "active": "ascent",
+      "headingOpacity": "1",
+      "controls": {
+        "x": 22,
+        "y": 785,
+        "width": 346,
+        "height": 44,
+        "top": 785,
+        "right": 368,
+        "bottom": 829,
+        "left": 22
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "end",
+      "stage": 844,
+      "overflow": false,
+      "loaded": true,
+      "toolbar": false,
+      "active": "conversation",
+      "headingOpacity": "1",
+      "controls": {
+        "x": 22,
+        "y": 785,
+        "width": 346,
+        "height": 44,
+        "top": 785,
+        "right": 368,
+        "bottom": 829,
+        "left": 22
+      }
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "name": "start",
+      "stage": 768,
+      "overflow": false,
+      "loaded": true,
+      "toolbar": false,
+      "active": "start",
+      "headingOpacity": "1",
+      "controls": {
+        "x": 57.359375,
+        "y": 704,
+        "width": 1251.28125,
+        "height": 44,
+        "top": 704,
+        "right": 1308.640625,
+        "bottom": 748,
+        "left": 57.359375
+      }
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "name": "middle",
+      "stage": 768,
+      "overflow": false,
+      "loaded": true,
+      "toolbar": false,
+      "active": "ascent",
+      "headingOpacity": "1",
+      "controls": {
+        "x": 57.359375,
+        "y": 704,
+        "width": 1251.28125,
+        "height": 44,
+        "top": 704,
+        "right": 1308.640625,
+        "bottom": 748,
+        "left": 57.359375
+      }
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "name": "end",
+      "stage": 768,
+      "overflow": false,
+      "loaded": true,
+      "toolbar": false,
+      "active": "conversation",
+      "headingOpacity": "1",
+      "controls": {
+        "x": 57.359375,
+        "y": 704,
+        "width": 1251.28125,
+        "height": 44,
+        "top": 704,
+        "right": 1308.640625,
+        "bottom": 748,
+        "left": 57.359375
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "name": "start",
+      "stage": 1080,
+      "overflow": false,
+      "loaded": true,
+      "toolbar": false,
+      "active": "start",
+      "headingOpacity": "1",
+      "controls": {
+        "x": 80,
+        "y": 1016,
+        "width": 1760,
+        "height": 44,
+        "top": 1016,
+        "right": 1840,
+        "bottom": 1060,
+        "left": 80
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "name": "middle",
+      "stage": 1080,
+      "overflow": false,
+      "loaded": true,
+      "toolbar": false,
+      "active": "ascent",
+      "headingOpacity": "1",
+      "controls": {
+        "x": 80,
+        "y": 1016,
+        "width": 1760,
+        "height": 44,
+        "top": 1016,
+        "right": 1840,
+        "bottom": 1060,
+        "left": 80
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "name": "end",
+      "stage": 1080,
+      "overflow": false,
+      "loaded": true,
+      "toolbar": false,
+      "active": "conversation",
+      "headingOpacity": "1",
+      "controls": {
+        "x": 80,
+        "y": 1016,
+        "width": 1760,
+        "height": 44,
+        "top": 1016,
+        "right": 1840,
+        "bottom": 1060,
+        "left": 80
+      }
+    }
+  ],
+  "resize": [
+    {
+      "height": 744,
+      "stage": 744,
+      "overflow": false,
+      "loaded": true,
+      "toolbar": false,
+      "active": "start",
+      "headingOpacity": "1",
+      "controls": {
+        "x": 22,
+        "y": 685,
+        "width": 346,
+        "height": 44,
+        "top": 685,
+        "right": 368,
+        "bottom": 729,
+        "left": 22
+      }
+    },
+    {
+      "height": 844,
+      "stage": 844,
+      "overflow": false,
+      "loaded": true,
+      "toolbar": false,
+      "active": "start",
+      "headingOpacity": "1",
+      "controls": {
+        "x": 22,
+        "y": 785,
+        "width": 346,
+        "height": 44,
+        "top": 785,
+        "right": 368,
+        "bottom": 829,
+        "left": 22
+      }
+    },
+    {
+      "height": 744,
+      "stage": 744,
+      "overflow": false,
+      "loaded": true,
+      "toolbar": false,
+      "active": "start",
+      "headingOpacity": "1",
+      "controls": {
+        "x": 22,
+        "y": 685,
+        "width": 346,
+        "height": 44,
+        "top": 685,
+        "right": 368,
+        "bottom": 729,
+        "left": 22
+      }
+    },
+    {
+      "height": 844,
+      "stage": 844,
+      "overflow": false,
+      "loaded": true,
+      "toolbar": false,
+      "active": "start",
+      "headingOpacity": "1",
+      "controls": {
+        "x": 22,
+        "y": 785,
+        "width": 346,
+        "height": 44,
+        "top": 785,
+        "right": 368,
+        "bottom": 829,
+        "left": 22
+      }
+    }
+  ],
+  "fallbacks": [
+    {
+      "mode": "no-js",
+      "live": false,
+      "chapters": [
+        {
+          "id": "start",
+          "visible": "visible",
+          "inert": false
+        },
+        {
+          "id": "curiosity",
+          "visible": "visible",
+          "inert": false
+        },
+        {
+          "id": "creation",
+          "visible": "visible",
+          "inert": false
+        },
+        {
+          "id": "ascent",
+          "visible": "visible",
+          "inert": false
+        },
+        {
+          "id": "momentum",
+          "visible": "visible",
+          "inert": false
+        },
+        {
+          "id": "conversation",
+          "visible": "visible",
+          "inert": false
+        }
+      ],
+      "overflow": false,
+      "loaded": true
+    },
+    {
+      "mode": "reduced",
+      "live": false,
+      "chapters": [
+        {
+          "id": "start",
+          "visible": "visible",
+          "inert": false
+        },
+        {
+          "id": "curiosity",
+          "visible": "visible",
+          "inert": false
+        },
+        {
+          "id": "creation",
+          "visible": "visible",
+          "inert": false
+        },
+        {
+          "id": "ascent",
+          "visible": "visible",
+          "inert": false
+        },
+        {
+          "id": "momentum",
+          "visible": "visible",
+          "inert": false
+        },
+        {
+          "id": "conversation",
+          "visible": "visible",
+          "inert": false
+        }
+      ],
+      "overflow": false,
+      "loaded": true
+    }
+  ],
+  "errors": [],
+  "keyboard": {
+    "height": 844,
+    "stage": 844,
+    "overflow": false,
+    "loaded": true,
+    "toolbar": false,
+    "active": "curiosity",
+    "headingOpacity": "1",
+    "controls": {
+      "x": 22,
+      "y": 785,
+      "width": 346,
+      "height": 44,
+      "top": 785,
+      "right": 368,
+      "bottom": 829,
+      "left": 22
+    }
+  },
+  "dev": {
+    "url": "http://localhost:4321/",
+    "toolbar": 0,
+    "title": "Евгений Григорьев — бизнес-архитектор, инвестор, эксперт по AI"
+  }
+}
