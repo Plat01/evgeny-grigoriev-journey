@@ -1,5 +1,5 @@
 :root {
-  --ground: #deebef;
+  --ground: #d7e4ea;
   --ink: #233d40;
   --accent: #215e62;
   --font-display: 'Manrope Variable', sans-serif;
@@ -44,13 +44,13 @@ h1:focus, h2:focus { outline: none; }
 .text-link:hover { color: var(--accent); text-decoration-thickness: .14em; }
 .text-link--primary { padding: 16px 24px; background: var(--ink); color: #fff; text-decoration: none; }
 .text-link--primary:hover { background: var(--accent); color: #fff; }
-.chapter-art { position: absolute; width: 64%; right: -8%; bottom: 7%; z-index: 1; pointer-events: none; }
+.chapter-art { position: absolute; width: 58%; right: 0; bottom: 7%; z-index: 1; pointer-events: none; }
 .chapter-art img { display: block; width: 100%; height: auto; }
-.chapter--curiosity .chapter-art { width: 64%; right: -8%; }
-.chapter--creation .chapter-art { width: 64%; right: -8%; }
-.chapter--ascent .chapter-art { width: 71%; right: -4%; }
-.chapter--momentum .chapter-art { width: 73%; right: -6%; }
-.chapter--conversation .chapter-art { width: 64%; right: -8%; }
+.chapter--curiosity .chapter-art { width: 58%; right: 0; }
+.chapter--creation .chapter-art { width: 58%; right: 0; }
+.chapter--ascent .chapter-art { width: 58%; right: 0; }
+.chapter--momentum .chapter-art { width: 58%; right: 0; }
+.chapter--conversation .chapter-art { width: 58%; right: 0; }
 .chapter-footer { position: absolute; bottom: 32px; left: var(--gutter); right: var(--gutter); display: flex; gap: 28px; font-size: 14px; z-index: 3; }
 .chapter-footer a { min-height: 44px; display: flex; align-items: center; }
 .journey-controls { position: absolute; z-index: 10; bottom: 20px; left: var(--gutter); right: var(--gutter); display: flex; align-items: center; justify-content: space-between; min-height: 44px; }
@@ -78,14 +78,14 @@ html.journey-active .site-header { position: fixed; }
   h1 { font-size: 7.5vw; }
   h2 { font-size: 5.8vw; }
   .chapter-text { font-size: 17px; }
-  .chapter-art { width: 76%; right: -10%; }
+  .chapter-art { width: 58%; right: 0; }
 }
 @media (min-width: 761px) and (max-width: 1000px) and (max-aspect-ratio: 1/1) {
   .chapter { align-items: flex-start; padding-top: 130px; }
   .chapter-copy { width: 85%; }
   .chapter-text { max-width: 42ch; }
   .chapter-note { max-width: 42ch; }
-  .chapter .chapter-art { width: 80%; right: -8%; bottom: 7%; }
+  .chapter .chapter-art { width: 100%; right: 0; bottom: 7%; }
   .chapter--conversation .chapter-art { bottom: 12%; }
 }
 @media (max-width: 760px) {
@@ -104,12 +104,12 @@ html.journey-active .site-header { position: fixed; }
   .chapter-note { font-size: 15px; line-height: 1.5; margin-top: 14px; max-width: 35ch; }
   .text-link { margin-top: 12px; font-size: 15px; }
   .text-link--primary { padding: 14px 20px; }
-  .chapter .chapter-art { width: 118%; right: -9%; bottom: 52px; }
-  .chapter--curiosity .chapter-art { width: 112%; right: -6%; }
-  .chapter--creation .chapter-art { width: 111%; right: -6%; }
-  .chapter--ascent .chapter-art { width: 115%; right: -7%; }
-  .chapter--momentum .chapter-art { width: 118%; right: -9%; }
-  .chapter--conversation .chapter-art { width: 108%; right: -4%; bottom: 96px; }
+  .chapter .chapter-art { width: 100%; right: 0; bottom: 52px; }
+  .chapter--curiosity .chapter-art { width: 100%; right: 0; }
+  .chapter--creation .chapter-art { width: 100%; right: 0; }
+  .chapter--ascent .chapter-art { width: 100%; right: 0; }
+  .chapter--momentum .chapter-art { width: 100%; right: 0; }
+  .chapter--conversation .chapter-art { width: 100%; right: 0; bottom: 96px; }
   .journey.is-live .chapter { padding-top: 104px; }
   .journey.is-live .chapter-footer { bottom: 72px; }
   .chapter-footer { bottom: 18px; gap: 18px; font-size: 12px; }
@@ -127,7 +127,7 @@ html.journey-active .site-header { position: fixed; }
   .journey.is-live h2 { font-size: 36px; }
   .journey.is-live .chapter-text { margin-top: 16px; font-size: 15px; }
   .journey.is-live .chapter-note { font-size: 14px; margin-top: 10px; }
-  .journey.is-live .chapter-art { width: 93%; right: -2%; bottom: 55px; }
+  .journey.is-live .chapter-art { width: 93%; right: 0; bottom: 55px; }
   .journey.is-live .chapter--conversation .chapter-art { width: 83%; bottom: 90px; }
 }
 @media (prefers-reduced-motion: no-preference) {
