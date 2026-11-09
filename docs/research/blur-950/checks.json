@@ -1,0 +1,308 @@
+{
+  "results": [
+    {
+      "name": "950x1000-normal-0",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(215, 228, 234) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "950x1000-normal-1",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(213, 223, 231) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "950x1000-normal-2",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(219, 229, 229) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "950x1000-normal-3",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(212, 223, 233) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "950x1000-normal-4",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(220, 231, 236) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "950x1000-normal-5",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(210, 221, 229) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "keyboardFocus": "A"
+    },
+    {
+      "name": "950x650-normal-0",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(215, 228, 234) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "950x650-normal-3",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(212, 223, 233) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "950x650-normal-5",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(210, 221, 229) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "768x1024-normal-0",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(215, 228, 234) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "768x1024-normal-3",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(212, 223, 233) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "768x1024-normal-5",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(210, 221, 229) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "951x1000-normal-0",
+      "overflow": false,
+      "blur": "none",
+      "fade": "none",
+      "controlsBackground": "rgb(215, 228, 234)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "951x1000-normal-3",
+      "overflow": false,
+      "blur": "none",
+      "fade": "none",
+      "controlsBackground": "rgb(215, 228, 234)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "951x1000-normal-5",
+      "overflow": false,
+      "blur": "none",
+      "fade": "none",
+      "controlsBackground": "rgb(215, 228, 234)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "390x844-normal-0",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(215, 228, 234) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "390x844-normal-3",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(212, 223, 233) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "390x844-normal-5",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(210, 221, 229) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "1366x768-normal-0",
+      "overflow": false,
+      "blur": "none",
+      "fade": "none",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "1366x768-normal-3",
+      "overflow": false,
+      "blur": "none",
+      "fade": "none",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "1366x768-normal-5",
+      "overflow": false,
+      "blur": "none",
+      "fade": "none",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "1920x1080-normal-0",
+      "overflow": false,
+      "blur": "none",
+      "fade": "none",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "1920x1080-normal-3",
+      "overflow": false,
+      "blur": "none",
+      "fade": "none",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "1920x1080-normal-5",
+      "overflow": false,
+      "blur": "none",
+      "fade": "none",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "950x1000-reduced-0",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(215, 228, 234) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "950x1000-reduced-3",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(212, 223, 233) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "950x1000-reduced-5",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(210, 221, 229) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "950x1000-no-js-0",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(215, 228, 234) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "950x1000-no-js-3",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(212, 223, 233) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    },
+    {
+      "name": "950x1000-no-js-5",
+      "overflow": false,
+      "blur": "blur(14px)",
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(210, 221, 229) 88%)",
+      "controlsBackground": "rgba(0, 0, 0, 0)",
+      "copyFilter": "none",
+      "imagesLoaded": true,
+      "active": true
+    }
+  ],
+  "issues": []
+}

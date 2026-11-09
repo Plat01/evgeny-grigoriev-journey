@@ -98,6 +98,32 @@ html.journey-active .site-header { position: fixed; }
   .journey-controls { bottom: 0; left: 0; right: 0; min-height: 64px; padding-inline: var(--gutter); background: var(--ground); }
   .journey.is-live .chapter-footer { bottom: 64px; left: 0; right: 0; padding-inline: var(--gutter); background: var(--ground); }
 }
+@media (max-width: 950px) {
+  /* Soften the illustration before the lower edge, beneath the sharp copy and controls. */
+  .chapter::after {
+    content: '';
+    position: absolute;
+    inset: auto 0 0;
+    height: clamp(150px, 24svh, 210px);
+    z-index: 1;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, var(--chapter-ground) 88%);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 75%);
+    mask-image: linear-gradient(to bottom, transparent, #000 75%);
+  }
+  /* Keep dense copy readable where the upper branches enter the text area. */
+  .chapter-copy::before {
+    content: '';
+    position: absolute;
+    inset: -8px calc(-1 * var(--gutter)) -32px;
+    z-index: -1;
+    pointer-events: none;
+    background: linear-gradient(to bottom, var(--chapter-ground) calc(100% - 32px), transparent);
+  }
+  .journey-controls, .journey.is-live .chapter-footer { background: transparent; }
+}
 @media (max-width: 760px) {
   :root { --gutter: 22px; }
   .site-header { padding-block: 14px; }
@@ -113,30 +139,7 @@ html.journey-active .site-header { position: fixed; }
   .organization-logo--school { width: 74px; }
   .channel-subscribe { grid-column: 2; grid-row: 1; justify-self: end; align-self: center; padding: 12px 14px; font-size: 12px; }
   .chapter { min-height: max(760px, 100svh); padding: 128px var(--gutter) calc(54svh + 72px); align-items: flex-start; }
-  /* Soften the illustration before the lower edge, beneath the sharp copy and controls. */
-  .chapter::after {
-    content: '';
-    position: absolute;
-    inset: auto 0 0;
-    height: clamp(150px, 24svh, 210px);
-    z-index: 1;
-    pointer-events: none;
-    background: linear-gradient(to bottom, transparent, var(--chapter-ground) 88%);
-    -webkit-backdrop-filter: blur(14px);
-    backdrop-filter: blur(14px);
-    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 75%);
-    mask-image: linear-gradient(to bottom, transparent, #000 75%);
-  }
   .chapter-copy { width: 100%; }
-  /* Keep dense copy readable where the upper branches enter the text area. */
-  .chapter-copy::before {
-    content: '';
-    position: absolute;
-    inset: -8px calc(-1 * var(--gutter)) -32px;
-    z-index: -1;
-    pointer-events: none;
-    background: linear-gradient(to bottom, var(--chapter-ground) calc(100% - 32px), transparent);
-  }
   h1 { font-size: clamp(40px, 10.5vw, 64px); }
   h2 { font-size: clamp(28px, 7.7vw, 42px); }
   .chapter--momentum h2 { font-size: clamp(26px, 7vw, 36px); }
