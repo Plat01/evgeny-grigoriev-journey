@@ -1,0 +1,471 @@
+{
+  "errors": [],
+  "requests": [],
+  "viewports": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "results": [
+        {
+          "id": "start",
+          "copy": {
+            "top": 104,
+            "bottom": 384.53125,
+            "height": 280.53125,
+            "width": 346
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 844
+          },
+          "inert": false,
+          "title": "Я Евгений Григорьев"
+        },
+        {
+          "id": "curiosity",
+          "copy": {
+            "top": 104,
+            "bottom": 494.59375,
+            "height": 390.59375,
+            "width": 346
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 844
+          },
+          "inert": false,
+          "title": "Вижу систему. Понимаю, что менять. Знаю, как двигаться дальше."
+        },
+        {
+          "id": "creation",
+          "copy": {
+            "top": 104,
+            "bottom": 505.875,
+            "height": 401.875,
+            "width": 346
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 844
+          },
+          "inert": false,
+          "title": "Идеям нужны живые проекты."
+        },
+        {
+          "id": "ascent",
+          "copy": {
+            "top": 104,
+            "bottom": 375.875,
+            "height": 271.875,
+            "width": 346
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 844
+          },
+          "inert": false,
+          "title": "Большое шаг за шагом."
+        },
+        {
+          "id": "momentum",
+          "copy": {
+            "top": 104,
+            "bottom": 497.65625,
+            "height": 393.65625,
+            "width": 346
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 844
+          },
+          "inert": false,
+          "title": "Любопытно не только находить закономерности в бизнесе, но и помогать расти новым идеям."
+        },
+        {
+          "id": "conversation",
+          "copy": {
+            "top": 104,
+            "bottom": 394.125,
+            "height": 290.125,
+            "width": 346
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 844
+          },
+          "inert": false,
+          "title": "Мне интересно, как устроен мир. И еще любопытнее, что нового в нем можно создать."
+        }
+      ],
+      "metrics": {
+        "overflow": false,
+        "images": true,
+        "headings": 1,
+        "links": [
+          {
+            "text": "написать в Telegram",
+            "href": "https://t.me/GrigorevEugene"
+          },
+          {
+            "text": "заполнить бриф",
+            "href": "https://t.me/GrigorevEugene"
+          },
+          {
+            "text": "Telegram-канал",
+            "href": "https://t.me/neurostrategy"
+          }
+        ],
+        "dotCount": 6
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "text": "К началу",
+        "focus": true
+      }
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "results": [
+        {
+          "id": "start",
+          "copy": {
+            "top": 181.453125,
+            "bottom": 596.546875,
+            "height": 415.09375,
+            "width": 538.046875
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 768
+          },
+          "inert": false,
+          "title": "Я Евгений Григорьев"
+        },
+        {
+          "id": "curiosity",
+          "copy": {
+            "top": 131.90625,
+            "bottom": 646.078125,
+            "height": 514.171875,
+            "width": 538.046875
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 768
+          },
+          "inert": false,
+          "title": "Вижу систему. Понимаю, что менять. Знаю, как двигаться дальше."
+        },
+        {
+          "id": "creation",
+          "copy": {
+            "top": 148.203125,
+            "bottom": 629.796875,
+            "height": 481.59375,
+            "width": 538.046875
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 768
+          },
+          "inert": false,
+          "title": "Идеям нужны живые проекты."
+        },
+        {
+          "id": "ascent",
+          "copy": {
+            "top": 198.921875,
+            "bottom": 579.078125,
+            "height": 380.15625,
+            "width": 538.046875
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 768
+          },
+          "inert": false,
+          "title": "Большое шаг за шагом."
+        },
+        {
+          "id": "momentum",
+          "copy": {
+            "top": 131.078125,
+            "bottom": 646.90625,
+            "height": 515.828125,
+            "width": 538.046875
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 768
+          },
+          "inert": false,
+          "title": "Любопытно не только находить закономерности в бизнесе, но и помогать расти новым идеям."
+        },
+        {
+          "id": "conversation",
+          "copy": {
+            "top": 184.875,
+            "bottom": 593.125,
+            "height": 408.25,
+            "width": 538.046875
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 768
+          },
+          "inert": false,
+          "title": "Мне интересно, как устроен мир. И еще любопытнее, что нового в нем можно создать."
+        }
+      ],
+      "metrics": {
+        "overflow": false,
+        "images": true,
+        "headings": 1,
+        "links": [
+          {
+            "text": "написать в Telegram",
+            "href": "https://t.me/GrigorevEugene"
+          },
+          {
+            "text": "заполнить бриф",
+            "href": "https://t.me/GrigorevEugene"
+          },
+          {
+            "text": "Telegram-канал",
+            "href": "https://t.me/neurostrategy"
+          }
+        ],
+        "dotCount": 6
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "text": "К началу",
+        "focus": true
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "results": [
+        {
+          "id": "start",
+          "copy": {
+            "top": 318.8125,
+            "bottom": 771.1875,
+            "height": 452.375,
+            "width": 756.796875
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 1080
+          },
+          "inert": false,
+          "title": "Я Евгений Григорьев"
+        },
+        {
+          "id": "curiosity",
+          "copy": {
+            "top": 245,
+            "bottom": 845,
+            "height": 600,
+            "width": 756.796875
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 1080
+          },
+          "inert": false,
+          "title": "Вижу систему. Понимаю, что менять. Знаю, как двигаться дальше."
+        },
+        {
+          "id": "creation",
+          "copy": {
+            "top": 235.3125,
+            "bottom": 854.6875,
+            "height": 619.375,
+            "width": 756.796875
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 1080
+          },
+          "inert": false,
+          "title": "Идеям нужны живые проекты."
+        },
+        {
+          "id": "ascent",
+          "copy": {
+            "top": 329.8125,
+            "bottom": 760.1875,
+            "height": 430.375,
+            "width": 756.796875
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 1080
+          },
+          "inert": false,
+          "title": "Большое шаг за шагом."
+        },
+        {
+          "id": "momentum",
+          "copy": {
+            "top": 255,
+            "bottom": 835,
+            "height": 580,
+            "width": 756.796875
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 1080
+          },
+          "inert": false,
+          "title": "Любопытно не только находить закономерности в бизнесе, но и помогать расти новым идеям."
+        },
+        {
+          "id": "conversation",
+          "copy": {
+            "top": 304.5,
+            "bottom": 785.5,
+            "height": 481,
+            "width": 756.796875
+          },
+          "chapter": {
+            "top": 0,
+            "bottom": 1080
+          },
+          "inert": false,
+          "title": "Мне интересно, как устроен мир. И еще любопытнее, что нового в нем можно создать."
+        }
+      ],
+      "metrics": {
+        "overflow": false,
+        "images": true,
+        "headings": 1,
+        "links": [
+          {
+            "text": "написать в Telegram",
+            "href": "https://t.me/GrigorevEugene"
+          },
+          {
+            "text": "заполнить бриф",
+            "href": "https://t.me/GrigorevEugene"
+          },
+          {
+            "text": "Telegram-канал",
+            "href": "https://t.me/neurostrategy"
+          }
+        ],
+        "dotCount": 6
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "text": "К началу",
+        "focus": true
+      }
+    }
+  ],
+  "reduced": {
+    "scenes": [
+      {
+        "id": "start",
+        "visible": "visible",
+        "inert": false,
+        "height": 844,
+        "copyBottom": 380.53125
+      },
+      {
+        "id": "curiosity",
+        "visible": "visible",
+        "inert": false,
+        "height": 901,
+        "copyBottom": 490.59375
+      },
+      {
+        "id": "creation",
+        "visible": "visible",
+        "inert": false,
+        "height": 912,
+        "copyBottom": 501.875
+      },
+      {
+        "id": "ascent",
+        "visible": "visible",
+        "inert": false,
+        "height": 844,
+        "copyBottom": 371.875
+      },
+      {
+        "id": "momentum",
+        "visible": "visible",
+        "inert": false,
+        "height": 904,
+        "copyBottom": 493.65625
+      },
+      {
+        "id": "conversation",
+        "visible": "visible",
+        "inert": false,
+        "height": 844,
+        "copyBottom": 390.125
+      }
+    ],
+    "live": "journey scene is-rest",
+    "overflow": false
+  },
+  "nojs": {
+    "scenes": [
+      {
+        "id": "start",
+        "visible": "visible",
+        "inert": false,
+        "height": 844,
+        "copyBottom": 380.53125
+      },
+      {
+        "id": "curiosity",
+        "visible": "visible",
+        "inert": false,
+        "height": 901,
+        "copyBottom": 490.59375
+      },
+      {
+        "id": "creation",
+        "visible": "visible",
+        "inert": false,
+        "height": 912,
+        "copyBottom": 501.875
+      },
+      {
+        "id": "ascent",
+        "visible": "visible",
+        "inert": false,
+        "height": 844,
+        "copyBottom": 371.875
+      },
+      {
+        "id": "momentum",
+        "visible": "visible",
+        "inert": false,
+        "height": 904,
+        "copyBottom": 493.65625
+      },
+      {
+        "id": "conversation",
+        "visible": "visible",
+        "inert": false,
+        "height": 844,
+        "copyBottom": 390.125
+      }
+    ],
+    "live": "journey scene is-rest",
+    "overflow": false
+  }
+}

@@ -7,20 +7,73 @@ import learn from '../assets/Sokolov-2_Nano Banana 2.1_2026-11-06_19-33-37.png';
 import build from '../assets/Sokolov-2_Nano Banana 2.1_2026-11-06_19-41-19.png';
 import ascent from '../assets/Sokolov-2_Nano Banana 2.1_2026-11-06_19-53-19.png';
 import cycling from '../assets/Sokolov-2_Nano Banana 2.1_2026-11-06_19-57-23.png';
-import running from '../assets/Sokolov-2_Nano Banana 2.1_2026-11-06_20-05-01.png';
 import meeting from '../assets/Sokolov-2_Nano Banana 2.1_2026-11-06_20-19-01.png';
 
 const chapters = [
-  { id: 'start', name: 'Начало', image: departure, alt: 'Евгений шагает по извилистой каменной тропе', title: ['Я Евгений', 'Григорьев'], text: 'Технологический предприниматель, инвестор и методолог.', note: 'Бизнес начинается с человека. А путь — с любопытства.', link: 'Пройти мой путь', href: '#curiosity', ground: '#d7e4ea' },
-  { id: 'curiosity', name: 'Любопытство', image: learn, alt: 'Персонаж сидит на каменной ступени и изучает чертёж', title: ['Разобраться.', 'И пойти глубже.'], text: 'МАИ с отличием. Затем аспирантура. Позже — собственные курсы в МАИ, МГУ и РАНХиГС.', note: 'У каждого нового дела есть момент, когда вопросов больше, чем ответов.', ground: '#d5dfe7' },
-  { id: 'creation', name: 'Созидание', image: build, alt: 'Евгений собирает модель моста на каменном рабочем столе', title: ['Идеям нужны', 'живые проекты.'], text: 'Основатель и управляющий партнёр стратегического ИТ-агентства DT-Team. Технологии, которые становятся частью бизнеса.', note: 'От первого замысла — к тому, что можно построить вместе.', link: 'Открыть DT-Team', href: 'https://dt-team.ru/', ground: '#dbe5e5' },
-  { id: 'ascent', name: 'Подъём', image: ascent, alt: 'Персонаж с рюкзаком и треккинговой палкой поднимается по крутому горному склону', title: ['Большое —', 'шаг за шагом.'], text: 'Пять программ проектов для Росстата на сумму более 2 млрд рублей. Концепция и архитектура Цифровой аналитической платформы государственной статистики.', note: 'Масштаб складывается из конкретных решений.', ground: '#d4dfe9' },
-  { id: 'momentum', name: 'Движение', image: cycling, alt: 'Персонаж едет на бирюзовом велосипеде по холмистой дороге', title: ['Видеть дальше.', 'Делать вместе.'], text: 'Инвестирую в технологические команды. Среди проектов — Base Track, YallaMarket, XDAO и AL-Technologies.', note: 'Новый поворот открывает другой горизонт.', ground: '#dce7ec' },
-  { id: 'life', name: 'Жизнь', image: running, alt: 'Евгений бежит по каменистой тропе рядом с оливковым деревом', title: ['Жизнь шире', 'работы.'], text: 'Бег, походы, саморазвитие. Помогаю разобраться с миссией и личной стратегией.', note: 'Иногда, чтобы найти направление, нужно просто выйти на тропу.', ground: '#d4dfe5' },
-  { id: 'conversation', name: 'Знакомство', image: meeting, alt: 'Персонаж с чашкой кофе на каменной скамье под оливковым деревом; рядом свободное место', title: ['Давайте', 'познакомимся.'], text: 'Расскажите, над чем вы сейчас работаете и куда хотите прийти.', note: 'Обсудим за разговором.', link: 'Познакомиться в Telegram', href: 'https://t.me/GrigorievEvgene', ground: '#d2dde5' },
+  {
+    id: 'start', name: 'Начало', image: departure, alt: 'Евгений шагает по извилистой каменной тропе',
+    title: 'Я Евгений Григорьев',
+    paragraphs: [
+      'Бизнес-архитектор, инвестор, эксперт по AI и цифровой трансформации',
+      'Любопытство помогает мне находить закономерности, разбираться в сложных системах и видеть возможности для их развития.',
+    ],
+    ground: '#d7e4ea',
+  },
+  {
+    id: 'curiosity', name: 'Любопытство', image: learn, alt: 'Персонаж сидит на каменной ступени и изучает чертёж',
+    title: 'Вижу систему.',
+    titleContinuation: ['Понимаю, что менять.', 'Знаю, как двигаться дальше.'],
+    paragraphs: [
+      'Я выстраиваю архитектуру компаний и определяю, как AI-технологии помогут повысить производительность, сократить затраты и создать новые возможности для компаний с оборотом от 1 млрд ₽.',
+      'На основе своего опыта разработал <strong>подход к управлению состоянием компании</strong>. Он позволяет в моменте анализировать состояние организации и принять решение, какие изменения ему необходимы для развития.',
+    ],
+    ground: '#d5dfe7',
+  },
+  {
+    id: 'creation', name: 'Созидание', image: build, alt: 'Евгений собирает модель моста на каменном рабочем столе',
+    title: 'Идеям нужны живые проекты.',
+    paragraphs: [
+      '30+ кейсов трансформации бизнеса, среди которых: Тетра, Россети, Паритет, Solution Pro.',
+      'Пять проектов для Росстата с общим бюджетом более 2 млрд ₽. Разработка концепции и архитектуры Цифровой аналитической платформы государственной статистики.',
+      'Модератор и эксперт бизнес-школы Сколково.',
+      'Собственные курсы в МАИ, МГУ и РАНХиГС.',
+    ],
+    ground: '#dbe5e5',
+  },
+  {
+    id: 'ascent', name: 'Подъём', image: ascent, alt: 'Персонаж с рюкзаком и треккинговой палкой поднимается по крутому горному склону',
+    title: 'Большое шаг за шагом.',
+    paragraphs: [
+      'Основал DT-Team и вместе с командой работаю над задачами цифрового развития и трансформации компаний.',
+      'Партнер Lithium.',
+    ],
+    link: 'Открыть DT-Team', href: 'https://dt-team.ru/', ground: '#d4dfe9',
+  },
+  {
+    id: 'momentum', name: 'Движение', image: cycling, alt: 'Персонаж едет на бирюзовом велосипеде по холмистой дороге',
+    title: 'Любопытно не только находить закономерности в бизнесе,',
+    titleContinuation: ['но и помогать расти новым идеям.'],
+    paragraphs: [
+      'Партнер FriendlyFC',
+      'Я инвестирую в технологические проекты и предпринимательские команды, слежу за тем, как меняются рынки, появляются новые бизнес-модели и технологии.',
+      'Среди проектов, в которые я инвестировал: GPUAudio, Base-Track, XDAO и AL-Technologies',
+    ],
+    ground: '#dce7ec',
+  },
+  {
+    id: 'conversation', name: 'Знакомство', image: meeting, alt: 'Персонаж с чашкой кофе на каменной скамье под оливковым деревом; рядом свободное место',
+    title: 'Мне интересно, как устроен мир.',
+    titleContinuation: ['И еще любопытнее, что нового в нем можно создать.'],
+    paragraphs: [
+      'Обсудить трансформацию вашей компании: <a href="https://t.me/GrigorevEugene" target="_blank" rel="noopener noreferrer">написать в Telegram</a>.',
+      'Пригласить в качестве спикера на мероприятие: <a href="https://t.me/GrigorevEugene" target="_blank" rel="noopener noreferrer">заполнить бриф</a>.',
+    ],
+    link: 'Подписаться на Telegram-канал', href: 'https://t.me/neurostrategy',
+    ground: '#d2dde5',
+  },
 ];
 ---
-<BaseLayout title="Евгений Григорьев — человек в движении" description="Технологический предприниматель, инвестор и методолог. История пути Евгения Григорьева: от любопытства к проектам, людям и новым горизонтам.">
+<BaseLayout title="Евгений Григорьев — бизнес-архитектор, инвестор, эксперт по AI" description="Бизнес-архитектор, инвестор, эксперт по AI и цифровой трансформации. Опыт Евгения Григорьева, проекты и подход к управлению состоянием компании.">
   <header class="site-header">
     <a class="wordmark" href="#start" aria-label="Евгений Григорьев — к началу">
       <img src={egLogo.src} width="64" height="54" alt="EG" />
@@ -34,16 +87,25 @@ const chapters = [
             <ChapterSignature />
             <div class="chapter-copy">
               {index === 0
-                ? <h1 id={`${chapter.id}-title`}>{chapter.title[0]}<br />{chapter.title[1]}</h1>
-                : <h2 id={`${chapter.id}-title`}>{chapter.title[0]}<br />{chapter.title[1]}</h2>}
-              <p class="chapter-text">{chapter.text}</p>
-              <p class="chapter-note">{chapter.note}</p>
-              {chapter.link && <a class={`text-link ${index === 6 ? 'text-link--primary' : ''}`} href={chapter.href} {...(chapter.href?.startsWith('https:') ? {target: '_blank', rel: 'noopener noreferrer'} : {})}>{chapter.link}</a>}
+                ? <h1 id={`${chapter.id}-title`}>{chapter.title}</h1>
+                : <h2 id={`${chapter.id}-title`}>
+                    {chapter.title}
+                    {chapter.titleContinuation && <span class="chapter-title-continuation">{' '}{chapter.titleContinuation.map((line, lineIndex) => <>{lineIndex > 0 && <br />}{line}</>)}</span>}
+                  </h2>}
+              {chapter.paragraphs.map((paragraph, paragraphIndex) => (
+                <p class={index === 0 && paragraphIndex > 0 ? 'chapter-note' : 'chapter-text'} set:html={paragraph} />
+              ))}
+              {chapter.link && <a class:list={['text-link', { 'text-link--primary': chapter.id === 'conversation' }]} href={chapter.href} {...(chapter.href?.startsWith('https:') ? {target: '_blank', rel: 'noopener noreferrer'} : {})}>{chapter.link}</a>}
             </div>
             <figure class="chapter-art">
               <img src={chapter.image.src} width={chapter.image.width} height={chapter.image.height} alt={chapter.alt} loading="eager" fetchpriority={index === 0 ? 'high' : 'auto'} decoding="async" />
             </figure>
-            {index === 6 && <footer class="chapter-footer"><p>© 2021–2026. Все права защищены.</p><a href={`${import.meta.env.BASE_URL}policy/`}>Конфиденциальность</a></footer>}
+            {index === chapters.length - 1 && (
+              <footer class="chapter-footer">
+                <p>© 2021–2026. Все права защищены.</p>
+                <a href={`${import.meta.env.BASE_URL}policy/`}>Конфиденциальность</a>
+              </footer>
+            )}
           </section>
         ))}
         <div class="journey-controls" hidden>

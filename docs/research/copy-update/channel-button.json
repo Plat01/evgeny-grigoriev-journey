@@ -1,0 +1,87 @@
+[
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "errors": [],
+    "button": {
+      "text": "Подписаться на Telegram-канал",
+      "href": "https://t.me/neurostrategy",
+      "background": "rgb(35, 61, 64)",
+      "color": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 22,
+        "y": 370.125,
+        "width": 280,
+        "height": 50,
+        "top": 370.125,
+        "right": 302,
+        "bottom": 420.125,
+        "left": 22
+      },
+      "focus": true
+    },
+    "overflow": false
+  },
+  {
+    "viewport": {
+      "width": 1366,
+      "height": 768
+    },
+    "errors": [],
+    "button": {
+      "text": "Подписаться на Telegram-канал",
+      "href": "https://t.me/neurostrategy",
+      "background": "rgb(35, 61, 64)",
+      "color": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 57.359375,
+        "y": 555.78125,
+        "width": 302,
+        "height": 54,
+        "top": 555.78125,
+        "right": 359.359375,
+        "bottom": 609.78125,
+        "left": 57.359375
+      },
+      "focus": true
+    },
+    "overflow": false
+  },
+  {
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "errors": [],
+    "button": {
+      "text": "Подписаться на Telegram-канал",
+      "href": "https://t.me/neurostrategy",
+      "background": "rgb(35, 61, 64)",
+      "color": "rgb(255, 255, 255)",
+      "rect": {
+        "x": 80,
+        "y": 746,
+        "width": 302,
+        "height": 54,
+        "top": 746,
+        "right": 382,
+        "bottom": 800,
+        "left": 80
+      },
+      "focus": true
+    },
+    "overflow": false
+  },
+  {
+    "mode": "reduce",
+    "visible": true,
+    "href": "https://t.me/neurostrategy"
+  },
+  {
+    "mode": "nojs",
+    "visible": true,
+    "href": "https://t.me/neurostrategy"
+  }
+]

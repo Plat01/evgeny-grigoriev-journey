@@ -1,0 +1,38 @@
+[
+  {
+    "width": 320,
+    "height": 568,
+    "id": "curiosity",
+    "copyBottom": 499.671875,
+    "controlsTop": 504,
+    "overflow": false,
+    "images": true
+  },
+  {
+    "width": 320,
+    "height": 568,
+    "id": "conversation",
+    "copyBottom": 417.125,
+    "controlsTop": 504,
+    "overflow": false,
+    "images": true
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "id": "curiosity",
+    "copyBottom": 502.59375,
+    "controlsTop": 960,
+    "overflow": false,
+    "images": true
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "id": "conversation",
+    "copyBottom": 410.484375,
+    "controlsTop": 960,
+    "overflow": false,
+    "images": true
+  }
+]

@@ -43,24 +43,24 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .design-credit { align-self: flex-start; flex-shrink: 0; margin-top: 5px; font-size: 13px; line-height: 1.5; white-space: nowrap; }
 .design-credit a { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); font-weight: 750; }
 .design-credit a:hover { color: var(--ink); text-decoration-thickness: .14em; }
-.chapter-copy { position: relative; width: 43%; z-index: 2; }
+.chapter-copy { position: relative; width: 40%; z-index: 2; }
 h1, h2 { font-family: var(--font-display); font-weight: 450; line-height: 1.05; letter-spacing: -.04em; text-wrap: balance; }
-h1 { font-size: clamp(62px, 7.2vw, 112px); }
-h2 { font-size: clamp(48px, 5vw, 84px); }
+h1 { font-size: clamp(52px, 4.8vw, 88px); }
+h2 { font-size: clamp(36px, 3.6vw, 64px); }
+.chapter--start h1 { max-width: 10ch; }
+.chapter--momentum h2 { font-size: clamp(32px, 2.8vw, 48px); }
+.chapter-title-continuation { display: block; margin-top: .6em; font-size: .6em; line-height: 1.25; letter-spacing: -.02em; }
 h1:focus, h2:focus { outline: none; }
-.chapter-text { margin-top: 32px; font-size: clamp(18px, 1.4vw, 22px); line-height: 1.5; max-width: 36ch; text-wrap: pretty; }
-.chapter-note { margin-top: 20px; max-width: 34ch; font-size: 16px; line-height: 1.55; }
-.text-link { display: inline-flex; align-items: center; min-height: 50px; margin-top: 24px; font-size: 16px; font-weight: 600; }
+.chapter-text { margin-top: 24px; font-size: clamp(16px, 1.25vw, 20px); line-height: 1.45; max-width: 44ch; text-wrap: pretty; }
+.chapter-text + .chapter-text { margin-top: 12px; }
+.chapter-text strong { font-weight: 650; }
+.chapter-note { margin-top: 16px; max-width: 44ch; font-size: 16px; line-height: 1.45; }
+.text-link { display: inline-flex; align-items: center; min-height: 50px; margin-top: 20px; font-size: 16px; font-weight: 600; }
 .text-link:hover { color: var(--accent); text-decoration-thickness: .14em; }
 .text-link--primary { padding: 16px 24px; background: var(--ink); color: #fff; text-decoration: none; }
 .text-link--primary:hover { background: var(--accent); color: #fff; }
-.chapter-art { position: absolute; width: 58%; right: 0; bottom: 7%; z-index: 1; pointer-events: none; }
+.chapter-art { position: absolute; width: 87%; right: -29%; bottom: 5%; z-index: 1; pointer-events: none; }
 .chapter-art img { display: block; width: 100%; height: auto; }
-.chapter--curiosity .chapter-art { width: 58%; right: 0; }
-.chapter--creation .chapter-art { width: 58%; right: 0; }
-.chapter--ascent .chapter-art { width: 58%; right: 0; }
-.chapter--momentum .chapter-art { width: 58%; right: 0; }
-.chapter--conversation .chapter-art { width: 58%; right: 0; }
 .chapter-footer { position: absolute; bottom: 32px; left: var(--gutter); right: var(--gutter); display: flex; align-items: center; flex-wrap: wrap; gap: 0 28px; font-size: 14px; line-height: 1.5; z-index: 3; }
 .chapter-footer a { min-height: 44px; display: flex; align-items: center; }
 .journey-controls { position: absolute; z-index: 10; bottom: 20px; left: var(--gutter); right: var(--gutter); display: flex; align-items: center; justify-content: space-between; min-height: 44px; }
@@ -85,26 +85,22 @@ html.journey-active .site-header { position: fixed; }
   .design-credit span { font-size: 18px; letter-spacing: -.154px; }
   .design-credit a { align-items: flex-start; padding-top: 4px; font-size: 20px; }
 }
-@media (min-width: 1800px) {
-  .chapter-copy { width: 43%; }
-  .chapter-art { bottom: 5%; }
-}
 @media (max-width: 1000px) and (min-width: 761px) {
   .chapter-masthead { left: calc(var(--gutter) + 128px); gap: 24px; }
   .chapter-logos { gap: 20px; }
   .organization-logo { height: 26px; }
-  h1 { font-size: 7.5vw; }
-  h2 { font-size: 5.8vw; }
-  .chapter-text { font-size: 17px; }
-  .chapter-art { width: 58%; right: 0; }
+  .chapter-text { font-size: 16px; }
 }
 @media (min-width: 761px) and (max-width: 1000px) and (max-aspect-ratio: 1/1) {
-  .chapter { align-items: flex-start; padding-top: 130px; }
+  .chapter { align-items: flex-start; padding-top: 130px; padding-bottom: calc(54svh + 72px); }
   .chapter-copy { width: 85%; }
   .chapter-text { max-width: 42ch; }
   .chapter-note { max-width: 42ch; }
-  .chapter .chapter-art { width: 100%; right: 0; bottom: 7%; }
-  .chapter--conversation .chapter-art { bottom: 12%; }
+  .chapter .chapter-art { width: max(125%, 96svh); right: -25%; bottom: 52px; }
+  .journey.is-live .chapter { padding-bottom: 72px; }
+  .journey.is-live .chapter-art { top: 50%; bottom: auto; }
+  .journey-controls { bottom: 0; left: 0; right: 0; min-height: 64px; padding-inline: var(--gutter); background: var(--ground); }
+  .journey.is-live .chapter-footer { bottom: 64px; left: 0; right: 0; padding-inline: var(--gutter); background: var(--ground); }
 }
 @media (max-width: 760px) {
   :root { --gutter: 22px; }
@@ -120,24 +116,26 @@ html.journey-active .site-header { position: fixed; }
   .organization-logo--tetra { width: 82px; }
   .organization-logo--school { width: 74px; }
   .design-credit { grid-column: 2; grid-row: 1; justify-self: end; align-self: center; margin-top: 0; }
-  .chapter { min-height: max(760px, 100svh); padding: 140px var(--gutter) 410px; align-items: flex-start; }
+  .chapter { min-height: max(760px, 100svh); padding: 128px var(--gutter) calc(54svh + 72px); align-items: flex-start; }
   .chapter-copy { width: 100%; }
-  h1 { font-size: clamp(46px, 12.4vw, 72px); }
-  h2 { font-size: clamp(38px, 10vw, 60px); }
-  .chapter-text { font-size: 17px; line-height: 1.5; margin-top: 24px; max-width: 36ch; }
+  h1 { font-size: clamp(40px, 10.5vw, 64px); }
+  h2 { font-size: clamp(28px, 7.7vw, 42px); }
+  .chapter--momentum h2 { font-size: clamp(26px, 7vw, 36px); }
+  .chapter-title-continuation { font-size: .65em; line-height: 1.2; margin-top: .5em; }
+  .chapter-text { font-size: 16px; line-height: 1.4; margin-top: 20px; max-width: 44ch; }
+  .chapter-text + .chapter-text { margin-top: 12px; }
+  .chapter--curiosity .chapter-text, .chapter--creation .chapter-text, .chapter--momentum .chapter-text { font-size: 15px; line-height: 1.35; }
   .chapter-note { font-size: 15px; line-height: 1.5; margin-top: 14px; max-width: 35ch; }
   .text-link { margin-top: 12px; font-size: 15px; }
   .text-link--primary { padding: 14px 20px; }
-  .chapter .chapter-art { width: 100%; right: 0; bottom: 52px; }
-  .chapter--curiosity .chapter-art { width: 100%; right: 0; }
-  .chapter--creation .chapter-art { width: 100%; right: 0; }
-  .chapter--ascent .chapter-art { width: 100%; right: 0; }
-  .chapter--momentum .chapter-art { width: 100%; right: 0; }
-  .chapter--conversation .chapter-art { width: 100%; right: 0; bottom: 96px; }
-  .journey.is-live .chapter { padding-top: 140px; }
-  .journey.is-live .chapter-footer { bottom: 72px; }
+  .chapter .chapter-art { width: max(200%, 96svh); left: calc(50% - max(80%, 38.4svh)); right: auto; bottom: 52px; }
+  .chapter--start .chapter-art { left: calc(50% - max(60%, 28.8svh)); }
+  .chapter--conversation .chapter-art { bottom: 96px; }
+  .journey.is-live .chapter { padding-top: 116px; padding-bottom: 72px; }
+  .journey.is-live .chapter-art { top: 50%; bottom: auto; }
+  .journey.is-live .chapter-footer { bottom: 64px; left: 0; right: 0; padding-inline: var(--gutter); background: var(--ground); }
   .chapter-footer { bottom: 18px; flex-direction: column; align-items: flex-start; column-gap: 18px; font-size: 12px; }
-  .journey-controls { bottom: 15px; }
+  .journey-controls { bottom: 0; left: 0; right: 0; min-height: 64px; padding-inline: var(--gutter); background: var(--ground); }
   .chapter-status { width: auto; font-size: 12px; }
   .next-chapter { width: auto; padding-left: 12px; font-size: 12px; }
   .chapter-dots { gap: 0; }
@@ -147,13 +145,11 @@ html.journey-active .site-header { position: fixed; }
 }
 @media (max-height: 720px) and (max-width: 760px) {
   .chapter-masthead { row-gap: 6px; }
-  .journey.is-live .chapter { padding-top: 120px; }
-  .journey.is-live h1 { font-size: 44px; }
-  .journey.is-live h2 { font-size: 36px; }
-  .journey.is-live .chapter-text { margin-top: 16px; font-size: 15px; }
+  .journey.is-live .chapter { padding-top: 108px; }
+  .journey.is-live h1 { font-size: 40px; }
+  .journey.is-live .chapter-text { margin-top: 16px; }
+  .journey.is-live .chapter-text + .chapter-text { margin-top: 10px; }
   .journey.is-live .chapter-note { font-size: 14px; margin-top: 10px; }
-  .journey.is-live .chapter-art { width: 93%; right: 0; bottom: 55px; }
-  .journey.is-live .chapter--conversation .chapter-art { width: 83%; bottom: 90px; }
 }
 @media (prefers-reduced-motion: no-preference) {
   .text-link, .chapter-dots span { transition: color .2s, background-color .2s, transform .2s; }

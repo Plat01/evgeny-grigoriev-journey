@@ -1,0 +1,594 @@
+[
+  {
+    "mode": "live",
+    "width": 390,
+    "height": 844,
+    "id": "start",
+    "active": true,
+    "copy": {
+      "x": 22,
+      "y": 116,
+      "width": 346,
+      "height": 254.78125,
+      "bottom": 370.78125
+    },
+    "art": {
+      "x": -48.0625,
+      "y": 422,
+      "width": 810.234375,
+      "height": 452.21875
+    },
+    "visibleImageArea": 0.5,
+    "headingSize": "40.95px",
+    "continuationSize": null,
+    "textSize": "16px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 390,
+    "height": 844,
+    "id": "curiosity",
+    "active": true,
+    "copy": {
+      "x": 22,
+      "y": 116,
+      "width": 346,
+      "height": 322.59375,
+      "bottom": 438.59375
+    },
+    "art": {
+      "x": -129.09375,
+      "y": 422,
+      "width": 810.234375,
+      "height": 452.21875
+    },
+    "visibleImageArea": 0.5,
+    "headingSize": "30.03px",
+    "continuationSize": "19.5195px",
+    "textSize": "15px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 390,
+    "height": 844,
+    "id": "creation",
+    "active": true,
+    "copy": {
+      "x": 22,
+      "y": 116,
+      "width": 346,
+      "height": 281.0625,
+      "bottom": 397.0625
+    },
+    "art": {
+      "x": -129.09375,
+      "y": 422,
+      "width": 810.234375,
+      "height": 452.21875
+    },
+    "visibleImageArea": 0.5,
+    "headingSize": "30.03px",
+    "continuationSize": null,
+    "textSize": "15px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 390,
+    "height": 844,
+    "id": "ascent",
+    "active": true,
+    "copy": {
+      "x": 22,
+      "y": 116,
+      "width": 346,
+      "height": 215.09375,
+      "bottom": 331.09375
+    },
+    "art": {
+      "x": -129.09375,
+      "y": 422,
+      "width": 810.234375,
+      "height": 452.21875
+    },
+    "visibleImageArea": 0.5,
+    "headingSize": "30.03px",
+    "continuationSize": null,
+    "textSize": "16px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 390,
+    "height": 844,
+    "id": "momentum",
+    "active": true,
+    "copy": {
+      "x": 22,
+      "y": 116,
+      "width": 346,
+      "height": 301.875,
+      "bottom": 417.875
+    },
+    "art": {
+      "x": -129.09375,
+      "y": 422,
+      "width": 810.234375,
+      "height": 452.21875
+    },
+    "visibleImageArea": 0.5,
+    "headingSize": "27.3px",
+    "continuationSize": "17.745px",
+    "textSize": "15px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 390,
+    "height": 844,
+    "id": "conversation",
+    "active": true,
+    "copy": {
+      "x": 22,
+      "y": 116,
+      "width": 346,
+      "height": 303.1875,
+      "bottom": 419.1875
+    },
+    "art": {
+      "x": -129.09375,
+      "y": 422,
+      "width": 810.234375,
+      "height": 452.21875
+    },
+    "visibleImageArea": 0.5,
+    "headingSize": "30.03px",
+    "continuationSize": "19.5195px",
+    "textSize": "16px",
+    "loaded": true
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "keyboardHome": "Начало",
+    "keyboardEnd": "Знакомство",
+    "focus": {
+      "text": "написать в Telegram",
+      "outline": "solid"
+    },
+    "paths": [],
+    "consoleErrors": [],
+    "networkFailures": [],
+    "overflow": false
+  },
+  {
+    "mode": "live",
+    "width": 1366,
+    "height": 768,
+    "id": "start",
+    "active": true,
+    "copy": {
+      "x": 57.359375,
+      "y": 240.640625,
+      "width": 500.5,
+      "height": 296.71875,
+      "bottom": 537.359375
+    },
+    "art": {
+      "x": 573.71875,
+      "y": 66.328125,
+      "width": 1188.40625,
+      "height": 663.28125
+    },
+    "visibleImageArea": 0.5009163176507238,
+    "headingSize": "65.568px",
+    "continuationSize": null,
+    "textSize": "17.075px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 1366,
+    "height": 768,
+    "id": "curiosity",
+    "active": true,
+    "copy": {
+      "x": 57.359375,
+      "y": 188.078125,
+      "width": 500.5,
+      "height": 401.828125,
+      "bottom": 589.90625
+    },
+    "art": {
+      "x": 573.71875,
+      "y": 66.328125,
+      "width": 1188.40625,
+      "height": 663.28125
+    },
+    "visibleImageArea": 0.5009163176507238,
+    "headingSize": "49.176px",
+    "continuationSize": "29.5056px",
+    "textSize": "17.075px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 1366,
+    "height": 768,
+    "id": "creation",
+    "active": true,
+    "copy": {
+      "x": 57.359375,
+      "y": 208.375,
+      "width": 500.5,
+      "height": 361.25,
+      "bottom": 569.625
+    },
+    "art": {
+      "x": 573.71875,
+      "y": 66.328125,
+      "width": 1188.40625,
+      "height": 663.28125
+    },
+    "visibleImageArea": 0.5009163176507238,
+    "headingSize": "49.176px",
+    "continuationSize": null,
+    "textSize": "17.075px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 1366,
+    "height": 768,
+    "id": "ascent",
+    "active": true,
+    "copy": {
+      "x": 57.359375,
+      "y": 234.875,
+      "width": 500.5,
+      "height": 308.25,
+      "bottom": 543.125
+    },
+    "art": {
+      "x": 573.71875,
+      "y": 66.328125,
+      "width": 1188.40625,
+      "height": 663.28125
+    },
+    "visibleImageArea": 0.5009163176507238,
+    "headingSize": "49.176px",
+    "continuationSize": null,
+    "textSize": "17.075px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 1366,
+    "height": 768,
+    "id": "momentum",
+    "active": true,
+    "copy": {
+      "x": 57.359375,
+      "y": 196.90625,
+      "width": 500.5,
+      "height": 384.171875,
+      "bottom": 581.078125
+    },
+    "art": {
+      "x": 573.71875,
+      "y": 66.328125,
+      "width": 1188.40625,
+      "height": 663.28125
+    },
+    "visibleImageArea": 0.5009163176507238,
+    "headingSize": "38.248px",
+    "continuationSize": "22.9488px",
+    "textSize": "17.075px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 1366,
+    "height": 768,
+    "id": "conversation",
+    "active": true,
+    "copy": {
+      "x": 57.359375,
+      "y": 187.140625,
+      "width": 500.5,
+      "height": 403.703125,
+      "bottom": 590.84375
+    },
+    "art": {
+      "x": 573.71875,
+      "y": 66.328125,
+      "width": 1188.40625,
+      "height": 663.28125
+    },
+    "visibleImageArea": 0.5009163176507238,
+    "headingSize": "49.176px",
+    "continuationSize": "29.5056px",
+    "textSize": "17.075px",
+    "loaded": true
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "keyboardHome": "Начало",
+    "keyboardEnd": "Знакомство",
+    "focus": {
+      "text": "написать в Telegram",
+      "outline": "solid"
+    },
+    "paths": [],
+    "consoleErrors": [],
+    "networkFailures": [],
+    "overflow": false
+  },
+  {
+    "mode": "live",
+    "width": 1920,
+    "height": 1080,
+    "id": "start",
+    "active": true,
+    "copy": {
+      "x": 80,
+      "y": 368.828125,
+      "width": 704,
+      "height": 352.34375,
+      "bottom": 721.171875
+    },
+    "art": {
+      "x": 806.40625,
+      "y": 93.703125,
+      "width": 1670.390625,
+      "height": 932.296875
+    },
+    "visibleImageArea": 0.5006751413698549,
+    "headingSize": "88px",
+    "continuationSize": null,
+    "textSize": "20px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 1920,
+    "height": 1080,
+    "id": "curiosity",
+    "active": true,
+    "copy": {
+      "x": 80,
+      "y": 303.390625,
+      "width": 704,
+      "height": 483.21875,
+      "bottom": 786.609375
+    },
+    "art": {
+      "x": 806.40625,
+      "y": 93.703125,
+      "width": 1670.390625,
+      "height": 932.296875
+    },
+    "visibleImageArea": 0.5006751413698549,
+    "headingSize": "64px",
+    "continuationSize": "38.4px",
+    "textSize": "20px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 1920,
+    "height": 1080,
+    "id": "creation",
+    "active": true,
+    "copy": {
+      "x": 80,
+      "y": 331.8125,
+      "width": 704,
+      "height": 426.375,
+      "bottom": 758.1875
+    },
+    "art": {
+      "x": 806.40625,
+      "y": 93.703125,
+      "width": 1670.390625,
+      "height": 932.296875
+    },
+    "visibleImageArea": 0.5006751413698549,
+    "headingSize": "64px",
+    "continuationSize": null,
+    "textSize": "20px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 1920,
+    "height": 1080,
+    "id": "ascent",
+    "active": true,
+    "copy": {
+      "x": 80,
+      "y": 400.40625,
+      "width": 704,
+      "height": 289.1875,
+      "bottom": 689.59375
+    },
+    "art": {
+      "x": 806.40625,
+      "y": 93.703125,
+      "width": 1670.390625,
+      "height": 932.296875
+    },
+    "visibleImageArea": 0.5006751413698549,
+    "headingSize": "64px",
+    "continuationSize": null,
+    "textSize": "20px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 1920,
+    "height": 1080,
+    "id": "momentum",
+    "active": true,
+    "copy": {
+      "x": 80,
+      "y": 342.484375,
+      "width": 704,
+      "height": 405.03125,
+      "bottom": 747.515625
+    },
+    "art": {
+      "x": 806.40625,
+      "y": 93.703125,
+      "width": 1670.390625,
+      "height": 932.296875
+    },
+    "visibleImageArea": 0.5006751413698549,
+    "headingSize": "48px",
+    "continuationSize": "28.8px",
+    "textSize": "20px",
+    "loaded": true
+  },
+  {
+    "mode": "live",
+    "width": 1920,
+    "height": 1080,
+    "id": "conversation",
+    "active": true,
+    "copy": {
+      "x": 80,
+      "y": 305.296875,
+      "width": 704,
+      "height": 479.40625,
+      "bottom": 784.703125
+    },
+    "art": {
+      "x": 806.40625,
+      "y": 93.703125,
+      "width": 1670.390625,
+      "height": 932.296875
+    },
+    "visibleImageArea": 0.5006751413698549,
+    "headingSize": "64px",
+    "continuationSize": "38.4px",
+    "textSize": "20px",
+    "loaded": true
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "keyboardHome": "Начало",
+    "keyboardEnd": "Знакомство",
+    "focus": {
+      "text": "написать в Telegram",
+      "outline": "solid"
+    },
+    "paths": [],
+    "consoleErrors": [],
+    "networkFailures": [],
+    "overflow": false
+  },
+  {
+    "mode": "reduced",
+    "live": false,
+    "overflow": false,
+    "chapters": [
+      {
+        "id": "start",
+        "inert": false,
+        "visible": "visible",
+        "textHeight": 254.78125,
+        "imageLoaded": true
+      },
+      {
+        "id": "curiosity",
+        "inert": false,
+        "visible": "visible",
+        "textHeight": 322.59375,
+        "imageLoaded": true
+      },
+      {
+        "id": "creation",
+        "inert": false,
+        "visible": "visible",
+        "textHeight": 281.0625,
+        "imageLoaded": true
+      },
+      {
+        "id": "ascent",
+        "inert": false,
+        "visible": "visible",
+        "textHeight": 215.09375,
+        "imageLoaded": true
+      },
+      {
+        "id": "momentum",
+        "inert": false,
+        "visible": "visible",
+        "textHeight": 301.875,
+        "imageLoaded": true
+      },
+      {
+        "id": "conversation",
+        "inert": false,
+        "visible": "visible",
+        "textHeight": 303.1875,
+        "imageLoaded": true
+      }
+    ],
+    "consoleErrors": []
+  },
+  {
+    "mode": "no-js",
+    "live": false,
+    "overflow": false,
+    "chapters": [
+      {
+        "id": "start",
+        "inert": false,
+        "visible": "visible",
+        "textHeight": 254.78125,
+        "imageLoaded": true
+      },
+      {
+        "id": "curiosity",
+        "inert": false,
+        "visible": "visible",
+        "textHeight": 322.59375,
+        "imageLoaded": true
+      },
+      {
+        "id": "creation",
+        "inert": false,
+        "visible": "visible",
+        "textHeight": 281.0625,
+        "imageLoaded": true
+      },
+      {
+        "id": "ascent",
+        "inert": false,
+        "visible": "visible",
+        "textHeight": 215.09375,
+        "imageLoaded": true
+      },
+      {
+        "id": "momentum",
+        "inert": false,
+        "visible": "visible",
+        "textHeight": 301.875,
+        "imageLoaded": true
+      },
+      {
+        "id": "conversation",
+        "inert": false,
+        "visible": "visible",
+        "textHeight": 303.1875,
+        "imageLoaded": true
+      }
+    ],
+    "consoleErrors": []
+  }
+]
