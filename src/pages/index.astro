@@ -25,10 +25,6 @@ const chapters = [
       <img src={egLogo.src} width="64" height="54" alt="EG" />
     </a>
     <div class="header-actions">
-      <details class="chapter-menu">
-        <summary>Главы</summary>
-        <nav aria-label="Главы пути">{chapters.map(chapter => <a href={`#${chapter.id}`}>{chapter.name}</a>)}</nav>
-      </details>
       <a class="contact-link" href="https://t.me/GrigorievEvgene" target="_blank" rel="noopener noreferrer">Связаться</a>
     </div>
   </header>
@@ -48,7 +44,7 @@ const chapters = [
             <figure class="chapter-art">
               <img src={chapter.image.src} width={chapter.image.width} height={chapter.image.height} alt={chapter.alt} loading="eager" fetchpriority={index === 0 ? 'high' : 'auto'} decoding="async" />
             </figure>
-            {index === 6 && <footer class="chapter-footer"><a href="https://evgenygrigoriev.ru/" target="_blank" rel="noopener noreferrer">Больше обо мне</a><a href="https://evgenygrigoriev.ru/policy" target="_blank" rel="noopener noreferrer">Конфиденциальность</a></footer>}
+            {index === 6 && <footer class="chapter-footer"><a href="https://evgenygrigoriev.ru/policy" target="_blank" rel="noopener noreferrer">Конфиденциальность</a></footer>}
           </section>
         ))}
         <div class="journey-controls" hidden>
