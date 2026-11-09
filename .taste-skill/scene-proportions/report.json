@@ -1,0 +1,659 @@
+{
+ "url": "http://localhost:4321/",
+ "at": "2026-11-09T01:31:52.776Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1366,
+   "height": 854,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.08,
+    0.94,
+    0.94,
+    0.94,
+    0.94,
+    0.94,
+    0.94
+   ],
+   "motion": {
+    "elements": 41,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 41,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1366,
+     "h": 854
+    },
+    "page": {
+     "height": 5765,
+     "screens": 6.8,
+     "words": 34,
+     "img": 31,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "Sokolov-2_Nano%20Banana%202.1_2026-11-06_19-27-5",
+      "Sokolov-2_Nano%20Banana%202.1_2026-11-06_19-33-3",
+      "Sokolov-2_Nano%20Banana%202.1_2026-11-06_19-41-1",
+      "Sokolov-2_Nano%20Banana%202.1_2026-11-06_19-53-1",
+      "Sokolov-2_Nano%20Banana%202.1_2026-11-06_19-57-2",
+      "Sokolov-2_Nano%20Banana%202.1_2026-11-06_20-19-0"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Я Евгений Григорьев",
+     "words": 3,
+     "chars": 19,
+     "lines": 2,
+     "size": 65.6,
+     "vw": 4.8,
+     "font": "Manrope Variable",
+     "weight": 450,
+     "tracking": -0.04,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.3,
+     "top": 284,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Я Евгений Григорьев",
+     "words": 3,
+     "lines": 2,
+     "size": 65.6,
+     "font": "Manrope Variable"
+    },
+    "headings": [
+     {
+      "text": "Я Евгений Григорьев",
+      "words": 3,
+      "chars": 19,
+      "lines": 2,
+      "size": 65.6,
+      "vw": 4.8,
+      "font": "Manrope Variable",
+      "weight": 450,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 284,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope Variable",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      16,
+      17,
+      18,
+      20,
+      66
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope Variable",
+      "size": 16,
+      "leading": 1.45,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.9
+     },
+     "measureChars": 54,
+     "max": {
+      "size": 65.6,
+      "vw": 4.8,
+      "font": "Manrope Variable",
+      "text": "Я Евгений Григорьев"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#d7e4ea",
+     "bodyBgHsl": {
+      "h": 199,
+      "s": 0.31,
+      "l": 0.88
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#d7e4ea",
+       "top": 0,
+       "hsl": {
+        "h": 199,
+        "s": 0.31,
+        "l": 0.88
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#233d40",
+       "share": 0.91
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      },
+      {
+       "color": "#215e62",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#233d40",
+      "hsl": {
+       "h": 186,
+       "s": 0.29,
+       "l": 0.19
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "К содержанию"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.45
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 98,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope variable"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1366,
+     "h": 854
+    },
+    "pageH": 5765,
+    "margins": {
+     "left": null,
+     "right": null
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Я Евгений Григорьев",
+      "size": 66,
+      "top": 284,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.09,
+    "voidBox": {
+     "x": 114,
+     "y": 626,
+     "w": 455,
+     "h": 228
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.29,
+    0.96,
+    0.96,
+    0.96,
+    0.96,
+    0.96,
+    0.96
+   ],
+   "motion": {
+    "elements": 41,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 41,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5697,
+     "screens": 6.8,
+     "words": 34,
+     "img": 31,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "Sokolov-2_Nano%20Banana%202.1_2026-11-06_19-27-5",
+      "Sokolov-2_Nano%20Banana%202.1_2026-11-06_19-33-3",
+      "Sokolov-2_Nano%20Banana%202.1_2026-11-06_19-41-1",
+      "Sokolov-2_Nano%20Banana%202.1_2026-11-06_19-53-1",
+      "Sokolov-2_Nano%20Banana%202.1_2026-11-06_19-57-2",
+      "Sokolov-2_Nano%20Banana%202.1_2026-11-06_20-19-0"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Я Евгений Григорьев",
+     "words": 3,
+     "chars": 19,
+     "lines": 2,
+     "size": 41,
+     "vw": 10.5,
+     "font": "Manrope Variable",
+     "weight": 450,
+     "tracking": -0.04,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.65,
+     "top": 128,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Я Евгений Григорьев",
+     "words": 3,
+     "lines": 2,
+     "size": 41,
+     "font": "Manrope Variable"
+    },
+    "headings": [
+     {
+      "text": "Я Евгений Григорьев",
+      "words": 3,
+      "chars": 19,
+      "lines": 2,
+      "size": 41,
+      "vw": 10.5,
+      "font": "Manrope Variable",
+      "weight": 450,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.65,
+      "top": 128,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope Variable",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      13,
+      15,
+      16,
+      41
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope Variable",
+      "size": 15,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.9
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 41,
+      "vw": 10.5,
+      "font": "Manrope Variable",
+      "text": "Я Евгений Григорьев"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#d7e4ea",
+     "bodyBgHsl": {
+      "h": 199,
+      "s": 0.31,
+      "l": 0.88
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#d7e4ea",
+       "top": 0,
+       "hsl": {
+        "h": 199,
+        "s": 0.31,
+        "l": 0.88
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#233d40",
+       "share": 0.91
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      },
+      {
+       "color": "#215e62",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#233d40",
+      "hsl": {
+       "h": 186,
+       "s": 0.29,
+       "l": 0.19
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "К содержанию"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.5
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope variable"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5697,
+    "margins": {
+     "left": null,
+     "right": null
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Я Евгений Григорьев",
+      "size": 41,
+      "top": 128,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 16,
+    "stage": true,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1366,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "scene-heavy",
+   "width": 1366,
+   "message": "Scenes hold 6 of the page's 7 screens.",
+   "fix": "Shorten the holds (one screen per beat) or cut a scene; the reading sections need room between them."
+  },
+  {
+   "level": "WARN",
+   "id": "dev-server",
+   "width": 1366,
+   "message": "This page is served by a development server (Vite, webpack or Next in dev mode).",
+   "fix": "Run the last gate on the production build too (vite build && vite preview, next build && next start, or the built index.html): minifiers and bundlers change the CSS a visitor receives.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1366,
+   "message": "The sheet dealt Barlow Condensed and Barlow, but the page renders Manrope Variable.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1366,
+   "message": "The h1 is a bare name (\"Я Евгений Григорьев\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1366,
+   "fold": "/home/dima/programming/alex_evgenygrigoriev/.taste-skill/scene-proportions/desktop-fold.jpg",
+   "pages": [
+    "/home/dima/programming/alex_evgenygrigoriev/.taste-skill/scene-proportions/desktop-page-01.jpg",
+    "/home/dima/programming/alex_evgenygrigoriev/.taste-skill/scene-proportions/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/dima/programming/alex_evgenygrigoriev/.taste-skill/scene-proportions/mobile-fold.jpg",
+   "pages": [
+    "/home/dima/programming/alex_evgenygrigoriev/.taste-skill/scene-proportions/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
