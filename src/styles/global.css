@@ -44,8 +44,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .organization-logo--skolkovo, .organization-logo--rosseti { width: 104px; }
 .organization-logo--tetra { width: 146px; }
 .organization-logo--school { width: 128px; }
-.channel-subscribe { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; min-height: 44px; font-size: var(--type-body); font-weight: 600; white-space: nowrap; text-align: center; }
-.design-credit { display: inline-flex; align-items: center; justify-content: flex-end; gap: .3em; min-height: 44px; font-size: var(--type-body); line-height: 1.5; text-align: right; white-space: nowrap; }
+.channel-subscribe { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; min-height: 44px; font-size: 14px; font-weight: 600; white-space: nowrap; text-align: center; }
+.design-credit { display: inline-flex; align-items: center; justify-content: flex-end; gap: .3em; min-height: 44px; font-size: 14px; line-height: 1.5; text-align: right; white-space: nowrap; }
 .design-credit a { display: inline-flex; align-items: center; min-height: 44px; }
 .design-credit a:hover { color: var(--accent); text-decoration-thickness: .14em; }
 .chapter-copy { position: relative; width: 40%; min-width: 0; overflow-wrap: anywhere; z-index: 2; }
@@ -66,7 +66,7 @@ h1:focus, h2:focus { outline: none; }
 .chapter-footer a { min-height: 44px; display: flex; align-items: center; }
 .journey-stage { position: relative; }
 .journey-controls { position: absolute; z-index: 10; bottom: 20px; left: var(--gutter); right: var(--gutter); display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; min-height: 44px; }
-.chapter-status { font-size: var(--type-body); }
+.chapter-status { font-size: 14px; }
 .design-credit { grid-column: 3; justify-self: end; }
 .chapter-dots { display: none; gap: 4px; }
 .journey.is-live .chapter-dots { display: flex; }
@@ -137,7 +137,7 @@ html.journey-active .site-header { position: fixed; }
   .organization-logo--skolkovo, .organization-logo--rosseti { width: 64px; }
   .organization-logo--tetra { width: 82px; }
   .organization-logo--school { width: 74px; }
-  .channel-subscribe { grid-column: 2; grid-row: 1; justify-self: end; align-self: center; padding: 12px 14px; font-size: var(--type-body); }
+  .channel-subscribe { grid-column: 2; grid-row: 1; justify-self: end; align-self: center; padding: 12px 14px; font-size: 12px; }
   .chapter { min-height: max(760px, 100svh); padding: 128px var(--gutter) calc(54svh + 72px); align-items: flex-start; }
   .chapter-copy { width: 100%; }
   .chapter-text { font-size: var(--type-body); line-height: 1.4; margin-top: 20px; max-width: 44ch; }
@@ -154,9 +154,9 @@ html.journey-active .site-header { position: fixed; }
   .journey.is-live .chapter-footer { bottom: 98px; left: 0; right: 0; padding-inline: var(--gutter); background: transparent; }
   .chapter-footer { bottom: 64px; flex-direction: column; align-items: flex-start; column-gap: 18px; font-size: var(--type-body); }
   .journey-controls { bottom: 0; left: 0; right: 0; min-height: 64px; padding: 0 var(--gutter) 10px; grid-template-columns: 1fr 1fr; gap: 0 12px; background: transparent; }
-  .chapter-status { font-size: var(--type-body); line-height: 1.5; }
+  .chapter-status { font-size: 11px; line-height: 1.5; }
   .copyright-rights { display: none; }
-  .design-credit { grid-column: 2; font-size: var(--type-body); }
+  .design-credit { grid-column: 2; font-size: 11px; }
   .chapter-dots { grid-column: 1 / -1; grid-row: 1; justify-self: center; gap: 0; }
   .chapter-dots a { width: 28px; }
   .chapter-dots span { width: 6px; height: 6px; }
@@ -189,8 +189,7 @@ html.journey-active .site-header { position: fixed; }
 .journey.is-live .chapter-copy::before { left: 0; right: 0; bottom: 0; }
 @media (max-width: 760px) {
   .channel-subscribe { padding: 8px 20px; max-width: 100%; }
-  .design-credit { display: block; white-space: normal; line-height: 1.25; }
-  .design-credit > span { display: block; }
+  .design-credit { display: inline-flex; white-space: nowrap; line-height: 1.25; }
   .design-credit a { min-height: 30px; }
   .journey.is-live .chapter-copy { max-height: calc(100dvh - 250px); }
 }

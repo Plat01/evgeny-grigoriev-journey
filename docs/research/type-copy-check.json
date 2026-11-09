@@ -1,0 +1,248 @@
+[
+  {
+    "width": 390,
+    "id": "start",
+    "sizes": [
+      "16px",
+      "30.03px"
+    ],
+    "overflow": false,
+    "copyScroll": true,
+    "copyBottom": 369.84375,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "id": "curiosity",
+    "sizes": [
+      "16px",
+      "30.03px"
+    ],
+    "overflow": false,
+    "copyScroll": true,
+    "copyBottom": 465,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "id": "creation",
+    "sizes": [
+      "16px",
+      "30.03px"
+    ],
+    "overflow": false,
+    "copyScroll": true,
+    "copyBottom": 467.40625,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "id": "ascent",
+    "sizes": [
+      "16px",
+      "30.03px"
+    ],
+    "overflow": false,
+    "copyScroll": true,
+    "copyBottom": 347.09375,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "id": "momentum",
+    "sizes": [
+      "16px",
+      "30.03px"
+    ],
+    "overflow": false,
+    "copyScroll": true,
+    "copyBottom": 369.03125,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "id": "conversation",
+    "sizes": [
+      "16px",
+      "30.03px"
+    ],
+    "overflow": false,
+    "copyScroll": true,
+    "copyBottom": 319.484375,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "id": "start",
+    "sizes": [
+      "17.075px",
+      "49.176px"
+    ],
+    "overflow": false,
+    "copyScroll": false,
+    "copyBottom": 530.5,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "id": "curiosity",
+    "sizes": [
+      "17.075px",
+      "49.176px"
+    ],
+    "overflow": false,
+    "copyScroll": false,
+    "copyBottom": 564.75,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "id": "creation",
+    "sizes": [
+      "17.075px",
+      "49.176px"
+    ],
+    "overflow": false,
+    "copyScroll": false,
+    "copyBottom": 576.75,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "id": "ascent",
+    "sizes": [
+      "17.075px",
+      "49.176px"
+    ],
+    "overflow": false,
+    "copyScroll": false,
+    "copyBottom": 551.125,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "id": "momentum",
+    "sizes": [
+      "17.075px",
+      "49.176px"
+    ],
+    "overflow": false,
+    "copyScroll": false,
+    "copyBottom": 571.8125,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "id": "conversation",
+    "sizes": [
+      "17.075px",
+      "49.176px"
+    ],
+    "overflow": false,
+    "copyScroll": false,
+    "copyBottom": 496.3125,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "id": "start",
+    "sizes": [
+      "20px",
+      "64px"
+    ],
+    "overflow": false,
+    "copyScroll": false,
+    "copyBottom": 712.6875,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "id": "curiosity",
+    "sizes": [
+      "20px",
+      "64px"
+    ],
+    "overflow": false,
+    "copyScroll": false,
+    "copyBottom": 753.1875,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "id": "creation",
+    "sizes": [
+      "20px",
+      "64px"
+    ],
+    "overflow": false,
+    "copyScroll": false,
+    "copyBottom": 765.1875,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "id": "ascent",
+    "sizes": [
+      "20px",
+      "64px"
+    ],
+    "overflow": false,
+    "copyScroll": false,
+    "copyBottom": 697.59375,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "id": "momentum",
+    "sizes": [
+      "20px",
+      "64px"
+    ],
+    "overflow": false,
+    "copyScroll": false,
+    "copyBottom": 730.1875,
+    "images": true,
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "id": "conversation",
+    "sizes": [
+      "20px",
+      "64px"
+    ],
+    "overflow": false,
+    "copyScroll": false,
+    "copyBottom": 668.59375,
+    "images": true,
+    "errors": []
+  },
+  {
+    "mode": "reduced-motion",
+    "open": true,
+    "live": "journey scene is-rest",
+    "overflow": false
+  },
+  {
+    "mode": "no-js",
+    "open": true,
+    "live": "journey scene is-rest",
+    "overflow": false
+  }
+]
