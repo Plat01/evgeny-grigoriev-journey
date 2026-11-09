@@ -1,0 +1,90 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import egLogo from '../assets/eg-logo.svg';
+import sections from '../data/policy.json';
+
+const home = import.meta.env.BASE_URL;
+// Escape source text before adding links; policy wording stays unchanged.
+const linkedText = (text: string) => text
+  .replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;')
+  .replace(/https:\/\/evgenygrigoriev\.ru(?:\/policy)?/g, (url) =>
+    `<a href="${url.endsWith('/policy') ? `${home}policy/` : home}">${url}</a>`)
+  .replaceAll('eg@firstyard.ru', '<a href="mailto:eg@firstyard.ru">eg@firstyard.ru</a>');
+---
+<BaseLayout title="Политика конфиденциальности" description="Политика в отношении обработки персональных данных на сайте Евгения Григорьева.">
+  <header class="site-header policy-header">
+    <a class="wordmark" href={home} aria-label="Евгений Григорьев — на главную">
+      <img src={egLogo.src} width="64" height="54" alt="EG" />
+    </a>
+    <a href={home}>На главную</a>
+  </header>
+  <main id="main" class="policy" tabindex="-1">
+    <h1>Политика конфиденциальности</h1>
+    <p class="policy-intro">Политика в отношении обработки персональных данных</p>
+    <div class="policy-layout">
+      <nav class="policy-contents" aria-label="Содержание политики">
+        <details open>
+          <summary>Содержание</summary>
+          <ol>
+            {sections.map((section) => <li><a href={`#${section.id}`}>{section.title.replace(/^\d+\. /, '')}</a></li>)}
+          </ol>
+        </details>
+      </nav>
+      <article class="policy-copy" aria-label="Текст политики">
+        {sections.map((section) => (
+          <section id={section.id} aria-labelledby={`${section.id}-title`}>
+            <h2 id={`${section.id}-title`}>{section.title}</h2>
+            {section.paragraphs.map((paragraph) => <p set:html={linkedText(paragraph)} />)}
+          </section>
+        ))}
+      </article>
+    </div>
+    <footer class="policy-footer">
+      <a href={home}>На главную</a>
+      <a href="#main">К началу документа</a>
+    </footer>
+  </main>
+</BaseLayout>
+
+<style>
+  .policy-header { position: relative; }
+  .policy-header > a:last-child { display: inline-flex; align-items: center; min-height: 44px; font-size: 16px; }
+  .policy { padding: 64px var(--gutter) 40px; max-width: 1600px; margin-inline: auto; }
+  .policy h1 { max-width: 22ch; font-size: clamp(40px, 5.5vw, 88px); overflow-wrap: anywhere; }
+  .policy-intro { margin-top: 28px; font-size: 18px; line-height: 1.6; }
+  .policy-layout { display: grid; grid-template-columns: minmax(220px, 1fr) minmax(0, 760px); gap: clamp(48px, 7vw, 120px); margin-top: 80px; }
+  .policy-contents { align-self: start; position: sticky; top: 32px; max-height: calc(100svh - 64px); overflow-y: auto; }
+  .policy-contents summary { font-size: 18px; font-weight: 600; cursor: pointer; min-height: 44px; }
+  .policy-contents ol { margin: 12px 0 0; padding-left: 24px; }
+  .policy-contents li { padding-left: 4px; font-size: 14px; line-height: 1.5; }
+  .policy-contents a { display: inline-block; padding-block: 7px; }
+  .policy a:hover { color: var(--accent); text-decoration-thickness: .14em; }
+  .policy-copy { min-width: 0; }
+  .policy-copy section { scroll-margin-top: 32px; }
+  .policy-copy section + section { margin-top: 64px; }
+  .policy-copy h2 { font-size: 28px; line-height: 1.25; letter-spacing: -.025em; text-wrap: pretty; }
+  .policy-copy p { margin-top: 18px; font-size: 17px; line-height: 1.75; overflow-wrap: anywhere; }
+  .policy-copy h2 + p { margin-top: 24px; }
+  .policy-footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px; margin-top: 80px; }
+  .policy-footer a { display: inline-flex; align-items: center; min-height: 44px; font-size: 16px; }
+  @media (max-width: 1000px) {
+    .policy { padding-top: 40px; }
+    .policy-layout { grid-template-columns: 1fr; gap: 48px; margin-top: 48px; }
+    .policy-contents { position: static; max-height: none; overflow: visible; }
+    .policy-contents ol { columns: 2; column-gap: 36px; }
+    .policy-contents li { break-inside: avoid; }
+    .policy-copy { max-width: 760px; }
+  }
+  @media (max-width: 600px) {
+    .policy { padding-top: 32px; }
+    .policy h1 { font-size: 34px; line-height: 1.1; letter-spacing: -.04em; }
+    .policy-intro { font-size: 16px; margin-top: 24px; }
+    .policy-contents ol { columns: auto; }
+    .policy-contents li { font-size: 15px; }
+    .policy-contents a { padding-block: 10px; }
+    .policy-copy h2 { font-size: 25px; }
+    .policy-copy p { font-size: 16px; line-height: 1.7; }
+    .policy-copy section + section { margin-top: 48px; }
+    .policy-footer { margin-top: 56px; }
+  }
+</style>

@@ -1,0 +1,42 @@
+[
+  {
+    "width": 1366,
+    "height": 768,
+    "position": "sticky",
+    "overflow": "auto",
+    "clientHeight": 630,
+    "scrollHeight": 630,
+    "scrollTop": 0,
+    "before": 0
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "position": "sticky",
+    "overflow": "auto",
+    "clientHeight": 609,
+    "scrollHeight": 609,
+    "scrollTop": 0,
+    "before": 0
+  },
+  {
+    "width": 1366,
+    "height": 500,
+    "position": "sticky",
+    "overflow": "auto",
+    "clientHeight": 436,
+    "scrollHeight": 630,
+    "scrollTop": 194,
+    "before": 0
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "position": "static",
+    "overflow": "visible",
+    "clientHeight": 876,
+    "scrollHeight": 876,
+    "scrollTop": 0,
+    "before": 0
+  }
+]
