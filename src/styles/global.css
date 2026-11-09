@@ -44,7 +44,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .organization-logo--skolkovo, .organization-logo--rosseti { width: 104px; }
 .organization-logo--tetra { width: 146px; }
 .organization-logo--school { width: 128px; }
-.channel-subscribe { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; min-height: 44px; font-size: 14px; font-weight: 600; white-space: nowrap; text-align: center; }
+.channel-subscribe { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; min-height: 44px; padding: 16px 24px; color: var(--ink); font-size: 14px; font-weight: 600; white-space: nowrap; text-align: center; text-decoration: none; }
+.channel-subscribe:hover { color: var(--accent); text-decoration: underline; }
 .design-credit { display: inline-flex; align-items: center; justify-content: flex-end; gap: .3em; min-height: 44px; font-size: 14px; line-height: 1.5; text-align: right; white-space: nowrap; }
 .design-credit a { display: inline-flex; align-items: center; min-height: 44px; }
 .design-credit a:hover { color: var(--accent); text-decoration-thickness: .14em; }
@@ -199,5 +200,4 @@ html.journey-active .site-header { position: fixed; }
 }
 @media (max-width: 440px) {
   .chapter-masthead { grid-template-columns: 52px minmax(0, 1fr); }
-  .channel-subscribe-prefix { display: none; }
 }
