@@ -81,6 +81,10 @@ html.journey-active .site-header { position: fixed; }
 .journey.is-live .chapter-footer { bottom: 78px; }
 .skip-link { position: fixed; z-index: 100; top: 16px; left: 16px; padding: 16px; background: var(--ink); color: #fff; transform: translateY(-160%); }
 .skip-link:focus { transform: none; }
+@media (min-width: 1600px) {
+  /* Leave headroom beneath the masthead while retaining the scene's focal position. */
+  .chapter-art { width: 80%; right: -24%; }
+}
 @media (max-width: 1000px) and (min-width: 761px) {
   .chapter-masthead { left: calc(var(--gutter) + 128px); gap: 24px; }
   .chapter-logos { gap: 20px; }
