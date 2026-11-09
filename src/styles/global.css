@@ -117,7 +117,30 @@ html.journey-active .site-header { position: fixed; }
   .organization-logo--school { width: 74px; }
   .design-credit { grid-column: 2; grid-row: 1; justify-self: end; align-self: center; margin-top: 0; }
   .chapter { min-height: max(760px, 100svh); padding: 128px var(--gutter) calc(54svh + 72px); align-items: flex-start; }
+  /* Soften the illustration before the lower edge, beneath the sharp copy and controls. */
+  .chapter::after {
+    content: '';
+    position: absolute;
+    inset: auto 0 0;
+    height: clamp(150px, 24svh, 210px);
+    z-index: 1;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, var(--chapter-ground) 88%);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 75%);
+    mask-image: linear-gradient(to bottom, transparent, #000 75%);
+  }
   .chapter-copy { width: 100%; }
+  /* Keep dense copy readable where the upper branches enter the text area. */
+  .chapter-copy::before {
+    content: '';
+    position: absolute;
+    inset: -8px calc(-1 * var(--gutter)) -32px;
+    z-index: -1;
+    pointer-events: none;
+    background: linear-gradient(to bottom, var(--chapter-ground) calc(100% - 32px), transparent);
+  }
   h1 { font-size: clamp(40px, 10.5vw, 64px); }
   h2 { font-size: clamp(28px, 7.7vw, 42px); }
   .chapter--momentum h2 { font-size: clamp(26px, 7vw, 36px); }
@@ -133,9 +156,9 @@ html.journey-active .site-header { position: fixed; }
   .chapter--conversation .chapter-art { bottom: 96px; }
   .journey.is-live .chapter { padding-top: 116px; padding-bottom: 72px; }
   .journey.is-live .chapter-art { top: 50%; bottom: auto; }
-  .journey.is-live .chapter-footer { bottom: 64px; left: 0; right: 0; padding-inline: var(--gutter); background: var(--ground); }
+  .journey.is-live .chapter-footer { bottom: 64px; left: 0; right: 0; padding-inline: var(--gutter); background: transparent; }
   .chapter-footer { bottom: 18px; flex-direction: column; align-items: flex-start; column-gap: 18px; font-size: 12px; }
-  .journey-controls { bottom: 0; left: 0; right: 0; min-height: 64px; padding-inline: var(--gutter); background: var(--ground); }
+  .journey-controls { bottom: 0; left: 0; right: 0; min-height: 64px; padding-inline: var(--gutter); background: transparent; }
   .chapter-status { width: auto; font-size: 12px; }
   .next-chapter { width: auto; padding-left: 12px; font-size: 12px; }
   .chapter-dots { gap: 0; }

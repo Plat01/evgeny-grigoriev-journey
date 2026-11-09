@@ -1,0 +1,267 @@
+{
+  "root": "http://127.0.0.1:4322/evgeny-grigoriev-journey/",
+  "results": [
+    {
+      "name": "390x844-0",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 370.78125,
+      "controlTop": 780,
+      "copyAboveControls": true,
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(215, 228, 234) 88%)",
+      "blur": "blur(14px)",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "390x844-1",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 458.84375,
+      "controlTop": 780,
+      "copyAboveControls": true,
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(213, 223, 231) 88%)",
+      "blur": "blur(14px)",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "390x844-2",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 397.0625,
+      "controlTop": 780,
+      "copyAboveControls": true,
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(219, 229, 229) 88%)",
+      "blur": "blur(14px)",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "390x844-3",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 331.09375,
+      "controlTop": 780,
+      "copyAboveControls": true,
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(212, 223, 233) 88%)",
+      "blur": "blur(14px)",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "390x844-4",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 417.875,
+      "controlTop": 780,
+      "copyAboveControls": true,
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(220, 231, 236) 88%)",
+      "blur": "blur(14px)",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "390x844-5",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 419.1875,
+      "controlTop": 780,
+      "copyAboveControls": true,
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(210, 221, 229) 88%)",
+      "blur": "blur(14px)",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "keyboardFocus": "<button class=\"next-chapter\" type=\"button\">Дальше</button>"
+    },
+    {
+      "name": "1366x768-0",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 537.359375,
+      "controlTop": 704,
+      "copyAboveControls": true,
+      "fade": "none",
+      "blur": "none",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "1366x768-3",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 543.125,
+      "controlTop": 704,
+      "copyAboveControls": true,
+      "fade": "none",
+      "blur": "none",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "1366x768-5",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 590.84375,
+      "controlTop": 704,
+      "copyAboveControls": true,
+      "fade": "none",
+      "blur": "none",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "1920x1080-0",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 721.171875,
+      "controlTop": 1016,
+      "copyAboveControls": true,
+      "fade": "none",
+      "blur": "none",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "1920x1080-3",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 689.59375,
+      "controlTop": 1016,
+      "copyAboveControls": true,
+      "fade": "none",
+      "blur": "none",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "1920x1080-5",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 784.703125,
+      "controlTop": 1016,
+      "copyAboveControls": true,
+      "fade": "none",
+      "blur": "none",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "320x640-0",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 369.171875,
+      "controlTop": 576,
+      "copyAboveControls": true,
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(215, 228, 234) 88%)",
+      "blur": "blur(14px)",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "320x640-3",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 366.734375,
+      "controlTop": 576,
+      "copyAboveControls": true,
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(212, 223, 233) 88%)",
+      "blur": "blur(14px)",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "320x640-5",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 417.125,
+      "controlTop": 576,
+      "copyAboveControls": true,
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(210, 221, 229) 88%)",
+      "blur": "blur(14px)",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "390x667-0",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 346.78125,
+      "controlTop": 603,
+      "copyAboveControls": true,
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(215, 228, 234) 88%)",
+      "blur": "blur(14px)",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "390x667-3",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 317.09375,
+      "controlTop": 603,
+      "copyAboveControls": true,
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(212, 223, 233) 88%)",
+      "blur": "blur(14px)",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "390x667-5",
+      "overflow": false,
+      "imagesLoaded": true,
+      "copyBottom": 405.1875,
+      "controlTop": 603,
+      "copyAboveControls": true,
+      "fade": "linear-gradient(rgba(0, 0, 0, 0), rgb(210, 221, 229) 88%)",
+      "blur": "blur(14px)",
+      "copyFilter": "none",
+      "active": true
+    },
+    {
+      "name": "reduced-0",
+      "overflow": false,
+      "live": false,
+      "chapterHeight": 910.53125,
+      "imagesLoaded": true
+    },
+    {
+      "name": "reduced-3",
+      "overflow": false,
+      "live": false,
+      "chapterHeight": 870.84375,
+      "imagesLoaded": true
+    },
+    {
+      "name": "reduced-5",
+      "overflow": false,
+      "live": false,
+      "chapterHeight": 958.9375,
+      "imagesLoaded": true
+    },
+    {
+      "name": "no-js-0",
+      "overflow": false,
+      "live": false,
+      "chapterHeight": 910.53125,
+      "imagesLoaded": true
+    },
+    {
+      "name": "no-js-3",
+      "overflow": false,
+      "live": false,
+      "chapterHeight": 870.84375,
+      "imagesLoaded": true
+    },
+    {
+      "name": "no-js-5",
+      "overflow": false,
+      "live": false,
+      "chapterHeight": 958.9375,
+      "imagesLoaded": true
+    }
+  ],
+  "issues": []
+}
